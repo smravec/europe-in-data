@@ -1,28 +1,42 @@
-import '@mantine/core/styles.css';
-
-import React from 'react';
-import { ColorSchemeScript, MantineProvider } from '@mantine/core';
-import { theme } from '../theme';
-
 export const metadata = {
-  title: 'Mantine Next.js template',
-  description: 'I am using Mantine with Next.js!',
-};
+  title: 'Life around europe',
+  description: 'Main page',
+}
 
-export default function RootLayout({ children }: { children: any }) {
+import '@mantine/core/styles.css';
+import { MantineProvider, createTheme } from "@mantine/core";
+
+const theme = createTheme({
+  colors: {
+    'main': [
+      '#e7f0ff',
+      '#cedbff',
+      '#9bb4ff',
+      '#648bff',
+      '#3867fe',
+      '#1c51fe',
+      '#0946ff',
+      '#0038e4',
+      '#0031cd',
+      '#002ab5'
+    ]
+  },
+  black:"#313233",
+  white: "#ffffff"
+});
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <head>
-        <ColorSchemeScript />
-        <link rel="shortcut icon" href="/favicon.svg" />
-        <meta
-          name="viewport"
-          content="minimum-scale=1, initial-scale=1, width=device-width, user-scalable=no"
-        />
-      </head>
+    <html lang="en">
       <body>
-        <MantineProvider theme={theme}>{children}</MantineProvider>
+      <MantineProvider theme={theme} defaultColorScheme='light' >
+      {children}
+      </MantineProvider>
       </body>
     </html>
-  );
+  )
 }
