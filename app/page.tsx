@@ -15,7 +15,6 @@ export default function Home(){
 
     return (
         <Flex
-        
          bg="none"
          gap="md"
          justify="flex-start"
@@ -30,6 +29,8 @@ export default function Home(){
                 bg={theme.colors.gray[2]}
                 direction={"column"}
                 align={"center"}
+                maw={"1000px"}
+                w={"100%"}
             >
                 <Title >
                 European countries overall ranking 
@@ -52,6 +53,8 @@ export default function Home(){
                 direction={"column"}
                 align={"center"}
                 bg={theme.colors.gray[2]}
+                maw={"1000px"}
+                w={"100%"}
             >
                 <Title>
                 Compare countries
