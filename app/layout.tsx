@@ -1,10 +1,12 @@
 export const metadata = {
-  title: 'Life around europe',
+  title: 'Europe in data',
   description: 'Main page',
 }
 
 import '@mantine/core/styles.css';
 import { MantineProvider, createTheme } from "@mantine/core";
+
+import AppLayout from './components/app-layout';
 
 const theme = createTheme({
   colors: {
@@ -34,7 +36,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
       <MantineProvider theme={theme} defaultColorScheme='light' >
-      {children}
+        <AppLayout>
+          {children}
+        </AppLayout>
       </MantineProvider>
       </body>
     </html>

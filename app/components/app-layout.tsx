@@ -1,7 +1,7 @@
 'use client';
 
 //Mantine
-import { AppShell, Burger, Button, Stack, Title, useMantineTheme, Text, Anchor, NavLink, ScrollArea, Flex, Image } from '@mantine/core';
+import { AppShell, Burger, Title, useMantineTheme, NavLink, Flex, Image} from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 
 //Icons
@@ -14,18 +14,7 @@ import { FaMoneyBill } from "react-icons/fa6";
 import { FaFlag } from "react-icons/fa";
 import { FaNewspaper } from "react-icons/fa6";
 
-
-
-
-
-//import leaflet component this way cause of old libs
-import dynamic from "next/dynamic";
-const EuropeMap = dynamic(() => import("./europe-map.js"), { ssr: false });
-
-import SelectBox from './select-box';
-import { countries } from './country-names';
-
-export default function AppLayout() {
+export default function AppLayout({ children }: { children: React.ReactNode }) {
   const [opened, { toggle }] = useDisclosure();
   const theme = useMantineTheme();
 
@@ -39,27 +28,34 @@ export default function AppLayout() {
       }}
       padding="md"
     >
+
       <AppShell.Header>
        
         <Flex
-        bg={"#0946ff"}
-        h="100%"
-        align="center"
-        direction="row"
-        justify={"space-between"}
-        pl="5px"
-        pr="0px"
-        wrap={"nowrap"}>
+          bg={"#0946ff"}
+          h="100%"
+          align="center"
+          direction="row"
+          justify={"space-between"}
+          pl="5px"
+          pr="0px"
+          wrap={"nowrap"}
+        >
+          
           <Flex
-          align={"center"}
+            align={"center"}
           >
-          <Image 
-            src="./eu-flag.png"
-            fit='contain'
-            h="50px"
-            w="auto"
-          />
-          <Title size={"25px"} c={"white"}> Europe in data</Title>
+            <Image 
+              src="./eu-flag.png"
+              fit='contain'
+              h="50px"
+              w="auto"
+            />
+          
+            <Title size={"25px"} c={"white"}> 
+              Europe in data
+            </Title>
+          
           </Flex>
           
           <Burger
@@ -70,17 +66,19 @@ export default function AppLayout() {
           color={"white"}
           mr={"10px"}
           />
+
         </Flex>
          
       </AppShell.Header>
 
       <AppShell.Navbar>
-          <Flex
+        <Flex
           w={"100%"}
           direction={"column"}
           gap={"0px"}
-          >
-            <NavLink
+        >
+          
+          <NavLink
             variant='filled'
             active
             label="Economy"
@@ -95,9 +93,9 @@ export default function AppLayout() {
                 fontWeight: 500,
               },
             })}
-            />
+          />
 
-            <NavLink
+          <NavLink
             variant='filled'
             active
             label="Society"
@@ -108,14 +106,13 @@ export default function AppLayout() {
             fz={"22px"}
             styles={() => ({
               label: {
-                // Style for the main label
                 fontSize: '20px',
                 fontWeight: 500,
               },
             })}
-            />
+          />
 
-            <NavLink
+          <NavLink
             variant='filled'
             active
             label="Government"
@@ -126,14 +123,13 @@ export default function AppLayout() {
             fz={"22px"}
             styles={() => ({
               label: {
-                // Style for the main label
                 fontSize: '20px',
                 fontWeight: 500,
               },
             })}
-            />
+          />
 
-            <NavLink
+          <NavLink
             variant='filled'
             active
             label="Ease of integration"
@@ -144,14 +140,13 @@ export default function AppLayout() {
             fz={"22px"}
             styles={() => ({
               label: {
-                // Style for the main label
                 fontSize: '20px',
                 fontWeight: 500,
               },
             })}
-            />
+          />
 
-            <NavLink
+          <NavLink
             variant='filled'
             active
             label="Climate/environment"
@@ -162,12 +157,11 @@ export default function AppLayout() {
             fz={"22px"}
             styles={() => ({
               label: {
-                // Style for the main label
                 fontSize: '20px',
                 fontWeight: 500,
               },
             })}
-            />
+          />
 
           <NavLink
             variant='filled'
@@ -185,7 +179,7 @@ export default function AppLayout() {
                 fontWeight: 500,
               },
             })}
-            />
+          />
 
           <NavLink
             variant='filled'
@@ -203,129 +197,16 @@ export default function AppLayout() {
                 fontWeight: 500,
               },
             })}
-            />
+          />
 
-          </Flex>
+        </Flex>
           
       </AppShell.Navbar>
 
       <AppShell.Main>
-        <Flex
-        
-         bg="none"
-         gap="md"
-         justify="flex-start"
-         align="center"
-         direction="column"
-         wrap="nowrap"
-         pt="10px"
-        >
-          {/* <EuropeMap/> */}
-          
-          <Flex
-            bg={theme.colors.gray[2]}
-            direction={"column"}
-            align={"center"}
-          >
-            <Title >
-              European countries overall ranking 
-
-            </Title>
-  
-            <ScrollArea h={250} type='always' w={"95%"}>
-              <Stack>
-                
-                {countries.map((item, index)=>(
-                  <Text key={index}>{item}</Text>
-                ))
-                }
-                
-              </Stack>
-            </ScrollArea>
-
-          </Flex>
-        
-
-          <Flex
-            direction={"column"}
-            align={"center"}
-            bg={theme.colors.gray[2]}
-          >
-            <Title>
-              Compare countries
-            </Title>
-
-            <Flex>
-              <SelectBox></SelectBox>
-              <SelectBox></SelectBox>
-
-            </Flex>
-
-            <Button variant="filled" color='main' >
-              Compare
-            </Button>
-
-          </Flex>
-
-          <Flex
-            direction={"column"}
-            align={"center"}
-            bg={theme.colors.gray[2]}
-          >
-            <Title>
-              All ranking categories
-            </Title>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-            <Anchor>Economy</Anchor>
-
-          </Flex>
-
-        </Flex>
+            {children}
       </AppShell.Main>
+
     </AppShell>
   );
 }
