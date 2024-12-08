@@ -33,8 +33,7 @@ export default function Home(){
                 w={"100%"}
             >
                 <Title >
-                European countries overall ranking 
-
+                    European countries overall ranking 
                 </Title>
   
                 <ScrollArea h={250} type='always' w={"95%"}>
@@ -57,16 +56,21 @@ export default function Home(){
                 w={"100%"}
             >
                 <Title>
-                Compare countries
+                    Compare countries
                 </Title>
 
+                <Space h={"md"}/>
+
                 <Flex>
-                <SelectBox/>
-                <SelectBox/>
+                    <SelectBox/>
+                    <Space w={"sm"}/>
+                    <SelectBox/>
                 </Flex>
 
+                <Space h={"md"}/>
+
                 <Button variant="filled" color='main' >
-                Compare
+                    Compare
                 </Button>
             </Flex>
 
