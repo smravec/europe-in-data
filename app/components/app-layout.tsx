@@ -1,19 +1,29 @@
 'use client';
 
-import { AppShell, Burger, Button, Stack, Title, useMantineTheme, Text, Anchor, NavLink, Container } from '@mantine/core';
+//Mantine
+import { AppShell, Burger, Button, Stack, Title, useMantineTheme, Text, Anchor, NavLink, ScrollArea, Flex, Image } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 
+//Icons
+import { IoIosArrowForward } from "react-icons/io";
+import { IoPerson } from "react-icons/io5";
+import { FaPassport } from "react-icons/fa";
+import { FaTree } from "react-icons/fa6";
+import { FaLandmark } from "react-icons/fa6";
+import { FaMoneyBill } from "react-icons/fa6";
+import { FaFlag } from "react-icons/fa";
+import { FaNewspaper } from "react-icons/fa6";
 
 
-import { Flex } from '@mantine/core';
 
-import { Image } from '@mantine/core';
+
 
 //import leaflet component this way cause of old libs
 import dynamic from "next/dynamic";
 const EuropeMap = dynamic(() => import("./europe-map.js"), { ssr: false });
 
 import SelectBox from './select-box';
+import { countries } from './country-names';
 
 export default function AppLayout() {
   const [opened, { toggle }] = useDisclosure();
@@ -49,7 +59,7 @@ export default function AppLayout() {
             h="50px"
             w="auto"
           />
-          <Title size={"25px"} c={"white"}> Living in europe</Title>
+          <Title size={"25px"} c={"white"}> Europe in data</Title>
           </Flex>
           
           <Burger
@@ -68,36 +78,132 @@ export default function AppLayout() {
           <Flex
           w={"100%"}
           direction={"column"}
-          gap={"none"}
+          gap={"0px"}
           >
             <NavLink
             variant='filled'
             active
             label="Economy"
-            color={theme.colors.gray[5]}
+            color={theme.colors.gray[1]}
             c={"black"}
-          
-            ></NavLink>
+            leftSection={<FaMoneyBill/>}
+            rightSection={<IoIosArrowForward/>}
+            fz={"22px"}
+            styles={() => ({
+              label: {
+                fontSize: '20px',
+                fontWeight: 500,
+              },
+            })}
+            />
 
             <NavLink
             variant='filled'
             active
-            label="Economy"
-            color={theme.colors.gray[5]}
+            label="Society"
+            color={theme.colors.gray[2]}
             c={"black"}
-          
-
-            ></NavLink>
+            leftSection={<IoPerson/>}
+            rightSection={<IoIosArrowForward/>}
+            fz={"22px"}
+            styles={() => ({
+              label: {
+                // Style for the main label
+                fontSize: '20px',
+                fontWeight: 500,
+              },
+            })}
+            />
 
             <NavLink
             variant='filled'
             active
-            label="Climate"
-            color={theme.colors.gray[5]}
+            label="Government"
+            color={theme.colors.gray[1]}
             c={"black"}
+            leftSection={<FaLandmark/>}
+            rightSection={<IoIosArrowForward/>}
+            fz={"22px"}
+            styles={() => ({
+              label: {
+                // Style for the main label
+                fontSize: '20px',
+                fontWeight: 500,
+              },
+            })}
+            />
 
+            <NavLink
+            variant='filled'
+            active
+            label="Ease of integration"
+            color={theme.colors.gray[2]}
+            c={"black"}
+            leftSection={<FaPassport/>}
+            rightSection={<IoIosArrowForward/>}
+            fz={"22px"}
+            styles={() => ({
+              label: {
+                // Style for the main label
+                fontSize: '20px',
+                fontWeight: 500,
+              },
+            })}
+            />
 
-            ></NavLink>
+            <NavLink
+            variant='filled'
+            active
+            label="Climate/environment"
+            color={theme.colors.gray[1]}
+            c={"black"}
+            leftSection={<FaTree/>}
+            rightSection={<IoIosArrowForward/>}
+            fz={"22px"}
+            styles={() => ({
+              label: {
+                // Style for the main label
+                fontSize: '20px',
+                fontWeight: 500,
+              },
+            })}
+            />
+
+          <NavLink
+            variant='filled'
+            active
+            label="Country profiles"
+            color={theme.colors.gray[2]}
+            c={"black"}
+            leftSection={<FaFlag/>}
+            rightSection={<IoIosArrowForward/>}
+            fz={"22px"}
+            styles={() => ({
+              label: {
+                // Style for the main label
+                fontSize: '20px',
+                fontWeight: 500,
+              },
+            })}
+            />
+
+          <NavLink
+            variant='filled'
+            active
+            label="News"
+            color={theme.colors.gray[1]}
+            c={"black"}
+            leftSection={<FaNewspaper/>}
+            rightSection={<IoIosArrowForward/>}
+            fz={"22px"}
+            styles={() => ({
+              label: {
+                // Style for the main label
+                fontSize: '20px',
+                fontWeight: 500,
+              },
+            })}
+            />
 
           </Flex>
           
@@ -125,16 +231,17 @@ export default function AppLayout() {
               European countries overall ranking 
 
             </Title>
-
-            <Stack>
-              <Text>item1</Text>
-              <Text>item1</Text>
-              <Text>item1</Text>
-              <Text>item1</Text>
-              <Text>item1</Text>
-              <Text>item1</Text>
-
-            </Stack>
+  
+            <ScrollArea h={250} type='always' w={"95%"}>
+              <Stack>
+                
+                {countries.map((item, index)=>(
+                  <Text key={index}>{item}</Text>
+                ))
+                }
+                
+              </Stack>
+            </ScrollArea>
 
           </Flex>
         
@@ -216,8 +323,6 @@ export default function AppLayout() {
             <Anchor>Economy</Anchor>
 
           </Flex>
-          
-
 
         </Flex>
       </AppShell.Main>
