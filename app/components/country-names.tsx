@@ -27,5 +27,6 @@ export const countries = [
     '🇸🇰 Slovakia',
     '🇸🇮 Slovenia',
     '🇪🇸 Spain',
-    '🇸🇪 Sweden'
+    '🇸🇪 Sweden',
+    '🇨🇭 Switzerland'
   ];
