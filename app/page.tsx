@@ -1,6 +1,6 @@
 'use client'
 
-import { Button, Stack, Title, useMantineTheme, Text, Anchor, ScrollArea, Flex, Space } from '@mantine/core';
+import { Button, Stack, Title, useMantineTheme, Text, Anchor, ScrollArea, Flex, Space, Grid } from '@mantine/core';
 
 //import leaflet component this way cause of old libs
 import dynamic from "next/dynamic";
@@ -35,16 +35,56 @@ export default function Home(){
                 <Title >
                     European countries overall ranking 
                 </Title>
+
+                <Space h={"lg"}/>
   
                 <ScrollArea h={250} type='always' w={"95%"}>
-                <Stack>
-                    
-                    {countries.map((item, index)=>(
-                    <Text key={index}>{item}</Text>
-                    ))
-                    }
-                    
-                </Stack>
+                <Flex>
+                    <Flex
+                    w={"80%"}
+                    miw={"fit-content"}
+                    >
+                        <Flex
+                            direction={"column"}
+                            align={"center"}
+                            w={"30%"}
+                        >
+                            <Text pl={"4px"}  bg={"main"} fw={"600"} c={"white"} fz={"20px"} w={"100%"}>Rank</Text>
+                            {countries.map((item, index)=>(
+                                (index % 2 == 0) 
+                                ? <Text pl={"4px"} w={"100%"} bg={theme.colors.gray[1]} key={index}>{index + 1}</Text> : 
+                                <Text pl={"4px"} w={"100%"} bg={"white"} key={index}>{index + 1}</Text>
+                            ))}
+                        </Flex>
+
+                        <Flex
+                            direction={"column"}
+                            w={"69.9%"}
+                        >
+                            <Text bg={"main"} fw={"600"} c={"white"} fz={"20px"} w={"100%"}>Country</Text>
+                            {countries.map((item, index)=>(
+                                (index % 2 == 0) 
+                                ? <Anchor w={"100%"} bg={theme.colors.gray[1]} key={index}>{item}</Anchor> : 
+                                <Anchor w={"100%"} bg={"white"} key={index}>{item}</Anchor>  
+                            ))}
+                        </Flex>
+                    </Flex>
+
+                    <Flex
+                    direction={"column"}
+                    align={"flex-end"}
+                    w={"20%"}
+                    miw={"fit-content"}
+                    bg={"yellow"}
+                    >
+                        <Text bg={"main"} fw={"600"} c={"white"} fz={"20px"} w={"100%"} ta={"center"} >Score</Text>
+                        {countries.map((item, index)=>(
+                             (index % 2 == 0) 
+                             ? <Text w={"100%"} ta={"center"} bg={theme.colors.gray[1]} key={index}>0</Text> : 
+                             <Text w={"100%" } ta={"center"} bg={"white"} key={index}>0</Text>  
+                        ))}
+                    </Flex>
+                </Flex>
                 </ScrollArea>
             </Flex>
         
