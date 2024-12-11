@@ -46,15 +46,16 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
             align={"center"}
           >
             <Image 
-              src="./eu-flag.png"
+              src="./logo1.png"
               fit='contain'
-              h="50px"
+              h="23px"
               w="auto"
+              ml={"20px"}
             />
           
-            <Title size={"25px"} c={"white"}> 
+            {/* <Title size={"25px"} c={"white"}> 
               Europe in data
-            </Title>
+            </Title> */}
           
           </Flex>
           

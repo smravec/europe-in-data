@@ -11,7 +11,7 @@ Polish Compare countries section - DONE
 
 Finish european countries overall ranking - DONE
 
-Add Switzerland to the countries list - Working
+Add Switzerland to the countries list - DONE
 
 Make the leaflet map work with european countries leaderboard
 
@@ -21,8 +21,13 @@ Polish all parts with padding and radius
 
 Polish responsibility and text wrapping
 
-Design nicer logo that merges europe in data with the eu flag/stars
+Make search box use also scroll area
 
+Make it use downloaded font (Roboto) - DONE 
+
+Design nicer logo that merges europe in data with the eu flag/stars - DONE
+
+Investigate if the emojis are rendering everywhere
 
 
 ###

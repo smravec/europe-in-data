@@ -3,12 +3,19 @@ export const metadata = {
   description: 'Main page',
 }
 
+import { Roboto } from 'next/font/google';
 import '@mantine/core/styles.css';
 import { MantineProvider, createTheme } from "@mantine/core";
 
 import AppLayout from './components/app-layout';
 
+const roboto = Roboto({
+  subsets: ['latin'], // Add subsets as needed (e.g., 'latin', 'cyrillic', etc.)
+  weight: ['400', '700'], // Specify font weights
+});
+
 const theme = createTheme({
+  fontFamily: 'Roboto, sans-serif',
   colors: {
     'main': [
       '#e7f0ff',
@@ -33,7 +40,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={roboto.className}>
       <body>
       <MantineProvider theme={theme} defaultColorScheme='light' >
         <AppLayout>
