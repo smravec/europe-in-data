@@ -50,7 +50,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
               fit='contain'
               h="23px"
               w="auto"
-              ml={"20px"}
+              ml={"14px"}
             />
           
             {/* <Title size={"25px"} c={"white"}> 
