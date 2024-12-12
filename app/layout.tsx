@@ -40,7 +40,13 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={roboto.className}>
+    <html lang="en" className={roboto.className} 
+    >
+    <link
+      rel="icon"
+      href="./favicon.png"
+      type="image/<generated>"
+    />
       <body>
       <MantineProvider theme={theme} defaultColorScheme='light' >
         <AppLayout>
