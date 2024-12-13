@@ -1,17 +1,16 @@
 'use client';
 
 import { useState } from 'react';
-import { Combobox, InputBase, useCombobox } from '@mantine/core';
+import { Combobox, InputBase, useCombobox, ScrollArea} from '@mantine/core';
 import { countries } from './country-names';
 
 
-function getFilteredOptions(data: string[], searchQuery: string, limit: number) {
+{/*  */}
+
+function getFilteredOptions(data: string[], searchQuery: string) {
   const result: string[] = [];
 
   for (let i = 0; i < data.length; i += 1) {
-    if (result.length === limit) {
-      break;
-    }
 
     if (data[i].toLowerCase().includes(searchQuery.trim().toLowerCase())) {
       result.push(data[i]);
@@ -29,7 +28,7 @@ export default function SelectBox() {
   const [value, setValue] = useState<string | null>(null);
   const [search, setSearch] = useState('');
 
-  const filteredOptions = getFilteredOptions(countries, search, 5);
+  const filteredOptions = getFilteredOptions(countries, search);
 
   const options = filteredOptions.map((item) => (
     <Combobox.Option value={item} key={item}>
@@ -68,9 +67,11 @@ export default function SelectBox() {
       </Combobox.Target>
 
       <Combobox.Dropdown>
-        <Combobox.Options>
-          {options.length > 0 ? options : <Combobox.Empty>Nothing found</Combobox.Empty>}
-        </Combobox.Options>
+        <ScrollArea h={185}>
+          <Combobox.Options>
+            {options.length > 0 ? options : <Combobox.Empty>Nothing found</Combobox.Empty>}
+          </Combobox.Options>
+        </ScrollArea>
       </Combobox.Dropdown>
     </Combobox>
   );
