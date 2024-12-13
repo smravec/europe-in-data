@@ -29,9 +29,45 @@ Make it use downloaded font (Roboto) - DONE
 
 Design nicer logo that merges europe in data with the eu flag/stars - DONE
 
-Investigate if the emojis are rendering everywhere
+Investigate if the emojis are rendering everywhere - WORKING
 
-Extract leaderboard component into its own component - DONE/partially
+Extract leaderboard component into its own component - DONE/finish properly later
+
+Make a footer - Low priority
+
+
+###
+Data scraping
+###
+
+
+
+
+###
+Economy page
+###
+
+###
+Society page
+###
+
+
+###
+Government page
+###
+
+###
+Ease of integration page
+###
+
+
+###
+Environment page
+###
+
+###
+Country profiles page - Low priority
+###
 
 
 ###
