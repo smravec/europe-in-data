@@ -1,6 +1,6 @@
 'use client'
 
-import { Button, Stack, Title, useMantineTheme, Text, Anchor, ScrollArea, Flex, Space, Grid } from '@mantine/core';
+import { Button, Stack, Title, useMantineTheme, Text, Anchor, ScrollArea, Flex, Space, Grid, GridCol } from '@mantine/core';
 
 //import leaflet component this way cause of old libs
 import dynamic from "next/dynamic";
@@ -127,32 +127,31 @@ export default function Home(){
 
                 <Space h={"md"}/>
 
-                <Flex
-                wrap={"wrap"}
-                justify={"space-between"}
-                gap={"30px"}
-                rowGap={"10px"}  
+                <Grid
                 pr={"40px"}
                 pl={"40px"}
                 >
 
-                    <Flex
-                        direction={"column"}
-                        align={"flex-start"}
-                    > 
-                        <Text size='28px' fw={"600"}>Economy</Text>
-                        <Space h={"xs"}/>
-                        <Anchor>Gdp per capita</Anchor>
-                        <Anchor>Gdp per capita ppp</Anchor>
-                        <Anchor>Net average wage</Anchor>
-                        <Anchor>Unemployment</Anchor>
-                        <Anchor>Home affordability</Anchor>
-                        <Anchor>Gdp growth past 5 years</Anchor>
-                        <Anchor>Debt to gdp</Anchor>
-                        <Anchor>Corporate tax</Anchor>
-                        <Anchor>Capital gains tax</Anchor>
-                        <Anchor>Value added tax</Anchor>
-                    </Flex>
+                    <GridCol>
+                        <Flex
+                            direction={"column"}
+                            align={"flex-start"}
+                        > 
+                            <Text size='28px' fw={"600"}>Economy</Text>
+                            <Space h={"xs"}/>
+                            <Anchor>Gdp per capita</Anchor>
+                            <Anchor>Gdp per capita ppp</Anchor>
+                            <Anchor>Net average wage</Anchor>
+                            <Anchor>Unemployment</Anchor>
+                            <Anchor>Home affordability</Anchor>
+                            <Anchor>Gdp growth past 5 years</Anchor>
+                            <Anchor>Debt to gdp</Anchor>
+                            <Anchor>Corporate tax</Anchor>
+                            <Anchor>Capital gains tax</Anchor>
+                            <Anchor>Value added tax</Anchor>
+                        </Flex>
+                    </GridCol>
+                    
 
                     <Flex
                         direction={"column"}
@@ -226,7 +225,7 @@ export default function Home(){
                         <Anchor>Economy</Anchor>
                     </Flex>
 
-                </Flex>
+                </Grid>
             </Flex>
         </Flex> 
     )

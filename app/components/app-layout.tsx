@@ -56,7 +56,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
             <Title 
             size={"25px"} 
             c={"white"}
-            mt={"9px"}
+            mt={"2px"}
             ml={"15px"}
             > 
               Europe in data
