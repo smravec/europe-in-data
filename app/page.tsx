@@ -129,13 +129,13 @@ export default function Home(){
 
                 <Grid
                 pr={"40px"}
-                pl={"40px"}
+                pl={{ base:"25%" , lg:"40px" }}
+
                 >
 
-                    <GridCol>
+                    <GridCol span={{base:12,md:6, lg:3}}>
                         <Flex
                             direction={"column"}
-                            align={"flex-start"}
                         > 
                             <Text size='28px' fw={"600"}>Economy</Text>
                             <Space h={"xs"}/>
@@ -152,78 +152,82 @@ export default function Home(){
                         </Flex>
                     </GridCol>
                     
+                    <GridCol span={{base:12,md:6, lg:3}}>
+                        <Flex
+                            direction={"column"}
+                        > 
+                            <Text size='28px' fw={"600"}>Society</Text>
+                            <Space h={"xs"}/>
+                            <Anchor>Trust in institutions</Anchor>
+                            <Anchor>Trust in other people</Anchor>
+                            <Anchor>Voting participation</Anchor>
+                            <Anchor>Corruption</Anchor>
+                            <Anchor>Secondary education</Anchor>
+                            <Anchor>Tertiary education</Anchor>
+                            <Anchor>Pisa results</Anchor>
+                            <Anchor>Obesity rate</Anchor>
+                            <Anchor>Fertility rate</Anchor>
+                            <Anchor>Average lifespan</Anchor>
+                        </Flex>
+                    </GridCol>
 
-                    <Flex
-                        direction={"column"}
-                        align={"flex-start"}
-                    > 
-                        <Text size='28px' fw={"600"}>Society</Text>
-                        <Space h={"xs"}/>
-                        <Anchor>Trust in institutions</Anchor>
-                        <Anchor>Trust in other people</Anchor>
-                        <Anchor>Voting participation</Anchor>
-                        <Anchor>Corruption</Anchor>
-                        <Anchor>Secondary education</Anchor>
-                        <Anchor>Tertiary education</Anchor>
-                        <Anchor>Pisa results</Anchor>
-                        <Anchor>Obesity rate</Anchor>
-                        <Anchor>Fertility rate</Anchor>
-                        <Anchor>Average lifespan</Anchor>
-                    </Flex>
+                    <GridCol span={{base:12,md:6, lg:3}}>
+                        <Flex
+                            direction={"column"}
+                        > 
+                            <Text size='28px' fw={"600"}>Government</Text>
+                            <Space h={"xs"}/>
+                            <Anchor>Rule of law</Anchor>
+                            <Anchor>Freedom of press</Anchor>
+                            <Anchor>Availabity of healthcare</Anchor>
+                            <Anchor>Egovernment</Anchor>
+                            <Anchor>Economy</Anchor>
+                            <Anchor>Economy</Anchor>
+                            <Anchor>Economy</Anchor>
+                            <Anchor>Economy</Anchor>
+                            <Anchor>Economy</Anchor>
+                            <Anchor>Economy</Anchor>
+                        </Flex>
+                    </GridCol>
+                    
 
-                    <Flex
-                        direction={"column"}
-                        align={"flex-start"}
-                    > 
-                        <Text size='28px' fw={"600"}>Government</Text>
-                        <Space h={"xs"}/>
-                        <Anchor>Rule of law</Anchor>
-                        <Anchor>Freedom of press</Anchor>
-                        <Anchor>Availabity of healthcare</Anchor>
-                        <Anchor>Egovernment</Anchor>
-                        <Anchor>Economy</Anchor>
-                        <Anchor>Economy</Anchor>
-                        <Anchor>Economy</Anchor>
-                        <Anchor>Economy</Anchor>
-                        <Anchor>Economy</Anchor>
-                        <Anchor>Economy</Anchor>
-                    </Flex>
-
-                    <Flex
-                        direction={"column"}
-                        align={"flex-start"}
-                    > 
-                        <Text size='28px' fw={"600"}>Ease of integration</Text>
-                        <Space h={"xs"}/>
-                        <Anchor>Learning the local language</Anchor>
-                        <Anchor>English proficiency</Anchor>
-                        <Anchor>Economy</Anchor>
-                        <Anchor>Economy</Anchor>
-                        <Anchor>Economy</Anchor>
-                        <Anchor>Economy</Anchor>
-                        <Anchor>Economy</Anchor>
-                        <Anchor>Economy</Anchor>
-                        <Anchor>Economy</Anchor>
-                        <Anchor>Economy</Anchor>
-                    </Flex>
+                    <GridCol span={{base:12,md:6, lg:3}}>
+                        <Flex
+                            direction={"column"}
+                        >
+                            <Text size='28px' fw={"600"}>Ease of integration</Text>
+                            <Space h={"xs"}/>
+                            <Anchor>Learning the local language</Anchor>
+                            <Anchor>English proficiency</Anchor>
+                            <Anchor>Economy</Anchor>
+                            <Anchor>Economy</Anchor>
+                            <Anchor>Economy</Anchor>
+                            <Anchor>Economy</Anchor>
+                            <Anchor>Economy</Anchor>
+                            <Anchor>Economy</Anchor>
+                            <Anchor>Economy</Anchor>
+                            <Anchor>Economy</Anchor>
+                        </Flex>
+                    </GridCol>
             
-                    <Flex
-                        direction={"column"}
-                        align={"flex-start"}
-                    > 
-                        <Text size='28px' fw={"600"}>Climate/environment</Text>
-                        <Space h={"xs"}/>
-                        <Anchor>Economy</Anchor>
-                        <Anchor>Economy</Anchor>
-                        <Anchor>Economy</Anchor>
-                        <Anchor>Economy</Anchor>
-                        <Anchor>Economy</Anchor>
-                        <Anchor>Economy</Anchor>
-                        <Anchor>Economy</Anchor>
-                        <Anchor>Economy</Anchor>
-                        <Anchor>Economy</Anchor>
-                        <Anchor>Economy</Anchor>
-                    </Flex>
+                    <GridCol span={{base:12,md:6, lg:3}}>
+                        <Flex
+                            direction={"column"}
+                        >
+                            <Text size='28px' fw={"600"}>Environment</Text>
+                            <Space h={"xs"}/>
+                            <Anchor>Economy</Anchor>
+                            <Anchor>Economy</Anchor>
+                            <Anchor>Economy</Anchor>
+                            <Anchor>Economy</Anchor>
+                            <Anchor>Economy</Anchor>
+                            <Anchor>Economy</Anchor>
+                            <Anchor>Economy</Anchor>
+                            <Anchor>Economy</Anchor>
+                            <Anchor>Economy</Anchor>
+                            <Anchor>Economy</Anchor>
+                        </Flex>
+                    </GridCol>
 
                 </Grid>
             </Flex>

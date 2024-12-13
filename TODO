@@ -13,13 +13,15 @@ Finish european countries overall ranking - DONE
 
 Add Switzerland to the countries list - DONE
 
-Make the leaflet map work with european countries leaderboard
+Make the leaflet map work with european countries leaderboard - Low priority
 
-Make all categories layout use responsive grids - WORKING
+Make all categories layout use responsive grids - DONE
+
+Make all categories use show more button (to show categories that would mess the layout normally) - Low priority
 
 Polish all parts with padding and radius
 
-Polish responsibility and text wrapping
+Polish responsibility and text wrapping - WORKING
 
 Make search box use also scroll area
 
@@ -28,6 +30,8 @@ Make it use downloaded font (Roboto) - DONE
 Design nicer logo that merges europe in data with the eu flag/stars - DONE
 
 Investigate if the emojis are rendering everywhere
+
+Extract leaderboard component into its own component
 
 
 ###

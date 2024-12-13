@@ -155,7 +155,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           <NavLink
             variant='filled'
             active
-            label="Climate/environment"
+            label="Environment"
             color={theme.colors.gray[1]}
             c={"black"}
             leftSection={<FaTree/>}
