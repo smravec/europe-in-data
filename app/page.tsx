@@ -6,7 +6,7 @@ import { Button, Stack, Title, useMantineTheme, Text, Anchor, ScrollArea, Flex, 
 import dynamic from "next/dynamic";
 const EuropeMap = dynamic(() => import("./components/europe-map"), { ssr: false });
 
-import { countries } from './components/country-names';
+import { countries } from './lib/country-names';
 import SelectBox from './components/select-box';
 
 export default function Home(){

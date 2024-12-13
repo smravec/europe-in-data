@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { Combobox, InputBase, useCombobox, ScrollArea} from '@mantine/core';
-import { countries } from './country-names';
+import { countries } from '../lib/country-names';
 
 
 {/*  */}
