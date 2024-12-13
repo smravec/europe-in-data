@@ -9,7 +9,6 @@ const EuropeMap = dynamic(() => import("./components/europe-map"), { ssr: false 
 import { countries } from './components/country-names';
 import SelectBox from './components/select-box';
 
-
 export default function Home(){
     const theme = useMantineTheme();
 
@@ -31,9 +30,13 @@ export default function Home(){
                 align={"center"}
                 maw={"1000px"}
                 w={"100%"}
+                pt={"15px"}
+                pb={"20px"}
+                style={{borderRadius: "8px"}}
+                bd={"1px solid"  + theme.colors.gray[4]}
             >
-                <Title fz={{ base:"28px", xs:"34px"}}>
-                    Overall ranking 
+                <Title fz={{ base:"28px", xs:"34px"}} ta={"center"}  >
+                    Overall country ranking 
                 </Title>
 
                 <Space h={"lg"}/>
@@ -94,6 +97,12 @@ export default function Home(){
                 bg={theme.colors.gray[2]}
                 maw={"1000px"}
                 w={"100%"}
+                pt={"15px"}
+                pb={"15px"}
+                pl={"3px"}
+                pr={"3px"}
+                style={{borderRadius: "8px"}}
+                bd={"1px solid"  + theme.colors.gray[4]}
             >
                 <Title fz={{ base:"28px", xs:"34px"}}>
                     Compare countries
@@ -120,6 +129,10 @@ export default function Home(){
                 bg={theme.colors.gray[2]}
                 maw={"1000px"}
                 w={"100%"}
+                pt={"15px"}
+                pb={"15px"}
+                style={{borderRadius: "8px"}}
+                bd={"1px solid"  + theme.colors.gray[4]}
             >
                 <Title fz={{ base:"28px", xs:"34px"}}>
                     All categories

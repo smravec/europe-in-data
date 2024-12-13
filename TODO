@@ -19,11 +19,11 @@ Make all categories layout use responsive grids - DONE
 
 Make all categories use show more button (to show categories that would mess the layout normally) - Low priority
 
-Polish all parts with padding and radius
+Polish all parts with padding and radius - DONE
 
 Polish responsibility and text wrapping - DONE
 
-Make search box use also scroll area
+Make search box use also scroll area - WORKING
 
 Make it use downloaded font (Roboto) - DONE 
 
@@ -35,7 +35,7 @@ Extract leaderboard component into its own component
 
 
 ###
-News page
+News page - Low priority
 ###
 
 Ask about interest in getting news about things in eu and ask for email
