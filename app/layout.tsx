@@ -31,7 +31,15 @@ const theme = createTheme({
     ]
   },
   black:"#313233",
-  white: "#ffffff"
+  white: "#ffffff",
+  breakpoints: {
+    xs: '350px',
+    sm: '48em',
+    md: '62em',
+    lg: '75em',
+    xl: '88em',
+    xss:'1em',
+  },
 });
 
 export default function RootLayout({

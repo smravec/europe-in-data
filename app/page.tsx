@@ -32,8 +32,8 @@ export default function Home(){
                 maw={"1000px"}
                 w={"100%"}
             >
-                <Title >
-                    European countries overall ranking 
+                <Title fz={{ base:"28px", xs:"34px"}}>
+                    Overall ranking 
                 </Title>
 
                 <Space h={"lg"}/>
@@ -95,7 +95,7 @@ export default function Home(){
                 maw={"1000px"}
                 w={"100%"}
             >
-                <Title>
+                <Title fz={{ base:"28px", xs:"34px"}}>
                     Compare countries
                 </Title>
 
@@ -121,7 +121,7 @@ export default function Home(){
                 maw={"1000px"}
                 w={"100%"}
             >
-                <Title>
+                <Title fz={{ base:"28px", xs:"34px"}}>
                     All categories
                 </Title>
 
@@ -137,7 +137,7 @@ export default function Home(){
                         <Flex
                             direction={"column"}
                         > 
-                            <Text size='28px' fw={"600"}>Economy</Text>
+                            <Text size='28px' fw={"600"} fz={{ base:"24px", xs:"28px"}}>Economy</Text>
                             <Space h={"xs"}/>
                             <Anchor>Gdp per capita</Anchor>
                             <Anchor>Gdp per capita ppp</Anchor>
@@ -156,7 +156,7 @@ export default function Home(){
                         <Flex
                             direction={"column"}
                         > 
-                            <Text size='28px' fw={"600"}>Society</Text>
+                            <Text size='28px' fw={"600"} fz={{ base:"24px", xs:"28px"}}>Society</Text>
                             <Space h={"xs"}/>
                             <Anchor>Trust in institutions</Anchor>
                             <Anchor>Trust in other people</Anchor>
@@ -175,7 +175,7 @@ export default function Home(){
                         <Flex
                             direction={"column"}
                         > 
-                            <Text size='28px' fw={"600"}>Government</Text>
+                            <Text size='28px' fw={"600"} fz={{ base:"24px", xs:"28px"}}>Government</Text>
                             <Space h={"xs"}/>
                             <Anchor>Rule of law</Anchor>
                             <Anchor>Freedom of press</Anchor>
@@ -195,7 +195,7 @@ export default function Home(){
                         <Flex
                             direction={"column"}
                         >
-                            <Text size='28px' fw={"600"}>Ease of integration</Text>
+                            <Text size='28px' fw={"600"} fz={{ base:"24px", xs:"28px"}}>Ease of integration</Text>
                             <Space h={"xs"}/>
                             <Anchor>Learning the local language</Anchor>
                             <Anchor>English proficiency</Anchor>
@@ -214,7 +214,7 @@ export default function Home(){
                         <Flex
                             direction={"column"}
                         >
-                            <Text size='28px' fw={"600"}>Environment</Text>
+                            <Text size='28px' fw={"600"} fz={{ base:"24px", xs:"28px"}}>Environment</Text>
                             <Space h={"xs"}/>
                             <Anchor>Economy</Anchor>
                             <Anchor>Economy</Anchor>
