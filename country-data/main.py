@@ -1,5 +1,10 @@
 import requests
 import json
+import update_country_data
+
+
+update_country_data.write_data("2021","gdp",data={"Austria": 100})
+
 
 #World bank api
 Worldbank_url = ""
@@ -61,13 +66,3 @@ Eurostat_url = ""
 
 
 #Final url
-
-#Load all current data and convert to dict
-with open("country-data.json", "r") as file:
-   Country_data = json.load(file)
-
-
-#Save data  back to json file
-with open("country-data.json", "w") as file:
-   json.dumps(Country_data,file)
-
