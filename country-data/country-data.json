@@ -1,92 +1,321 @@
 {
     "Austria": {
-        "Icon": "\ud83c\udde6\ud83c\uddf9"
+        "Icon": "\ud83c\udde6\ud83c\uddf9",
+        "2023": {
+            "Gdp per capita": 56856.125,
+            "Gdp per capita PPP": 71988.371,
+            "Gdp growth": -0.8,
+            "Unemployment": 5.1,
+            "Government debt": 77.544997945118,
+            "Gdp growth past 5 years": 2.6960151454720034
+        }
     },
     "Belgium": {
-        "Icon": "\ud83c\udde7\ud83c\uddea"
+        "Icon": "\ud83c\udde7\ud83c\uddea",
+        "2023": {
+            "Gdp per capita": 53854.213,
+            "Gdp per capita PPP": 71035.464,
+            "Gdp growth": 1.4,
+            "Unemployment": 5.5,
+            "Government debt": 105.17086569329,
+            "Gdp growth past 5 years": 8.057212413331996
+        }
     },
     "Bulgaria": {
-        "Icon": "\ud83c\udde7\ud83c\uddec"
+        "Icon": "\ud83c\udde7\ud83c\uddec",
+        "2023": {
+            "Gdp per capita": 15764.648,
+            "Gdp per capita PPP": 36860.958,
+            "Gdp growth": 1.8,
+            "Unemployment": 4.4,
+            "Government debt": 32.917952654039,
+            "Gdp growth past 5 years": 13.732242191360001
+        }
     },
     "Croatia": {
-        "Icon": "\ud83c\udded\ud83c\uddf7"
+        "Icon": "\ud83c\udded\ud83c\uddf7",
+        "2023": {
+            "Gdp per capita": 21520.681,
+            "Gdp per capita PPP": 46005.225,
+            "Gdp growth": 3.1,
+            "Unemployment": 6.2,
+            "Government debt": 63.018359661052,
+            "Gdp growth past 5 years": 17.940379063099996
+        }
     },
     "Cyprus": {
-        "Icon": "\ud83c\udde8\ud83c\uddfe"
+        "Icon": "\ud83c\udde8\ud83c\uddfe",
+        "2023": {
+            "Gdp per capita": 35015.587,
+            "Gdp per capita PPP": 56628.363,
+            "Gdp growth": 2.5,
+            "Unemployment": 6.1,
+            "Government debt": 77.414465791357,
+            "Gdp growth past 5 years": 20.65737145542502
+        }
     },
     "Czechia": {
-        "Icon": "\ud83c\udde8\ud83c\uddff"
+        "Icon": "\ud83c\udde8\ud83c\uddff",
+        "2023": {
+            "Gdp per capita": 31630.255,
+            "Gdp per capita PPP": 55206.513,
+            "Gdp growth": -0.1,
+            "Unemployment": 2.6,
+            "Government debt": 42.375071814781,
+            "Gdp growth past 5 years": 4.785617396096015
+        }
     },
     "Denmark": {
-        "Icon": "\ud83c\udde9\ud83c\uddf0"
+        "Icon": "\ud83c\udde9\ud83c\uddf0",
+        "2023": {
+            "Gdp per capita": 68618.872,
+            "Gdp per capita PPP": 80210.524,
+            "Gdp growth": 2.5,
+            "Unemployment": 2.8,
+            "Government debt": 29.662575145031,
+            "Gdp growth past 5 years": 11.590347424849995
+        }
     },
     "Estonia": {
-        "Icon": "\ud83c\uddea\ud83c\uddea"
+        "Icon": "\ud83c\uddea\ud83c\uddea",
+        "2023": {
+            "Gdp per capita": 30137.644,
+            "Gdp per capita PPP": 47127.95,
+            "Gdp growth": -3,
+            "Unemployment": 6.4,
+            "Government debt": 19.314210136909,
+            "Gdp growth past 5 years": 4.7112318742489805
+        }
     },
     "Finland": {
-        "Icon": "\ud83c\uddeb\ud83c\uddee"
+        "Icon": "\ud83c\uddeb\ud83c\uddee",
+        "2023": {
+            "Gdp per capita": 53130.693,
+            "Gdp per capita PPP": 63558.656,
+            "Gdp growth": -1.2,
+            "Unemployment": 7.2,
+            "Government debt": 77.024985733508,
+            "Gdp growth past 5 years": 1.7202670074500048
+        }
     },
     "Germany": {
-        "Icon": "\ud83c\udde9\ud83c\uddea"
+        "Icon": "\ud83c\udde9\ud83c\uddea",
+        "2023": {
+            "Gdp per capita": 53565.041,
+            "Gdp per capita PPP": 69531.553,
+            "Gdp growth": -0.3,
+            "Unemployment": 3,
+            "Government debt": 62.660080515106,
+            "Gdp growth past 5 years": 1.5434350161140031
+        }
     },
     "Greece": {
-        "Icon": "\ud83c\uddec\ud83c\uddf7"
+        "Icon": "\ud83c\uddec\ud83c\uddf7",
+        "2023": {
+            "Gdp per capita": 22880.296,
+            "Gdp per capita PPP": 40047.873,
+            "Gdp growth": 2,
+            "Unemployment": 11.1,
+            "Government debt": 168.86903697697,
+            "Gdp growth past 5 years": 7.9132676272640055
+        }
     },
     "Hungary": {
-        "Icon": "\ud83c\udded\ud83c\uddfa"
+        "Icon": "\ud83c\udded\ud83c\uddfa",
+        "2023": {
+            "Gdp per capita": 22131.628,
+            "Gdp per capita PPP": 44960.952,
+            "Gdp growth": -0.9,
+            "Unemployment": 4.1,
+            "Government debt": 69.441622867879,
+            "Gdp growth past 5 years": 11.217638557276999
+        }
     },
     "Iceland": {
-        "Icon": "\ud83c\uddee\ud83c\uddf8"
+        "Icon": "\ud83c\uddee\ud83c\uddf8",
+        "2023": {
+            "Gdp per capita": 83485.11,
+            "Gdp per capita PPP": 78250.289,
+            "Gdp growth": 5,
+            "Unemployment": 3.4,
+            "Government debt": 62.242740759889,
+            "Gdp growth past 5 years": 14.332061220650004
+        }
     },
     "Ireland": {
-        "Icon": "\ud83c\uddee\ud83c\uddea"
+        "Icon": "\ud83c\uddee\ud83c\uddea",
+        "2023": {
+            "Gdp per capita": 103465.935,
+            "Gdp per capita PPP": 126991.82,
+            "Gdp growth": -5.5,
+            "Unemployment": 4.3,
+            "Government debt": 43.273190417922,
+            "Gdp growth past 5 years": 34.34621424559998
+        }
     },
     "Italy": {
-        "Icon": "\ud83c\uddee\ud83c\uddf9"
+        "Icon": "\ud83c\uddee\ud83c\uddf9",
+        "2023": {
+            "Gdp per capita": 39012.076,
+            "Gdp per capita PPP": 59164.515,
+            "Gdp growth": 0.7,
+            "Unemployment": 7.7,
+            "Government debt": 134.79373316076,
+            "Gdp growth past 5 years": 5.016157063096401
+        }
     },
     "Latvia": {
-        "Icon": "\ud83c\uddf1\ud83c\uddfb"
-    },
-    "Liechtenstein": {
-        "Icon": "\ud83c\uddf1\ud83c\uddee"
+        "Icon": "\ud83c\uddf1\ud83c\uddfb",
+        "2023": {
+            "Gdp per capita": 23175.505,
+            "Gdp per capita PPP": 41938.071,
+            "Gdp growth": -0.3,
+            "Unemployment": 6.5,
+            "Government debt": 43.574350810604,
+            "Gdp growth past 5 years": 6.370719414629988
+        }
     },
     "Lithuania": {
-        "Icon": "\ud83c\uddf1\ud83c\uddf9"
+        "Icon": "\ud83c\uddf1\ud83c\uddf9",
+        "2023": {
+            "Gdp per capita": 26997.801,
+            "Gdp per capita PPP": 51129.222,
+            "Gdp growth": -0.3,
+            "Unemployment": 6.9,
+            "Government debt": 38.289577071899,
+            "Gdp growth past 5 years": 13.523401056665591
+        }
     },
     "Luxembourg": {
-        "Icon": "\ud83c\uddf1\ud83c\uddfa"
+        "Icon": "\ud83c\uddf1\ud83c\uddfa",
+        "2023": {
+            "Gdp per capita": 129810.315,
+            "Gdp per capita PPP": 148693.702,
+            "Gdp growth": -1.1,
+            "Unemployment": 5.2,
+            "Government debt": 25.669621748664,
+            "Gdp growth past 5 years": 9.627134195196817
+        }
     },
     "Malta": {
-        "Icon": "\ud83c\uddf2\ud83c\uddf9"
+        "Icon": "\ud83c\uddf2\ud83c\uddf9",
+        "2023": {
+            "Gdp per capita": 41204.739,
+            "Gdp per capita PPP": 69181.837,
+            "Gdp growth": 7.5,
+            "Unemployment": 3.1,
+            "Government debt": 50.396603340902,
+            "Gdp growth past 5 years": 27.594836032062503
+        }
     },
     "Netherlands": {
-        "Icon": "\ud83c\uddf3\ud83c\uddf1"
+        "Icon": "\ud83c\uddf3\ud83c\uddf1",
+        "2023": {
+            "Gdp per capita": 64829.341,
+            "Gdp per capita PPP": 79586.245,
+            "Gdp growth": 0.1,
+            "Unemployment": 3.6,
+            "Government debt": 45.023552850836,
+            "Gdp growth past 5 years": 9.83877038634499
+        }
     },
     "Norway": {
-        "Icon": "\ud83c\uddf3\ud83c\uddf4"
+        "Icon": "\ud83c\uddf3\ud83c\uddf4",
+        "2023": {
+            "Gdp per capita": 87702.851,
+            "Gdp per capita PPP": 100153.712,
+            "Gdp growth": 0.5,
+            "Unemployment": 3.6,
+            "Government debt": 44.003717155229,
+            "Gdp growth past 5 years": 7.321600881845001
+        }
     },
     "Poland": {
-        "Icon": "\ud83c\uddf5\ud83c\uddf1"
+        "Icon": "\ud83c\uddf5\ud83c\uddf1",
+        "2023": {
+            "Gdp per capita": 22085.808,
+            "Gdp per capita PPP": 48799.413,
+            "Gdp growth": 0.2,
+            "Unemployment": 2.8,
+            "Government debt": 49.594290433829,
+            "Gdp growth past 5 years": 15.727326235136005
+        }
     },
     "Portugal": {
-        "Icon": "\ud83c\uddf5\ud83c\uddf9"
+        "Icon": "\ud83c\uddf5\ud83c\uddf9",
+        "2023": {
+            "Gdp per capita": 27834.773,
+            "Gdp per capita PPP": 47226.151,
+            "Gdp growth": 2.3,
+            "Unemployment": 6.6,
+            "Government debt": 99.080990490538,
+            "Gdp growth past 5 years": 8.758110294033202
+        }
     },
     "Romania": {
-        "Icon": "\ud83c\uddf7\ud83c\uddf4"
+        "Icon": "\ud83c\uddf7\ud83c\uddf4",
+        "2023": {
+            "Gdp per capita": 18424.685,
+            "Gdp per capita PPP": 44974.057,
+            "Gdp growth": 2.1,
+            "Unemployment": 5.6,
+            "Government debt": 48.854045092801,
+            "Gdp growth past 5 years": 12.406983535088884
+        }
     },
     "Slovakia": {
-        "Icon": "\ud83c\uddf8\ud83c\uddf0"
+        "Icon": "\ud83c\uddf8\ud83c\uddf0",
+        "2023": {
+            "Gdp per capita": 24468.025,
+            "Gdp per capita PPP": 43555.921,
+            "Gdp growth": 1.6,
+            "Unemployment": 5.8,
+            "Government debt": 56.045018145518,
+            "Gdp growth past 5 years": 7.542347942559999
+        }
     },
     "Slovenia": {
-        "Icon": "\ud83c\uddf8\ud83c\uddee"
+        "Icon": "\ud83c\uddf8\ud83c\uddee",
+        "2023": {
+            "Gdp per capita": 32673.257,
+            "Gdp per capita PPP": 53631.545,
+            "Gdp growth": 2.1,
+            "Unemployment": 3.7,
+            "Government debt": 69.219491009612,
+            "Gdp growth past 5 years": 12.819566032081994
+        }
     },
     "Spain": {
-        "Icon": "\ud83c\uddea\ud83c\uddf8"
+        "Icon": "\ud83c\uddea\ud83c\uddf8",
+        "2023": {
+            "Gdp per capita": 33895.593,
+            "Gdp per capita PPP": 52907.924,
+            "Gdp growth": 2.7,
+            "Unemployment": 12.2,
+            "Government debt": 105.03425867836,
+            "Gdp growth past 5 years": 5.7638509773560145
+        }
     },
     "Sweden": {
-        "Icon": "\ud83c\uddf8\ud83c\uddea"
+        "Icon": "\ud83c\uddf8\ud83c\uddea",
+        "2023": {
+            "Gdp per capita": 55433.135,
+            "Gdp per capita PPP": 70046.951,
+            "Gdp growth": -0.2,
+            "Unemployment": 7.7,
+            "Government debt": 36.37122985845,
+            "Gdp growth past 5 years": 7.756253853499999
+        }
     },
     "Switzerland": {
-        "Icon": "\ud83c\udde8\ud83c\udded"
+        "Icon": "\ud83c\udde8\ud83c\udded",
+        "2023": {
+            "Gdp per capita": 101510.023,
+            "Gdp per capita PPP": 93054.781,
+            "Gdp growth": 0.7,
+            "Unemployment": 2,
+            "Government debt": 33.316519546232,
+            "Gdp growth past 5 years": 8.399462875404808
+        }
     }
 }

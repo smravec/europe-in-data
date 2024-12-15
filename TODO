@@ -48,28 +48,27 @@ setup and go trough world bank
 
 setup and go trough eurostat
 
-scrape imf for economy data - WORKING
+scrape imf for economy data - DONE
+
+scrape imf for gdp growth past 5 years especially - DONE
 
 scrape world bank for both economy and society data
 
 scrape eurostat for society data
 
-figure python package to use/make template
-
-figure out json model/structure for the data 
 
 scrape :
 
-Gdp per capita - imf
-Gdp per capita ppp - imf
-Net average wage
-Unemployment - imf
-Home affordability
-Gdp growth past 5 years - imf
-Debt to gdp - imf
-Corporate tax
-Capital gains tax
-Value added tax
+Gdp per capita - imf - DONE
+Gdp per capita ppp - imf - DONE
+Net average wage - Research
+Unemployment - imf - DONE
+Home affordability - Research
+Gdp growth past 5 years - imf - DONE
+Debt to gdp - imf - DONE
+Corporate tax - manual
+Capital gains tax - manual
+Value added tax - manual
 
 Trust in institutions
 Trust in other people
