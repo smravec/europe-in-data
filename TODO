@@ -1,51 +1,93 @@
-
 ###
-Finish main page - WORKING
+Finish main page - Low priority
 ###
-
-Clean up the project structure - DONE
-
-Make all components uniform (width) - DONE
-
-Polish Compare countries section - DONE
-
-Finish european countries overall ranking - DONE
-
-Add Switzerland to the countries list - DONE
 
 Make the leaflet map work with european countries leaderboard - Low priority
 
-Make all categories layout use responsive grids - DONE
+Make all categories use show more button (to show categories that would mess the layout normally) - Low priority 
 
-Make all categories use show more button (to show categories that would mess the layout normally) - Low priority
+Investigate if the emojis are rendering everywhere - DONE/Windows showing only letters
 
-Polish all parts with padding and radius - DONE
-
-Polish responsibility and text wrapping - DONE
-
-Make search box use also scroll area - DONE
-
-Make it use downloaded font (Roboto) - DONE 
-
-Design nicer logo that merges europe in data with the eu flag/stars - DONE
-
-Investigate if the emojis are rendering everywhere - WORKING
-
-Extract leaderboard component into its own component - DONE/finish properly later
+Extract leaderboard component into its own component - DONE/not properly
 
 Make a footer - Low priority
 
 
 ###
-Data scraping
+Mvp - WORKING
 ###
+Scrape data for economy and society categories - WORKING 
+
+Finish economy page
+
+Finish society page
+
+Add coming soon to other categories in main page - DONE
+
+Add Gov, ease of integration, environment pages 
+
+Add news page
+
+Market on reddit
 
 
+###
+Data scraping - WORKING
+###
+setup python for scraping - DONE
 
+split python files for each api
+
+make a model on where the data is saved - DONE
+
+make a module that just writes the data into the file - WORKING
+
+setup and go trough imf - DONE
+
+setup and go trough world bank
+
+setup and go trough eurostat
+
+scrape imf for economy data
+
+scrape world bank for both economy and society data
+
+scrape eurostat for society data
+
+figure python package to use/make template
+
+figure out json model/structure for the data 
+
+scrape :
+
+Gdp per capita - imf
+Gdp per capita ppp - imf
+Net average wage
+Unemployment - imf
+Home affordability
+Gdp growth past 5 years - imf
+Debt to gdp - imf
+Corporate tax
+Capital gains tax
+Value added tax
+
+Trust in institutions
+Trust in other people
+Voting participation
+Corruption
+Secondary education
+Tertiary education
+Pisa results
+Obesity rate
+Fertility rate
+Average lifespan
+
+R&D spending per unit of GDP (inovation index)
 
 ###
 Economy page
 ###
+
 
 ###
 Society page
@@ -55,18 +97,23 @@ Society page
 ###
 Government page
 ###
+Add coming soon
+
 
 ###
 Ease of integration page
 ###
+Add coming soon
 
 
 ###
 Environment page
 ###
+Add coming soon
+
 
 ###
-Country profiles page - Low priority
+Country profiles page
 ###
 
 
@@ -75,3 +122,43 @@ News page - Low priority
 ###
 
 Ask about interest in getting news about things in eu and ask for email
+
+
+### 
+Categories
+###
+Economy
+Gdp per capita
+Gdp per capita ppp
+Net average wage
+Unemployment
+Home affordability
+Gdp growth past 5 years
+Debt to gdp
+Corporate tax
+Capital gains tax
+Value added tax
+
+Society
+Trust in institutions
+Trust in other people
+Voting participation
+Corruption
+Secondary education
+Tertiary education
+Pisa results
+Obesity rate
+Fertility rate
+Average lifespan
+
+Government
+Rule of law
+Freedom of press
+Availabity of healthcare
+Egovernment
+
+Ease of integration
+Learning the local language
+English proficiency
+
+Environment

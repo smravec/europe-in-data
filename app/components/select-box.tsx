@@ -5,8 +5,6 @@ import { Combobox, InputBase, useCombobox, ScrollArea} from '@mantine/core';
 import { countries } from '../lib/country-names';
 
 
-{/*  */}
-
 function getFilteredOptions(data: string[], searchQuery: string) {
   const result: string[] = [];
 

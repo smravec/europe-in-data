@@ -153,7 +153,7 @@ export default function Home(){
                             <Text size='28px' fw={"600"} fz={{ base:"24px", xs:"28px"}}>Economy</Text>
                             <Space h={"xs"}/>
                             <Anchor>Gdp per capita</Anchor>
-                            <Anchor>Gdp per capita ppp</Anchor>
+                            <Anchor>Gdp per capita PPP</Anchor>
                             <Anchor>Net average wage</Anchor>
                             <Anchor>Unemployment</Anchor>
                             <Anchor>Home affordability</Anchor>
@@ -190,16 +190,16 @@ export default function Home(){
                         > 
                             <Text size='28px' fw={"600"} fz={{ base:"24px", xs:"28px"}}>Government</Text>
                             <Space h={"xs"}/>
-                            <Anchor>Rule of law</Anchor>
-                            <Anchor>Freedom of press</Anchor>
-                            <Anchor>Availabity of healthcare</Anchor>
-                            <Anchor>Egovernment</Anchor>
-                            <Anchor>Economy</Anchor>
-                            <Anchor>Economy</Anchor>
-                            <Anchor>Economy</Anchor>
-                            <Anchor>Economy</Anchor>
-                            <Anchor>Economy</Anchor>
-                            <Anchor>Economy</Anchor>
+                            <Anchor>Coming soon</Anchor>
+                            <Anchor>Coming soon</Anchor>
+                            <Anchor>Coming soon</Anchor>
+                            <Anchor>Coming soon</Anchor>
+                            <Anchor>Coming soon</Anchor>
+                            <Anchor>Coming soon</Anchor>
+                            <Anchor>Coming soon</Anchor>
+                            <Anchor>Coming soon</Anchor>
+                            <Anchor>Coming soon</Anchor>
+                            <Anchor>Coming soon</Anchor>
                         </Flex>
                     </GridCol>
                     
@@ -210,16 +210,16 @@ export default function Home(){
                         >
                             <Text size='28px' fw={"600"} fz={{ base:"24px", xs:"28px"}}>Ease of integration</Text>
                             <Space h={"xs"}/>
-                            <Anchor>Learning the local language</Anchor>
-                            <Anchor>English proficiency</Anchor>
-                            <Anchor>Economy</Anchor>
-                            <Anchor>Economy</Anchor>
-                            <Anchor>Economy</Anchor>
-                            <Anchor>Economy</Anchor>
-                            <Anchor>Economy</Anchor>
-                            <Anchor>Economy</Anchor>
-                            <Anchor>Economy</Anchor>
-                            <Anchor>Economy</Anchor>
+                            <Anchor>Coming soon</Anchor>
+                            <Anchor>Coming soon</Anchor>
+                            <Anchor>Coming soon</Anchor>
+                            <Anchor>Coming soon</Anchor>
+                            <Anchor>Coming soon</Anchor>
+                            <Anchor>Coming soon</Anchor>
+                            <Anchor>Coming soon</Anchor>
+                            <Anchor>Coming soon</Anchor>
+                            <Anchor>Coming soon</Anchor>
+                            <Anchor>Coming soon</Anchor>
                         </Flex>
                     </GridCol>
             
@@ -229,16 +229,16 @@ export default function Home(){
                         >
                             <Text size='28px' fw={"600"} fz={{ base:"24px", xs:"28px"}}>Environment</Text>
                             <Space h={"xs"}/>
-                            <Anchor>Economy</Anchor>
-                            <Anchor>Economy</Anchor>
-                            <Anchor>Economy</Anchor>
-                            <Anchor>Economy</Anchor>
-                            <Anchor>Economy</Anchor>
-                            <Anchor>Economy</Anchor>
-                            <Anchor>Economy</Anchor>
-                            <Anchor>Economy</Anchor>
-                            <Anchor>Economy</Anchor>
-                            <Anchor>Economy</Anchor>
+                            <Anchor>Coming soon</Anchor>
+                            <Anchor>Coming soon</Anchor>
+                            <Anchor>Coming soon</Anchor>
+                            <Anchor>Coming soon</Anchor>
+                            <Anchor>Coming soon</Anchor>
+                            <Anchor>Coming soon</Anchor>
+                            <Anchor>Coming soon</Anchor>
+                            <Anchor>Coming soon</Anchor>
+                            <Anchor>Coming soon</Anchor>
+                            <Anchor>Coming soon</Anchor>
                         </Flex>
                     </GridCol>
 

@@ -50,11 +50,13 @@ export default function RootLayout({
   return (
     <html lang="en" className={roboto.className} 
     >
+
     <link
       rel="icon"
       href="./favicon.png"
       type="image/<generated>"
     />
+
       <body>
       <MantineProvider theme={theme} defaultColorScheme='light' >
         <AppLayout>

@@ -1,3 +1,4 @@
+'use client';
 
 import { ScrollArea, Flex, Text, Anchor } from "@mantine/core"
 
