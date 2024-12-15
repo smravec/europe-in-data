@@ -15,7 +15,6 @@ export const countries = [
     '🇮🇪 Ireland',
     '🇮🇹 Italy',
     '🇱🇻 Latvia',
-    '🇱🇮 Liechtenstein',
     '🇱🇹 Lithuania',
     '🇱🇺 Luxembourg',
     '🇲🇹 Malta',

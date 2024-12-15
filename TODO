@@ -40,7 +40,7 @@ split python files for each api
 
 make a model on where the data is saved - DONE
 
-make a module that just writes the data into the file - WORKING
+make a module that just writes the data into the file - DONE
 
 setup and go trough imf - DONE
 
@@ -48,7 +48,7 @@ setup and go trough world bank
 
 setup and go trough eurostat
 
-scrape imf for economy data
+scrape imf for economy data - WORKING
 
 scrape world bank for both economy and society data
 
