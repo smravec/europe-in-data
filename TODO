@@ -18,6 +18,8 @@ Mvp - WORKING
 ###
 Scrape data for economy and society categories - WORKING 
 
+Link data with the website
+
 Finish economy page
 
 Finish society page
@@ -46,7 +48,7 @@ setup and go trough imf - DONE
 
 setup and go trough world bank
 
-setup and go trough eurostat
+setup and go trough eurostat - WORKING
 
 scrape imf for economy data - DONE
 
@@ -61,27 +63,28 @@ scrape :
 
 Gdp per capita - imf - DONE
 Gdp per capita ppp - imf - DONE
-Net average wage - Research
+Net average wage - Research , get from eurostat
 Unemployment - imf - DONE
-Home affordability - Research
+Home affordability - Research, get average price from numbeo and compare to average wage ppp
 Gdp growth past 5 years - imf - DONE
 Debt to gdp - imf - DONE
-Corporate tax - manual
+Corporate tax - manual trading economics - DONE
 Capital gains tax - manual
-Value added tax - manual
+Value added tax - manual 
+R&D(Inovation) spending - eurostat 
+
 
 Trust in institutions
 Trust in other people
 Voting participation
 Corruption
-Secondary education
-Tertiary education
+Tertiary education - eurostat
 Pisa results
 Obesity rate
-Fertility rate
-Average lifespan
+Fertility rate - eurostat
+Average lifespan - eurostat
+Risk of poverty - eurostat
 
-R&D spending per unit of GDP (inovation index)
 
 ###
 Economy page

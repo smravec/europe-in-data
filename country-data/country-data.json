@@ -7,7 +7,8 @@
             "Gdp growth": -0.8,
             "Unemployment": 5.1,
             "Government debt": 77.544997945118,
-            "Gdp growth past 5 years": 2.6960151454720034
+            "Gdp growth past 5 years": 2.6960151454720034,
+            "corporate tax": 23
         }
     },
     "Belgium": {
@@ -18,7 +19,8 @@
             "Gdp growth": 1.4,
             "Unemployment": 5.5,
             "Government debt": 105.17086569329,
-            "Gdp growth past 5 years": 8.057212413331996
+            "Gdp growth past 5 years": 8.057212413331996,
+            "corporate tax": 25
         }
     },
     "Bulgaria": {
@@ -29,7 +31,8 @@
             "Gdp growth": 1.8,
             "Unemployment": 4.4,
             "Government debt": 32.917952654039,
-            "Gdp growth past 5 years": 13.732242191360001
+            "Gdp growth past 5 years": 13.732242191360001,
+            "corporate tax": 10
         }
     },
     "Croatia": {
@@ -40,7 +43,8 @@
             "Gdp growth": 3.1,
             "Unemployment": 6.2,
             "Government debt": 63.018359661052,
-            "Gdp growth past 5 years": 17.940379063099996
+            "Gdp growth past 5 years": 17.940379063099996,
+            "corporate tax": 18
         }
     },
     "Cyprus": {
@@ -51,7 +55,8 @@
             "Gdp growth": 2.5,
             "Unemployment": 6.1,
             "Government debt": 77.414465791357,
-            "Gdp growth past 5 years": 20.65737145542502
+            "Gdp growth past 5 years": 20.65737145542502,
+            "corporate tax": 12.5
         }
     },
     "Czechia": {
@@ -62,7 +67,8 @@
             "Gdp growth": -0.1,
             "Unemployment": 2.6,
             "Government debt": 42.375071814781,
-            "Gdp growth past 5 years": 4.785617396096015
+            "Gdp growth past 5 years": 4.785617396096015,
+            "corporate tax": 21
         }
     },
     "Denmark": {
@@ -73,7 +79,8 @@
             "Gdp growth": 2.5,
             "Unemployment": 2.8,
             "Government debt": 29.662575145031,
-            "Gdp growth past 5 years": 11.590347424849995
+            "Gdp growth past 5 years": 11.590347424849995,
+            "corporate tax": 22
         }
     },
     "Estonia": {
@@ -84,7 +91,8 @@
             "Gdp growth": -3,
             "Unemployment": 6.4,
             "Government debt": 19.314210136909,
-            "Gdp growth past 5 years": 4.7112318742489805
+            "Gdp growth past 5 years": 4.7112318742489805,
+            "corporate tax": 20
         }
     },
     "Finland": {
@@ -95,7 +103,8 @@
             "Gdp growth": -1.2,
             "Unemployment": 7.2,
             "Government debt": 77.024985733508,
-            "Gdp growth past 5 years": 1.7202670074500048
+            "Gdp growth past 5 years": 1.7202670074500048,
+            "corporate tax": 20
         }
     },
     "Germany": {
@@ -106,7 +115,8 @@
             "Gdp growth": -0.3,
             "Unemployment": 3,
             "Government debt": 62.660080515106,
-            "Gdp growth past 5 years": 1.5434350161140031
+            "Gdp growth past 5 years": 1.5434350161140031,
+            "corporate tax": 30
         }
     },
     "Greece": {
@@ -117,7 +127,8 @@
             "Gdp growth": 2,
             "Unemployment": 11.1,
             "Government debt": 168.86903697697,
-            "Gdp growth past 5 years": 7.9132676272640055
+            "Gdp growth past 5 years": 7.9132676272640055,
+            "corporate tax": 22
         }
     },
     "Hungary": {
@@ -128,7 +139,8 @@
             "Gdp growth": -0.9,
             "Unemployment": 4.1,
             "Government debt": 69.441622867879,
-            "Gdp growth past 5 years": 11.217638557276999
+            "Gdp growth past 5 years": 11.217638557276999,
+            "corporate tax": 9
         }
     },
     "Iceland": {
@@ -139,7 +151,8 @@
             "Gdp growth": 5,
             "Unemployment": 3.4,
             "Government debt": 62.242740759889,
-            "Gdp growth past 5 years": 14.332061220650004
+            "Gdp growth past 5 years": 14.332061220650004,
+            "corporate tax": 21
         }
     },
     "Ireland": {
@@ -150,7 +163,8 @@
             "Gdp growth": -5.5,
             "Unemployment": 4.3,
             "Government debt": 43.273190417922,
-            "Gdp growth past 5 years": 34.34621424559998
+            "Gdp growth past 5 years": 34.34621424559998,
+            "corporate tax": 12.5
         }
     },
     "Italy": {
@@ -161,7 +175,8 @@
             "Gdp growth": 0.7,
             "Unemployment": 7.7,
             "Government debt": 134.79373316076,
-            "Gdp growth past 5 years": 5.016157063096401
+            "Gdp growth past 5 years": 5.016157063096401,
+            "corporate tax": 24
         }
     },
     "Latvia": {
@@ -172,7 +187,8 @@
             "Gdp growth": -0.3,
             "Unemployment": 6.5,
             "Government debt": 43.574350810604,
-            "Gdp growth past 5 years": 6.370719414629988
+            "Gdp growth past 5 years": 6.370719414629988,
+            "corporate tax": 20
         }
     },
     "Lithuania": {
@@ -183,7 +199,8 @@
             "Gdp growth": -0.3,
             "Unemployment": 6.9,
             "Government debt": 38.289577071899,
-            "Gdp growth past 5 years": 13.523401056665591
+            "Gdp growth past 5 years": 13.523401056665591,
+            "corporate tax": 15
         }
     },
     "Luxembourg": {
@@ -194,7 +211,8 @@
             "Gdp growth": -1.1,
             "Unemployment": 5.2,
             "Government debt": 25.669621748664,
-            "Gdp growth past 5 years": 9.627134195196817
+            "Gdp growth past 5 years": 9.627134195196817,
+            "corporate tax": 24.94
         }
     },
     "Malta": {
@@ -205,7 +223,8 @@
             "Gdp growth": 7.5,
             "Unemployment": 3.1,
             "Government debt": 50.396603340902,
-            "Gdp growth past 5 years": 27.594836032062503
+            "Gdp growth past 5 years": 27.594836032062503,
+            "corporate tax": 35
         }
     },
     "Netherlands": {
@@ -216,7 +235,8 @@
             "Gdp growth": 0.1,
             "Unemployment": 3.6,
             "Government debt": 45.023552850836,
-            "Gdp growth past 5 years": 9.83877038634499
+            "Gdp growth past 5 years": 9.83877038634499,
+            "corporate tax": 25.8
         }
     },
     "Norway": {
@@ -227,7 +247,8 @@
             "Gdp growth": 0.5,
             "Unemployment": 3.6,
             "Government debt": 44.003717155229,
-            "Gdp growth past 5 years": 7.321600881845001
+            "Gdp growth past 5 years": 7.321600881845001,
+            "corporate tax": 22
         }
     },
     "Poland": {
@@ -238,7 +259,8 @@
             "Gdp growth": 0.2,
             "Unemployment": 2.8,
             "Government debt": 49.594290433829,
-            "Gdp growth past 5 years": 15.727326235136005
+            "Gdp growth past 5 years": 15.727326235136005,
+            "corporate tax": 19
         }
     },
     "Portugal": {
@@ -249,7 +271,8 @@
             "Gdp growth": 2.3,
             "Unemployment": 6.6,
             "Government debt": 99.080990490538,
-            "Gdp growth past 5 years": 8.758110294033202
+            "Gdp growth past 5 years": 8.758110294033202,
+            "corporate tax": 21
         }
     },
     "Romania": {
@@ -260,7 +283,8 @@
             "Gdp growth": 2.1,
             "Unemployment": 5.6,
             "Government debt": 48.854045092801,
-            "Gdp growth past 5 years": 12.406983535088884
+            "Gdp growth past 5 years": 12.406983535088884,
+            "corporate tax": 16
         }
     },
     "Slovakia": {
@@ -271,7 +295,8 @@
             "Gdp growth": 1.6,
             "Unemployment": 5.8,
             "Government debt": 56.045018145518,
-            "Gdp growth past 5 years": 7.542347942559999
+            "Gdp growth past 5 years": 7.542347942559999,
+            "corporate tax": 21
         }
     },
     "Slovenia": {
@@ -282,7 +307,8 @@
             "Gdp growth": 2.1,
             "Unemployment": 3.7,
             "Government debt": 69.219491009612,
-            "Gdp growth past 5 years": 12.819566032081994
+            "Gdp growth past 5 years": 12.819566032081994,
+            "corporate tax": 22
         }
     },
     "Spain": {
@@ -293,7 +319,8 @@
             "Gdp growth": 2.7,
             "Unemployment": 12.2,
             "Government debt": 105.03425867836,
-            "Gdp growth past 5 years": 5.7638509773560145
+            "Gdp growth past 5 years": 5.7638509773560145,
+            "corporate tax": 25
         }
     },
     "Sweden": {
@@ -304,7 +331,8 @@
             "Gdp growth": -0.2,
             "Unemployment": 7.7,
             "Government debt": 36.37122985845,
-            "Gdp growth past 5 years": 7.756253853499999
+            "Gdp growth past 5 years": 7.756253853499999,
+            "corporate tax": 20.6
         }
     },
     "Switzerland": {
@@ -315,7 +343,8 @@
             "Gdp growth": 0.7,
             "Unemployment": 2,
             "Government debt": 33.316519546232,
-            "Gdp growth past 5 years": 8.399462875404808
+            "Gdp growth past 5 years": 8.399462875404808,
+            "corporate tax": 14.6
         }
     }
 }
