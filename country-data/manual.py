@@ -67,12 +67,45 @@ countries_corporate_tax_2023 = [
     [20.6,"Sweden"]  
 ]
 
+countries_capital_gains_tax_2023 = [
+    [27.5,"Austria"],
+    [0,"Belgium"],
+    [10,"Bulgaria"],
+    [0,"Switzerland"],
+    [20,"Cyprus"],
+    [0,"Czechia"],
+    [26.4,"Germany"],
+    [42,"Denmark"],
+    [28,"Spain"],
+    [20,"Estonia"],
+    [34,"Finland"],
+    [34,"France"],
+    [15,"Greece"],
+    [12,"Croatia"],
+    [15,"Hungary"],
+    [33,"Ireland"],
+    [26,"Italy"],
+    [22,"Iceland"],
+    [20,"Lithuania"],
+    [0,"Luxembourg"],
+    [20,"Latvia"],
+    [0,"Malta"],
+    [33,"Netherlands"],
+    [37.8,"Norway"],
+    [19,"Poland"],
+    [28,"Portugal"],
+    [10,"Romania"],
+    [0,"Slovakia"],
+    [0,"Slovenia"],
+    [30,"Sweden"]  
+]
+
 
 #Write data
 from update_country_data import write_data
 
-data_to_write = countries_corporate_tax_2023
-indicator = "corporate tax"
+data_to_write = countries_capital_gains_tax_2023
+indicator = "Capital gains tax"
 year = "2023"
 
 for country in data_to_write:

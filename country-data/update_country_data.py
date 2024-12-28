@@ -1,6 +1,8 @@
 import json
 
 #Format for data {"Country name": value}
+#Pass either one or more keys
+
 def write_data(year:str, indicator:str, data:dict):
     #Load all current data and convert to dict
     with open("country-data.json", "r") as file:

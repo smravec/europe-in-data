@@ -1,0 +1,406 @@
+{
+  "columns": [
+    {
+      "cards": [
+        {
+          "id": "hhqywjsyzlpmjautanxdxqa5",
+          "name": "Finish economy page"
+        },
+        {
+          "id": "m7oefb44x4axg73237fyj3ea",
+          "name": "Finish society page"
+        },
+        {
+          "id": "u0oapabb7dv5u2qg337lbpsp",
+          "name": "Add coming soon to other pages + email signup"
+        },
+        {
+          "id": "o37guznk0t0pu9k94za8w50u",
+          "name": "Market on redit"
+        },
+        {
+          "id": "nhnp1p1w82ijfqr2g9jmuxnt",
+          "name": "Finish data scraping for economy and society",
+          "tags": [
+            {
+              "text": "Working",
+              "tiClasses": [
+                "ti-valid"
+              ],
+              "id": "ekxvwjggbpcafzo3x8vor0t7",
+              "color": "#26a269",
+              "style": "background-color: #26a269; color: #f4f4f5"
+            }
+          ],
+          "dueDate": "2024-12-30T23:00:00.000Z",
+          "isDueDateCounterRelative": false,
+          "tasks": [
+            {
+              "finished": false,
+              "id": "rlcpw6r2jfxhs5l178f4rxio",
+              "name": "Economy"
+            },
+            {
+              "finished": false,
+              "id": "bhu5ywlzerzw4470ruyq4kzh",
+              "name": "Society"
+            }
+          ]
+        }
+      ],
+      "id": "uo2nfuxvrwmqpmg8l6xkfh9j",
+      "title": "Mvp"
+    },
+    {
+      "cards": [
+        {
+          "id": "rc00lutvylw7ewhflb0mawpd",
+          "name": "setup and browse world bank data",
+          "dueDate": null,
+          "isDueDateCounterRelative": false
+        },
+        {
+          "id": "lgjygij5aiigk6gf2p15s5lb",
+          "name": "scrape for society data",
+          "dueDate": "2024-12-30T23:00:00.000Z",
+          "isDueDateCounterRelative": false,
+          "description": "<p>scrape data and add the source at the end</p>",
+          "tasks": [
+            {
+              "finished": false,
+              "id": "wu3dq14tje2sw13g10kpmnq7",
+              "name": "Trust in institutions"
+            },
+            {
+              "finished": false,
+              "id": "il9n6ak2k6nuagzkyyo7i2xs",
+              "name": "Trust in other people"
+            },
+            {
+              "finished": false,
+              "id": "cpzvb7lsr25y1bseui5417yw",
+              "name": "Voting participation"
+            },
+            {
+              "finished": false,
+              "id": "lea0us6oprbvbx8ylejt8g87",
+              "name": "Corruption"
+            },
+            {
+              "finished": false,
+              "id": "ype0kjax7vj8obu45fihcewd",
+              "name": "Tertiary education - eurostat"
+            },
+            {
+              "finished": false,
+              "id": "cuiz3joc1rje0mlv3ezikio8",
+              "name": "Pisa results"
+            },
+            {
+              "finished": false,
+              "id": "zo05ub9gc64cuk7v2e7ezltl",
+              "name": "Obesity rate"
+            },
+            {
+              "finished": false,
+              "id": "fdrm9mw8aw03xvbtdgckpfs3",
+              "name": "Fertility rate - eurostat"
+            },
+            {
+              "finished": false,
+              "id": "egh5yd8mpo97kia4cs9qjpbw",
+              "name": "Average lifespan - eurostat"
+            },
+            {
+              "finished": false,
+              "id": "bxjn7d3zpfve15iji9bx34pr",
+              "name": "Risk of poverty - eurostat"
+            }
+          ]
+        },
+        {
+          "id": "cm4ehayjkyd44b7ex3hpk5hw",
+          "name": "scrape for economy data",
+          "tasks": [
+            {
+              "finished": true,
+              "id": "p1q1mt93ctzmo4wq3eu6u86n",
+              "name": "Gdp per capita - imf"
+            },
+            {
+              "finished": true,
+              "id": "nj76m1unr9ieljbwpnlbypwl",
+              "name": "Gdp per capita ppp - imf"
+            },
+            {
+              "finished": false,
+              "id": "ig1dm402ls94ekqhf6bf3lau",
+              "name": "Net average wage - eurostat"
+            },
+            {
+              "finished": true,
+              "id": "d7x0h3qtn4tn7lvkn3oj6zjw",
+              "name": "Unemployment - imf"
+            },
+            {
+              "finished": false,
+              "id": "mvqpq7xm2bjirq8cntn7zbrk",
+              "name": "Home affordability - net average wage (eurostat) + get the average house price "
+            },
+            {
+              "finished": true,
+              "id": "giptqe8l7bqnmah9eqit6ol8",
+              "name": "Gdp growth past 5 years - imf"
+            },
+            {
+              "finished": true,
+              "id": "nios8ztmqvvjevqaw5gybzx0",
+              "name": "Debt to gdp - imf"
+            },
+            {
+              "finished": true,
+              "id": "rkn8beiy37pbvatk26ib7osc",
+              "name": "Corporate tax - manual"
+            },
+            {
+              "finished": true,
+              "id": "u575gc55vq60uuyfmcf91k1z",
+              "name": "Capital gains tax - manual"
+            },
+            {
+              "finished": false,
+              "id": "utagl6rg7wl2lbatc5ug3lb7",
+              "name": "Value added tax - manual"
+            },
+            {
+              "finished": true,
+              "id": "numuou3t9wfij9q18qp8rgb3",
+              "name": "R&D(Inovation) spending - eurostat"
+            }
+          ],
+          "dueDate": "2024-12-27T23:00:00.000Z",
+          "isDueDateCounterRelative": false,
+          "description": "<p>scrape data and add the source at the end</p>"
+        }
+      ],
+      "id": "ru7xvj6ei4tlhp6n4v3t87nm",
+      "title": "Scraping"
+    },
+    {
+      "cards": [
+        {
+          "id": "ux0hm9qphwwvyfb5bb22bo0h",
+          "name": "Make the leaflet map work with european countries leaderboard",
+          "description": "",
+          "tags": [
+            {
+              "text": "Low priority",
+              "tiClasses": [
+                "ti-valid"
+              ],
+              "id": "dzogd83fjv1da0z210p1x8lc",
+              "color": "#99c1f1",
+              "style": "background-color: #99c1f1; color: #1e293b"
+            }
+          ]
+        },
+        {
+          "id": "cc6ra2tpsvzvkkbbut7wziv4",
+          "name": "Make all categories use show more button (to show categories that would mess the layout normally)",
+          "tags": [
+            {
+              "text": "Low priority",
+              "tiClasses": [
+                "ti-valid"
+              ],
+              "id": "dzogd83fjv1da0z210p1x8lc",
+              "color": "#99c1f1",
+              "style": "background-color: #99c1f1; color: #1e293b"
+            }
+          ]
+        },
+        {
+          "id": "j7msmkdho841tzvr0vhe659a",
+          "name": "Make sure the emojis are rendering everywhere, even on windows",
+          "tags": [
+            {
+              "text": "Low priority",
+              "tiClasses": [
+                "ti-valid"
+              ],
+              "id": "dzogd83fjv1da0z210p1x8lc",
+              "color": "#99c1f1",
+              "style": "background-color: #99c1f1; color: #1e293b"
+            }
+          ]
+        },
+        {
+          "id": "lnpk14kk8dgvxux9baoxo7tk",
+          "name": "Extract leaderboard component into its own component",
+          "tags": [
+            {
+              "text": "Low priority",
+              "tiClasses": [
+                "ti-valid"
+              ],
+              "id": "dzogd83fjv1da0z210p1x8lc",
+              "color": "#99c1f1",
+              "style": "background-color: #99c1f1; color: #1e293b"
+            }
+          ]
+        },
+        {
+          "id": "nvvs70pvbzw8acvu3wd9ob5x",
+          "name": "Make a footer",
+          "tags": [
+            {
+              "text": "Low priority",
+              "tiClasses": [
+                "ti-valid"
+              ],
+              "id": "dzogd83fjv1da0z210p1x8lc",
+              "color": "#99c1f1",
+              "style": "background-color: #99c1f1; color: #1e293b"
+            }
+          ]
+        }
+      ],
+      "id": "tecnq268zp4um8vkwelldu6a",
+      "title": "Main page"
+    },
+    {
+      "cards": [],
+      "id": "bwqw55gtoc7vpef998uxt5nv",
+      "title": "Economy page"
+    },
+    {
+      "cards": [],
+      "id": "ydrvthiw2v3azyhoe52qbvu7",
+      "title": "Society page"
+    },
+    {
+      "cards": [],
+      "id": "ofmjsp4xrafl472tw0yawkme",
+      "title": "Done"
+    },
+    {
+      "cards": [
+        {
+          "id": "hbaqydmedxutx4ql9u4w20lr",
+          "name": "Economy",
+          "dueDate": null,
+          "isDueDateCounterRelative": false,
+          "description": "<p>Gdp per capita</p><p>Gdp per capita ppp</p><p>Net average wage</p><p>Unemployment</p><p>Home affordability</p><p>Gdp growth past 5 years</p><p>Debt to gdp</p><p>Corporate tax</p><p>Capital gains tax</p><p>Value added tax</p>",
+          "tags": [
+            {
+              "text": "Info",
+              "tiClasses": [
+                "ti-valid"
+              ],
+              "id": "wbard9vfi28x9cldpkxoe7qn",
+              "color": "#77767b",
+              "style": "background-color: #77767b; color: #f4f4f5"
+            }
+          ]
+        },
+        {
+          "id": "riidntdu5fndrbwdh0a3kywf",
+          "name": "Society",
+          "tags": [
+            {
+              "text": "Info",
+              "tiClasses": [
+                "ti-valid"
+              ],
+              "id": "wbard9vfi28x9cldpkxoe7qn",
+              "color": "#77767b",
+              "style": "background-color: #77767b; color: #f4f4f5"
+            }
+          ],
+          "description": "<p>Trust in institutions</p><p>Trust in other people</p><p>Voting participation</p><p>Corruption</p><p>Secondary education</p><p>Tertiary education</p><p>Pisa results</p><p>Obesity rate</p><p>Fertility rate</p><p>Average lifespan</p>"
+        },
+        {
+          "id": "xtgdwb3iks6guwk8mgwgujk9",
+          "name": "Government",
+          "description": "<p>Rule of law</p><p>Freedom of press</p><p>Availabity of healthcare</p><p>Egovernment</p>",
+          "tags": [
+            {
+              "text": "Info",
+              "tiClasses": [
+                "ti-valid"
+              ],
+              "id": "wbard9vfi28x9cldpkxoe7qn",
+              "color": "#77767b",
+              "style": "background-color: #77767b; color: #f4f4f5"
+            }
+          ]
+        },
+        {
+          "id": "kasx6s28jt5o7e74yc5no8h4",
+          "name": "Ease of integration",
+          "description": "<p>Learning the local language</p><p>English proficiency</p>",
+          "tags": [
+            {
+              "text": "Info",
+              "tiClasses": [
+                "ti-valid"
+              ],
+              "id": "wbard9vfi28x9cldpkxoe7qn",
+              "color": "#77767b",
+              "style": "background-color: #77767b; color: #f4f4f5"
+            }
+          ]
+        },
+        {
+          "id": "fpomm43cqx5fo1jb3niw4n45",
+          "name": "Environment",
+          "tags": [
+            {
+              "text": "Info",
+              "tiClasses": [
+                "ti-valid"
+              ],
+              "id": "wbard9vfi28x9cldpkxoe7qn",
+              "color": "#77767b",
+              "style": "background-color: #77767b; color: #f4f4f5"
+            }
+          ]
+        }
+      ],
+      "id": "cpxjnedx006b2y7otz6lha63",
+      "title": "Categories"
+    }
+  ],
+  "id": "i79deiwabihysxzme3s6v668",
+  "lastEdited": "2024-12-28T14:58:28.217Z",
+  "title": "Europe in data",
+  "globalTags": [
+    {
+      "text": "Low priority",
+      "tiClasses": [
+        "ti-valid"
+      ],
+      "id": "dzogd83fjv1da0z210p1x8lc",
+      "color": "#99c1f1",
+      "style": "background-color: #99c1f1; color: #1e293b"
+    },
+    {
+      "text": "Working",
+      "tiClasses": [
+        "ti-valid"
+      ],
+      "id": "ekxvwjggbpcafzo3x8vor0t7",
+      "color": "#26a269",
+      "style": "background-color: #26a269; color: #f4f4f5"
+    },
+    {
+      "text": "Info",
+      "tiClasses": [
+        "ti-valid"
+      ],
+      "id": "wbard9vfi28x9cldpkxoe7qn",
+      "color": "#77767b",
+      "style": "background-color: #77767b; color: #f4f4f5"
+    }
+  ]
+}

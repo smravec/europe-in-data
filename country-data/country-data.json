@@ -8,7 +8,12 @@
             "Unemployment": 5.1,
             "Government debt": 77.544997945118,
             "Gdp growth past 5 years": 2.6960151454720034,
-            "corporate tax": 23
+            "Corporate tax": 23,
+            "Capital gains tax": 27.5
+        },
+        "2021": {
+            "R&D (Innovation) spending": 2.99,
+            "R&D (Innovation) spending in eur": 1361.534
         }
     },
     "Belgium": {
@@ -20,7 +25,12 @@
             "Unemployment": 5.5,
             "Government debt": 105.17086569329,
             "Gdp growth past 5 years": 8.057212413331996,
-            "corporate tax": 25
+            "Corporate tax": 25,
+            "Capital gains tax": 0
+        },
+        "2021": {
+            "R&D (Innovation) spending": 3.09,
+            "R&D (Innovation) spending in eur": 1356.347
         }
     },
     "Bulgaria": {
@@ -32,7 +42,12 @@
             "Unemployment": 4.4,
             "Government debt": 32.917952654039,
             "Gdp growth past 5 years": 13.732242191360001,
-            "corporate tax": 10
+            "Corporate tax": 10,
+            "Capital gains tax": 10
+        },
+        "2021": {
+            "R&D (Innovation) spending": 0.56,
+            "R&D (Innovation) spending in eur": 60.778
         }
     },
     "Croatia": {
@@ -44,7 +59,12 @@
             "Unemployment": 6.2,
             "Government debt": 63.018359661052,
             "Gdp growth past 5 years": 17.940379063099996,
-            "corporate tax": 18
+            "Corporate tax": 18,
+            "Capital gains tax": 12
+        },
+        "2021": {
+            "R&D (Innovation) spending": 0.98,
+            "R&D (Innovation) spending in eur": 146.891
         }
     },
     "Cyprus": {
@@ -56,7 +76,12 @@
             "Unemployment": 6.1,
             "Government debt": 77.414465791357,
             "Gdp growth past 5 years": 20.65737145542502,
-            "corporate tax": 12.5
+            "Corporate tax": 12.5,
+            "Capital gains tax": 20
+        },
+        "2021": {
+            "R&D (Innovation) spending": 0.63,
+            "R&D (Innovation) spending in eur": 179.41
         }
     },
     "Czechia": {
@@ -68,7 +93,12 @@
             "Unemployment": 2.6,
             "Government debt": 42.375071814781,
             "Gdp growth past 5 years": 4.785617396096015,
-            "corporate tax": 21
+            "Corporate tax": 21,
+            "Capital gains tax": 0
+        },
+        "2021": {
+            "R&D (Innovation) spending": 1.6,
+            "R&D (Innovation) spending in eur": 376.46799999999996
         }
     },
     "Denmark": {
@@ -80,7 +110,12 @@
             "Unemployment": 2.8,
             "Government debt": 29.662575145031,
             "Gdp growth past 5 years": 11.590347424849995,
-            "corporate tax": 22
+            "Corporate tax": 22,
+            "Capital gains tax": 42
+        },
+        "2021": {
+            "R&D (Innovation) spending": 2.6399999999999997,
+            "R&D (Innovation) spending in eur": 1560.77
         }
     },
     "Estonia": {
@@ -92,7 +127,12 @@
             "Unemployment": 6.4,
             "Government debt": 19.314210136909,
             "Gdp growth past 5 years": 4.7112318742489805,
-            "corporate tax": 20
+            "Corporate tax": 20,
+            "Capital gains tax": 20
+        },
+        "2021": {
+            "R&D (Innovation) spending": 1.5699999999999998,
+            "R&D (Innovation) spending in eur": 370.558
         }
     },
     "Finland": {
@@ -104,7 +144,12 @@
             "Unemployment": 7.2,
             "Government debt": 77.024985733508,
             "Gdp growth past 5 years": 1.7202670074500048,
-            "corporate tax": 20
+            "Corporate tax": 20,
+            "Capital gains tax": 34
+        },
+        "2021": {
+            "R&D (Innovation) spending": 2.7699999999999996,
+            "R&D (Innovation) spending in eur": 1244.008
         }
     },
     "Germany": {
@@ -116,7 +161,12 @@
             "Unemployment": 3,
             "Government debt": 62.660080515106,
             "Gdp growth past 5 years": 1.5434350161140031,
-            "corporate tax": 30
+            "Corporate tax": 30,
+            "Capital gains tax": 26.4
+        },
+        "2021": {
+            "R&D (Innovation) spending": 2.62,
+            "R&D (Innovation) spending in eur": 1159.551
         }
     },
     "Greece": {
@@ -128,7 +178,12 @@
             "Unemployment": 11.1,
             "Government debt": 168.86903697697,
             "Gdp growth past 5 years": 7.9132676272640055,
-            "corporate tax": 22
+            "Corporate tax": 22,
+            "Capital gains tax": 15
+        },
+        "2021": {
+            "R&D (Innovation) spending": 1.1,
+            "R&D (Innovation) spending in eur": 191.071
         }
     },
     "Hungary": {
@@ -140,7 +195,12 @@
             "Unemployment": 4.1,
             "Government debt": 69.441622867879,
             "Gdp growth past 5 years": 11.217638557276999,
-            "corporate tax": 9
+            "Corporate tax": 9,
+            "Capital gains tax": 15
+        },
+        "2021": {
+            "R&D (Innovation) spending": 1.46,
+            "R&D (Innovation) spending in eur": 234.01000000000002
         }
     },
     "Iceland": {
@@ -152,7 +212,12 @@
             "Unemployment": 3.4,
             "Government debt": 62.242740759889,
             "Gdp growth past 5 years": 14.332061220650004,
-            "corporate tax": 21
+            "Corporate tax": 21,
+            "Capital gains tax": 22
+        },
+        "2021": {
+            "R&D (Innovation) spending": 2.7,
+            "R&D (Innovation) spending in eur": 1597.5010000000002
         }
     },
     "Ireland": {
@@ -164,7 +229,12 @@
             "Unemployment": 4.3,
             "Government debt": 43.273190417922,
             "Gdp growth past 5 years": 34.34621424559998,
-            "corporate tax": 12.5
+            "Corporate tax": 12.5,
+            "Capital gains tax": 33
+        },
+        "2021": {
+            "R&D (Innovation) spending": 1.03,
+            "R&D (Innovation) spending in eur": 918.1479999999999
         }
     },
     "Italy": {
@@ -176,7 +246,12 @@
             "Unemployment": 7.7,
             "Government debt": 134.79373316076,
             "Gdp growth past 5 years": 5.016157063096401,
-            "corporate tax": 24
+            "Corporate tax": 24,
+            "Capital gains tax": 26
+        },
+        "2021": {
+            "R&D (Innovation) spending": 1.19,
+            "R&D (Innovation) spending in eur": 369.312
         }
     },
     "Latvia": {
@@ -188,7 +263,12 @@
             "Unemployment": 6.5,
             "Government debt": 43.574350810604,
             "Gdp growth past 5 years": 6.370719414629988,
-            "corporate tax": 20
+            "Corporate tax": 20,
+            "Capital gains tax": 20
+        },
+        "2021": {
+            "R&D (Innovation) spending": 0.63,
+            "R&D (Innovation) spending in eur": 107.30699999999999
         }
     },
     "Lithuania": {
@@ -200,7 +280,12 @@
             "Unemployment": 6.9,
             "Government debt": 38.289577071899,
             "Gdp growth past 5 years": 13.523401056665591,
-            "corporate tax": 15
+            "Corporate tax": 15,
+            "Capital gains tax": 20
+        },
+        "2021": {
+            "R&D (Innovation) spending": 0.93,
+            "R&D (Innovation) spending in eur": 186.96
         }
     },
     "Luxembourg": {
@@ -212,7 +297,12 @@
             "Unemployment": 5.2,
             "Government debt": 25.669621748664,
             "Gdp growth past 5 years": 9.627134195196817,
-            "corporate tax": 24.94
+            "Corporate tax": 24.94,
+            "Capital gains tax": 0
+        },
+        "2021": {
+            "R&D (Innovation) spending": 0.79,
+            "R&D (Innovation) spending in eur": 897.512
         }
     },
     "Malta": {
@@ -224,7 +314,12 @@
             "Unemployment": 3.1,
             "Government debt": 50.396603340902,
             "Gdp growth past 5 years": 27.594836032062503,
-            "corporate tax": 35
+            "Corporate tax": 35,
+            "Capital gains tax": 0
+        },
+        "2021": {
+            "R&D (Innovation) spending": 0.6,
+            "R&D (Innovation) spending in eur": 190.66500000000002
         }
     },
     "Netherlands": {
@@ -236,7 +331,12 @@
             "Unemployment": 3.6,
             "Government debt": 45.023552850836,
             "Gdp growth past 5 years": 9.83877038634499,
-            "corporate tax": 25.8
+            "Corporate tax": 25.8,
+            "Capital gains tax": 33
+        },
+        "2021": {
+            "R&D (Innovation) spending": 2.09,
+            "R&D (Innovation) spending in eur": 1068.425
         }
     },
     "Norway": {
@@ -248,7 +348,12 @@
             "Unemployment": 3.6,
             "Government debt": 44.003717155229,
             "Gdp growth past 5 years": 7.321600881845001,
-            "corporate tax": 22
+            "Corporate tax": 22,
+            "Capital gains tax": 37.8
+        },
+        "2021": {
+            "R&D (Innovation) spending": 1.6400000000000001,
+            "R&D (Innovation) spending in eur": 1293.335
         }
     },
     "Poland": {
@@ -260,7 +365,12 @@
             "Unemployment": 2.8,
             "Government debt": 49.594290433829,
             "Gdp growth past 5 years": 15.727326235136005,
-            "corporate tax": 19
+            "Corporate tax": 19,
+            "Capital gains tax": 19
+        },
+        "2021": {
+            "R&D (Innovation) spending": 1.38,
+            "R&D (Innovation) spending in eur": 217.599
         }
     },
     "Portugal": {
@@ -272,7 +382,12 @@
             "Unemployment": 6.6,
             "Government debt": 99.080990490538,
             "Gdp growth past 5 years": 8.758110294033202,
-            "corporate tax": 21
+            "Corporate tax": 21,
+            "Capital gains tax": 28
+        },
+        "2021": {
+            "R&D (Innovation) spending": 1.55,
+            "R&D (Innovation) spending in eur": 322.862
         }
     },
     "Romania": {
@@ -284,7 +399,12 @@
             "Unemployment": 5.6,
             "Government debt": 48.854045092801,
             "Gdp growth past 5 years": 12.406983535088884,
-            "corporate tax": 16
+            "Corporate tax": 16,
+            "Capital gains tax": 10
+        },
+        "2021": {
+            "R&D (Innovation) spending": 0.32,
+            "R&D (Innovation) spending in eur": 41.374
         }
     },
     "Slovakia": {
@@ -296,7 +416,12 @@
             "Unemployment": 5.8,
             "Government debt": 56.045018145518,
             "Gdp growth past 5 years": 7.542347942559999,
-            "corporate tax": 21
+            "Corporate tax": 21,
+            "Capital gains tax": 0
+        },
+        "2021": {
+            "R&D (Innovation) spending": 0.73,
+            "R&D (Innovation) spending in eur": 137.01600000000002
         }
     },
     "Slovenia": {
@@ -308,7 +433,12 @@
             "Unemployment": 3.7,
             "Government debt": 69.219491009612,
             "Gdp growth past 5 years": 12.819566032081994,
-            "corporate tax": 22
+            "Corporate tax": 22,
+            "Capital gains tax": 0
+        },
+        "2021": {
+            "R&D (Innovation) spending": 1.83,
+            "R&D (Innovation) spending in eur": 451.886
         }
     },
     "Spain": {
@@ -320,7 +450,12 @@
             "Unemployment": 12.2,
             "Government debt": 105.03425867836,
             "Gdp growth past 5 years": 5.7638509773560145,
-            "corporate tax": 25
+            "Corporate tax": 25,
+            "Capital gains tax": 28
+        },
+        "2021": {
+            "R&D (Innovation) spending": 1.15,
+            "R&D (Innovation) spending in eur": 301.327
         }
     },
     "Sweden": {
@@ -332,7 +467,12 @@
             "Unemployment": 7.7,
             "Government debt": 36.37122985845,
             "Gdp growth past 5 years": 7.756253853499999,
-            "corporate tax": 20.6
+            "Corporate tax": 20.6,
+            "Capital gains tax": 30
+        },
+        "2021": {
+            "R&D (Innovation) spending": 3.2600000000000002,
+            "R&D (Innovation) spending in eur": 1692.191
         }
     },
     "Switzerland": {
@@ -344,7 +484,12 @@
             "Unemployment": 2,
             "Government debt": 33.316519546232,
             "Gdp growth past 5 years": 8.399462875404808,
-            "corporate tax": 14.6
+            "Corporate tax": 14.6,
+            "Capital gains tax": 0
+        },
+        "2021": {
+            "R&D (Innovation) spending": 3.18,
+            "R&D (Innovation) spending in eur": 2528.983
         }
     }
 }
