@@ -100,12 +100,78 @@ countries_capital_gains_tax_2023 = [
     [30,"Sweden"]  
 ]
 
+countries_home_affordability = [
+    [11.2,"Austria"],
+    [6.8,"Belgium"],
+    [9.5,"Bulgaria"],
+    [10.3,"Switzerland"],
+    [8.2,"Cyprus"],
+    [12.8,"Czechia"],
+    [9.3,"Germany"],
+    [6.2,"Denmark"],
+    [8.1,"Spain"],
+    [11.1,"Estonia"],
+    [8.5,"Finland"],
+    [11.3,"France"],
+    [13.2,"Greece"],
+    [12.9,"Croatia"],
+    [13.7,"Hungary"],
+    [7.25,"Ireland"],
+    [10.3,"Italy"],
+    [6,"Iceland"],
+    [12,"Lithuania"],
+    [9.1,"Luxembourg"],
+    [9,"Latvia"],
+    [12.1,"Malta"],
+    [7.8,"Netherlands"],
+    [7.8,"Norway"],
+    [11.8,"Poland"],
+    [13.2,"Portugal"],
+    [10.5,"Romania"],
+    [14.6,"Slovakia"],
+    [12.5,"Slovenia"],
+    [7.8,"Sweden"]  
+]
+
+countries_value_added_tax = [
+    [20,"Austria"],
+    [21,"Belgium"],
+    [20,"Bulgaria"],
+    [8.1,"Switzerland"],
+    [19,"Cyprus"],
+    [21,"Czechia"],
+    [19,"Germany"],
+    [25,"Denmark"],
+    [21,"Spain"],
+    [22,"Estonia"],
+    [24,"Finland"],
+    [20,"France"],
+    [24,"Greece"],
+    [25,"Croatia"],
+    [27,"Hungary"],
+    [23,"Ireland"],
+    [22,"Italy"],
+    [24,"Iceland"],
+    [21,"Lithuania"],
+    [17,"Luxembourg"],
+    [21,"Latvia"],
+    [18,"Malta"],
+    [21,"Netherlands"],
+    [25,"Norway"],
+    [23,"Poland"],
+    [23,"Portugal"],
+    [19,"Romania"],
+    [23,"Slovakia"],
+    [22,"Slovenia"],
+    [25,"Sweden"]  
+]
+
 
 #Write data
 from update_country_data import write_data
 
-data_to_write = countries_capital_gains_tax_2023
-indicator = "Capital gains tax"
+data_to_write = countries_value_added_tax
+indicator = "Value added tax"
 year = "2023"
 
 for country in data_to_write:

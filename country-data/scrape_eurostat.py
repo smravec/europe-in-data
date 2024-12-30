@@ -2,11 +2,37 @@ import eurostat
 import requests
 from update_country_data import write_data
 
-#print(eurostat.get_toc(agency='all', dataset='all', lang='en')[-1])
+#True == Search mode, False == Download mode 
+search = True
 
-# toc_df = eurostat.get_toc_df()
-# f = eurostat.subset_toc_df(toc_df, '')
-# print(f)
+#Search eurostat datasets
+if search:
+
+    #Set the keyword
+    keyword = "Housing"
+
+    toc_df = eurostat.get_toc_df()
+    f = eurostat.subset_toc_df(toc_df, keyword)
+    print(f)
+
+##########################
+
+#Society datasets - code
+
+#Life expectancy by age, sex and NUTS 2 region
+#Fertility indicator - DEMO_FIND 
+#Population by educational attainment level, sex and NUTS 2 region
+#Persons at risk of poverty or social exclusion by NUTS region
+
+#Economy datasets - code
+
+#GERD by sector of performance and NUTS 2 region (R&D) - rd_e_gerdreg
+#Annual net earnings - earn_nt_net
+
+#Extracted indicators - methodology
+
+#R&D(Inovation) spending - spending in higher education + spending in entreprise business (% of gdp) year 2021 
+#Net average wage - net average wage 100% single working person in eur year 2023
 
 country_codes = [
     ["AT","Austria"],
@@ -43,63 +69,60 @@ country_codes = [
 
 country_codes_1 = [item[0] for item in country_codes]
 
-#Datasets
-# Life expectancy by age, sex and NUTS 2 region
-# Fertility indicator DEMO_FIND 2022
-# Population by educational attainment level, sex and NUTS 2 region
-# Persons at risk of poverty or social exclusion by NUTS region
+#Download dataset
 
-#test = eurostat.get_data("DEMO_FIND")
-# code = "DEMO_FIND"
-# #test = eurostat.get_pars(code)
-# filter_pars = {'startPeriod': 2022, 'endPeriod': 2022, 'geo': country_codes} 
-# test = eurostat.get_data(code, filter_pars=filter_pars )
+#Set dataset code
+code = "earn_nt_net"
 
-# fertility_rates = [[row[2], row[3]] for row in test if row[1] == 'TOTFERRT']
-# print(fertility_rates)
+#Set year
+year = 2023
 
-#Economy datasets
-# GERD by sector of performance and NUTS 2 region (R&D) - rd_e_gerdreg
-#Higher education sector + business entreprise sector
+if not search:
+    filter_pars = {'startPeriod': year, 'endPeriod': year, 'geo': country_codes_1}
 
-code = "rd_e_gerdreg"
-filter_pars = {'startPeriod': 2021, 'endPeriod': 2021, 'geo': country_codes_1}
+    dataset = eurostat.get_data(code, filter_pars=filter_pars )
 
-test = eurostat.get_data(code, filter_pars=filter_pars )
+    data_to_save = {}
 
-data_to_save = {}
+    #print(dataset)
 
-bes_pt = 0
-hes_pt = 0
-for x in test:
+    # #Net average wage
+    # for x in dataset:
 
-    # if x[1] == "BES" and x[2] == "EUR_HAB":
-    #     print(f"{x[3]} has a spending per capita of {x[5]} in entreprise")
+    #     country_name = ""
+    #     for code in country_codes:
+    #         if code[0] == x[4]:
+    #             country_name = code[1]
 
-    # if x[1] == "HES" and x[2] == "EUR_HAB":
-    #     print(f"{x[3]} has a spending per capita of {x[5]} in higher eduacation")
+    #     if x[1] == "EUR" and x[2] == "NET" and x[3] == "P1_NCH_AW100":
+    #         data_to_save.update({country_name : x[5]})
+
+    # write_data(str(year),"Net average wage",data_to_save)
+
+    # #R&D(Inovation) spending
+    # bes_pt = 0
+    # hes_pt = 0
+    # for x in dataset:
+
+    #     if x[1] == "BES" and x[2] == "EUR_HAB":
+    #         bes_pt = x[4]
+    #     if x[1] == "HES" and x[2] == "EUR_HAB":
+    #         hes_pt = x[4]    
+
+    #     # if x[1] == "BES" and x[2] == "PC_GDP":
+    #     #     bes_pt = x[4]
+    #     # if x[1] == "HES" and x[2] == "PC_GDP":
+    #     #     hes_pt = x[4]   
         
-    if x[1] == "BES" and x[2] == "EUR_HAB":
-        bes_pt = x[4]
-    if x[1] == "HES" and x[2] == "EUR_HAB":
-        hes_pt = x[4]    
+    #     country_name = ""
+
+    #     for code in country_codes:
+    #         if code[0] == x[3]:
+    #             country_name = code[1]
+
+    #     if x[1] == "TOTAL" and x[2] == "PC_GDP":
+    #         data_to_save.update({country_name : (bes_pt+hes_pt)})
+    #         print(f"{country_name}: {bes_pt+hes_pt} %")
     
-    country_name = ""
 
-    for code in country_codes:
-        if code[0] == x[3]:
-            country_name = code[1]
-
-    if x[1] == "TOTAL" and x[2] == "PC_GDP":
-        data_to_save.update({country_name : (bes_pt+hes_pt)})
-        print(f"{country_name}: {bes_pt+hes_pt} %")
-   
-
-write_data("2021","R&D (Innovation) spending in eur", data_to_save )
-
-# par_values = eurostat.get_par_values('rd_e_gerdreg',"BE")
-# print(par_values)
-
-
-
-
+    # write_data(str(year),"R&D (Innovation) spending in eur", data_to_save )

@@ -9,7 +9,10 @@
             "Government debt": 77.544997945118,
             "Gdp growth past 5 years": 2.6960151454720034,
             "Corporate tax": 23,
-            "Capital gains tax": 27.5
+            "Capital gains tax": 27.5,
+            "Net average wage": 38457.15,
+            "Home affordability": 11.2,
+            "Value added tax": 20
         },
         "2021": {
             "R&D (Innovation) spending": 2.99,
@@ -26,7 +29,10 @@
             "Government debt": 105.17086569329,
             "Gdp growth past 5 years": 8.057212413331996,
             "Corporate tax": 25,
-            "Capital gains tax": 0
+            "Capital gains tax": 0,
+            "Net average wage": 35604.37,
+            "Home affordability": 6.8,
+            "Value added tax": 21
         },
         "2021": {
             "R&D (Innovation) spending": 3.09,
@@ -43,7 +49,10 @@
             "Government debt": 32.917952654039,
             "Gdp growth past 5 years": 13.732242191360001,
             "Corporate tax": 10,
-            "Capital gains tax": 10
+            "Capital gains tax": 10,
+            "Net average wage": 9355.23,
+            "Home affordability": 9.5,
+            "Value added tax": 20
         },
         "2021": {
             "R&D (Innovation) spending": 0.56,
@@ -60,7 +69,10 @@
             "Government debt": 63.018359661052,
             "Gdp growth past 5 years": 17.940379063099996,
             "Corporate tax": 18,
-            "Capital gains tax": 12
+            "Capital gains tax": 12,
+            "Net average wage": 12330.12,
+            "Home affordability": 12.9,
+            "Value added tax": 25
         },
         "2021": {
             "R&D (Innovation) spending": 0.98,
@@ -77,7 +89,10 @@
             "Government debt": 77.414465791357,
             "Gdp growth past 5 years": 20.65737145542502,
             "Corporate tax": 12.5,
-            "Capital gains tax": 20
+            "Capital gains tax": 20,
+            "Net average wage": 22913.46,
+            "Home affordability": 8.2,
+            "Value added tax": 19
         },
         "2021": {
             "R&D (Innovation) spending": 0.63,
@@ -94,7 +109,10 @@
             "Government debt": 42.375071814781,
             "Gdp growth past 5 years": 4.785617396096015,
             "Corporate tax": 21,
-            "Capital gains tax": 0
+            "Capital gains tax": 0,
+            "Net average wage": 17168.06,
+            "Home affordability": 12.8,
+            "Value added tax": 21
         },
         "2021": {
             "R&D (Innovation) spending": 1.6,
@@ -111,7 +129,10 @@
             "Government debt": 29.662575145031,
             "Gdp growth past 5 years": 11.590347424849995,
             "Corporate tax": 22,
-            "Capital gains tax": 42
+            "Capital gains tax": 42,
+            "Net average wage": 41930.66,
+            "Home affordability": 6.2,
+            "Value added tax": 25
         },
         "2021": {
             "R&D (Innovation) spending": 2.6399999999999997,
@@ -128,7 +149,10 @@
             "Government debt": 19.314210136909,
             "Gdp growth past 5 years": 4.7112318742489805,
             "Corporate tax": 20,
-            "Capital gains tax": 20
+            "Capital gains tax": 20,
+            "Net average wage": 17523.61,
+            "Home affordability": 11.1,
+            "Value added tax": 22
         },
         "2021": {
             "R&D (Innovation) spending": 1.5699999999999998,
@@ -145,7 +169,10 @@
             "Government debt": 77.024985733508,
             "Gdp growth past 5 years": 1.7202670074500048,
             "Corporate tax": 20,
-            "Capital gains tax": 34
+            "Capital gains tax": 34,
+            "Net average wage": 36475.01,
+            "Home affordability": 8.5,
+            "Value added tax": 24
         },
         "2021": {
             "R&D (Innovation) spending": 2.7699999999999996,
@@ -162,7 +189,10 @@
             "Government debt": 62.660080515106,
             "Gdp growth past 5 years": 1.5434350161140031,
             "Corporate tax": 30,
-            "Capital gains tax": 26.4
+            "Capital gains tax": 26.4,
+            "Net average wage": 38086.35,
+            "Home affordability": 9.3,
+            "Value added tax": 19
         },
         "2021": {
             "R&D (Innovation) spending": 2.62,
@@ -179,7 +209,10 @@
             "Government debt": 168.86903697697,
             "Gdp growth past 5 years": 7.9132676272640055,
             "Corporate tax": 22,
-            "Capital gains tax": 15
+            "Capital gains tax": 15,
+            "Net average wage": 17706.98,
+            "Home affordability": 13.2,
+            "Value added tax": 24
         },
         "2021": {
             "R&D (Innovation) spending": 1.1,
@@ -196,7 +229,10 @@
             "Government debt": 69.441622867879,
             "Gdp growth past 5 years": 11.217638557276999,
             "Corporate tax": 9,
-            "Capital gains tax": 15
+            "Capital gains tax": 15,
+            "Net average wage": 12455.66,
+            "Home affordability": 13.7,
+            "Value added tax": 27
         },
         "2021": {
             "R&D (Innovation) spending": 1.46,
@@ -213,7 +249,10 @@
             "Government debt": 62.242740759889,
             "Gdp growth past 5 years": 14.332061220650004,
             "Corporate tax": 21,
-            "Capital gains tax": 22
+            "Capital gains tax": 22,
+            "Net average wage": 53885.04,
+            "Home affordability": 6,
+            "Value added tax": 24
         },
         "2021": {
             "R&D (Innovation) spending": 2.7,
@@ -230,7 +269,10 @@
             "Government debt": 43.273190417922,
             "Gdp growth past 5 years": 34.34621424559998,
             "Corporate tax": 12.5,
-            "Capital gains tax": 33
+            "Capital gains tax": 33,
+            "Net average wage": 43151.3,
+            "Home affordability": 7.25,
+            "Value added tax": 23
         },
         "2021": {
             "R&D (Innovation) spending": 1.03,
@@ -247,7 +289,10 @@
             "Government debt": 134.79373316076,
             "Gdp growth past 5 years": 5.016157063096401,
             "Corporate tax": 24,
-            "Capital gains tax": 26
+            "Capital gains tax": 26,
+            "Net average wage": 24206.84,
+            "Home affordability": 10.3,
+            "Value added tax": 22
         },
         "2021": {
             "R&D (Innovation) spending": 1.19,
@@ -264,7 +309,10 @@
             "Government debt": 43.574350810604,
             "Gdp growth past 5 years": 6.370719414629988,
             "Corporate tax": 20,
-            "Capital gains tax": 20
+            "Capital gains tax": 20,
+            "Net average wage": 13521.9,
+            "Home affordability": 9,
+            "Value added tax": 21
         },
         "2021": {
             "R&D (Innovation) spending": 0.63,
@@ -281,7 +329,10 @@
             "Government debt": 38.289577071899,
             "Gdp growth past 5 years": 13.523401056665591,
             "Corporate tax": 15,
-            "Capital gains tax": 20
+            "Capital gains tax": 20,
+            "Net average wage": 14557.22,
+            "Home affordability": 12,
+            "Value added tax": 21
         },
         "2021": {
             "R&D (Innovation) spending": 0.93,
@@ -298,7 +349,10 @@
             "Government debt": 25.669621748664,
             "Gdp growth past 5 years": 9.627134195196817,
             "Corporate tax": 24.94,
-            "Capital gains tax": 0
+            "Capital gains tax": 0,
+            "Net average wage": 49034.61,
+            "Home affordability": 9.1,
+            "Value added tax": 17
         },
         "2021": {
             "R&D (Innovation) spending": 0.79,
@@ -315,7 +369,10 @@
             "Government debt": 50.396603340902,
             "Gdp growth past 5 years": 27.594836032062503,
             "Corporate tax": 35,
-            "Capital gains tax": 0
+            "Capital gains tax": 0,
+            "Net average wage": 20465.58,
+            "Home affordability": 12.1,
+            "Value added tax": 18
         },
         "2021": {
             "R&D (Innovation) spending": 0.6,
@@ -332,7 +389,10 @@
             "Government debt": 45.023552850836,
             "Gdp growth past 5 years": 9.83877038634499,
             "Corporate tax": 25.8,
-            "Capital gains tax": 33
+            "Capital gains tax": 33,
+            "Net average wage": 45249.35,
+            "Home affordability": 7.8,
+            "Value added tax": 21
         },
         "2021": {
             "R&D (Innovation) spending": 2.09,
@@ -349,7 +409,10 @@
             "Government debt": 44.003717155229,
             "Gdp growth past 5 years": 7.321600881845001,
             "Corporate tax": 22,
-            "Capital gains tax": 37.8
+            "Capital gains tax": 37.8,
+            "Net average wage": 45797.85,
+            "Home affordability": 7.8,
+            "Value added tax": 25
         },
         "2021": {
             "R&D (Innovation) spending": 1.6400000000000001,
@@ -366,7 +429,10 @@
             "Government debt": 49.594290433829,
             "Gdp growth past 5 years": 15.727326235136005,
             "Corporate tax": 19,
-            "Capital gains tax": 19
+            "Capital gains tax": 19,
+            "Net average wage": 14425.3,
+            "Home affordability": 11.8,
+            "Value added tax": 23
         },
         "2021": {
             "R&D (Innovation) spending": 1.38,
@@ -383,7 +449,10 @@
             "Government debt": 99.080990490538,
             "Gdp growth past 5 years": 8.758110294033202,
             "Corporate tax": 21,
-            "Capital gains tax": 28
+            "Capital gains tax": 28,
+            "Net average wage": 16943.49,
+            "Home affordability": 13.2,
+            "Value added tax": 23
         },
         "2021": {
             "R&D (Innovation) spending": 1.55,
@@ -400,7 +469,10 @@
             "Government debt": 48.854045092801,
             "Gdp growth past 5 years": 12.406983535088884,
             "Corporate tax": 16,
-            "Capital gains tax": 10
+            "Capital gains tax": 10,
+            "Net average wage": 11105.12,
+            "Home affordability": 10.5,
+            "Value added tax": 19
         },
         "2021": {
             "R&D (Innovation) spending": 0.32,
@@ -417,7 +489,10 @@
             "Government debt": 56.045018145518,
             "Gdp growth past 5 years": 7.542347942559999,
             "Corporate tax": 21,
-            "Capital gains tax": 0
+            "Capital gains tax": 0,
+            "Net average wage": 12744.11,
+            "Home affordability": 14.6,
+            "Value added tax": 23
         },
         "2021": {
             "R&D (Innovation) spending": 0.73,
@@ -434,7 +509,10 @@
             "Government debt": 69.219491009612,
             "Gdp growth past 5 years": 12.819566032081994,
             "Corporate tax": 22,
-            "Capital gains tax": 0
+            "Capital gains tax": 0,
+            "Net average wage": 17547.68,
+            "Home affordability": 12.5,
+            "Value added tax": 22
         },
         "2021": {
             "R&D (Innovation) spending": 1.83,
@@ -451,7 +529,10 @@
             "Government debt": 105.03425867836,
             "Gdp growth past 5 years": 5.7638509773560145,
             "Corporate tax": 25,
-            "Capital gains tax": 28
+            "Capital gains tax": 28,
+            "Net average wage": 23567.74,
+            "Home affordability": 8.1,
+            "Value added tax": 21
         },
         "2021": {
             "R&D (Innovation) spending": 1.15,
@@ -468,7 +549,10 @@
             "Government debt": 36.37122985845,
             "Gdp growth past 5 years": 7.756253853499999,
             "Corporate tax": 20.6,
-            "Capital gains tax": 30
+            "Capital gains tax": 30,
+            "Net average wage": 33926.03,
+            "Home affordability": 7.8,
+            "Value added tax": 25
         },
         "2021": {
             "R&D (Innovation) spending": 3.2600000000000002,
@@ -485,7 +569,10 @@
             "Government debt": 33.316519546232,
             "Gdp growth past 5 years": 8.399462875404808,
             "Corporate tax": 14.6,
-            "Capital gains tax": 0
+            "Capital gains tax": 0,
+            "Net average wage": 85582.07,
+            "Home affordability": 10.3,
+            "Value added tax": 8.1
         },
         "2021": {
             "R&D (Innovation) spending": 3.18,
