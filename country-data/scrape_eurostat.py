@@ -3,7 +3,7 @@ import requests
 from update_country_data import write_data
 
 #True == Search mode, False == Download mode 
-search = True
+search = False
 
 #Search eurostat datasets
 if search:
@@ -19,10 +19,10 @@ if search:
 
 #Society datasets - code
 
-#Life expectancy by age, sex and NUTS 2 region
-#Fertility indicator - DEMO_FIND 
-#Population by educational attainment level, sex and NUTS 2 region
-#Persons at risk of poverty or social exclusion by NUTS region
+#Life expectancy by age, sex and NUTS 2 region - demo_r_mlifexp
+#Fertility indicator - demo-find
+#Population by educational attainment level, sex and NUTS 2 region - edat_lfse_04
+#Persons at risk of poverty or social exclusion by NUTS region - ilc_li41
 
 #Economy datasets - code
 
@@ -33,6 +33,10 @@ if search:
 
 #R&D(Inovation) spending - spending in higher education + spending in entreprise business (% of gdp) year 2021 
 #Net average wage - net average wage 100% single working person in eur year 2023
+#Tertiary education - % of people achieving tertiary education
+#Fertility rate - fertility rate per woman
+#Life expectancy - life expetancy at birth
+#Risk of poverty - percentage of people at the risk of poverty
 
 country_codes = [
     ["AT","Austria"],
@@ -72,7 +76,10 @@ country_codes_1 = [item[0] for item in country_codes]
 #Download dataset
 
 #Set dataset code
-code = "earn_nt_net"
+code = "ilc_li41"
+
+#Set indicator
+indicator = "Risk of poverty"
 
 #Set year
 year = 2023
@@ -84,7 +91,59 @@ if not search:
 
     data_to_save = {}
 
-    #print(dataset)
+    # #Risk of poverty
+    # for x in dataset:
+
+    #     country_name = ""
+    #     for code in country_codes:
+    #         if code[0] == x[2]:
+    #             country_name = code[1]
+
+    #     if x[1] == "PC":
+    #         data_to_save.update({country_name:x[3]})
+
+    # write_data(str(year),indicator,data_to_save)
+
+    # #Life expectancy
+    # for x in dataset:
+
+    #     country_name = ""
+    #     for code in country_codes:
+    #         if code[0] == x[4]:
+    #             country_name = code[1]
+
+    #     if x[2] == "T" and x[1] == "YR" and x[3] == "Y_LT1":
+    #         data_to_save.update({country_name:x[5]}) 
+
+    # write_data(str(year),indicator,data_to_save)
+
+    # #Fertility rate
+    # for x in dataset:
+
+    #     country_name = ""
+    #     for code in country_codes:
+    #         if code[0] == x[2]:
+    #             country_name = code[1]
+
+    #     if x[1] == "TOTFERRT":
+    #         data_to_save.update({country_name:x[3]}) 
+
+    # write_data(str(year),indicator,data_to_save)
+
+
+    # #Tertiary education
+    # for x in dataset:
+
+    #     country_name = ""
+    #     for code in country_codes:
+    #         if code[0] == x[5]:
+    #             country_name = code[1]
+
+    #     if x[1] == "T" and x[2] == "ED5-8" and x[3] == "Y30-34":
+    #         data_to_save.update({country_name : x[6]})
+
+    # print(data_to_save)
+    # write_data(str(year),"Tertiary education",data_to_save)
 
     # #Net average wage
     # for x in dataset:

@@ -12,11 +12,25 @@
             "Capital gains tax": 27.5,
             "Net average wage": 38457.15,
             "Home affordability": 11.2,
-            "Value added tax": 20
+            "Value added tax": 20,
+            "Corruption": 71,
+            "Trust in other people": 50,
+            "Voting participation": 77.7,
+            "Tertiary education": 44.0,
+            "Risk of poverty": 14.9
         },
         "2021": {
             "R&D (Innovation) spending": 2.99,
             "R&D (Innovation) spending in eur": 1361.534
+        },
+        "2022": {
+            "Obesity rate": 17.7,
+            "Pisa results": 486,
+            "Fertility rate": 1.41,
+            "Life expectancy": 81.4
+        },
+        "2010": {
+            "Believe in god": 44
         }
     },
     "Belgium": {
@@ -32,11 +46,25 @@
             "Capital gains tax": 0,
             "Net average wage": 35604.37,
             "Home affordability": 6.8,
-            "Value added tax": 21
+            "Value added tax": 21,
+            "Corruption": 73,
+            "Trust in other people": 36,
+            "Voting participation": 88.45,
+            "Tertiary education": 50.2,
+            "Risk of poverty": 12.3
         },
         "2021": {
             "R&D (Innovation) spending": 3.09,
             "R&D (Innovation) spending in eur": 1356.347
+        },
+        "2022": {
+            "Obesity rate": 15.8,
+            "Pisa results": 486,
+            "Fertility rate": 1.53,
+            "Life expectancy": 81.8
+        },
+        "2010": {
+            "Believe in god": 37
         }
     },
     "Bulgaria": {
@@ -52,11 +80,25 @@
             "Capital gains tax": 10,
             "Net average wage": 9355.23,
             "Home affordability": 9.5,
-            "Value added tax": 20
+            "Value added tax": 20,
+            "Corruption": 45,
+            "Trust in other people": 17,
+            "Voting participation": 39.11,
+            "Tertiary education": 35.0,
+            "Risk of poverty": 20.6
         },
         "2021": {
             "R&D (Innovation) spending": 0.56,
             "R&D (Innovation) spending in eur": 60.778
+        },
+        "2022": {
+            "Obesity rate": 11.7,
+            "Pisa results": 414,
+            "Fertility rate": 1.65,
+            "Life expectancy": 74.2
+        },
+        "2010": {
+            "Believe in god": 36
         }
     },
     "Croatia": {
@@ -72,11 +114,25 @@
             "Capital gains tax": 12,
             "Net average wage": 12330.12,
             "Home affordability": 12.9,
-            "Value added tax": 25
+            "Value added tax": 25,
+            "Corruption": 50,
+            "Trust in other people": 14,
+            "Voting participation": 62.31,
+            "Tertiary education": 39.1,
+            "Risk of poverty": 19.3
         },
         "2021": {
             "R&D (Innovation) spending": 0.98,
             "R&D (Innovation) spending in eur": 146.891
+        },
+        "2022": {
+            "Obesity rate": 16.7,
+            "Pisa results": 474,
+            "Fertility rate": 1.53,
+            "Life expectancy": 77.7
+        },
+        "2010": {
+            "Believe in god": 69
         }
     },
     "Cyprus": {
@@ -92,11 +148,25 @@
             "Capital gains tax": 20,
             "Net average wage": 22913.46,
             "Home affordability": 8.2,
-            "Value added tax": 19
+            "Value added tax": 19,
+            "Corruption": 53,
+            "Trust in other people": 7,
+            "Voting participation": 72.45,
+            "Tertiary education": 65.3,
+            "Risk of poverty": 13.9
         },
         "2021": {
             "R&D (Innovation) spending": 0.63,
             "R&D (Innovation) spending in eur": 179.41
+        },
+        "2022": {
+            "Obesity rate": 13.5,
+            "Pisa results": 403,
+            "Fertility rate": 1.37,
+            "Life expectancy": 81.6
+        },
+        "2010": {
+            "Believe in god": 88
         }
     },
     "Czechia": {
@@ -112,11 +182,25 @@
             "Capital gains tax": 0,
             "Net average wage": 17168.06,
             "Home affordability": 12.8,
-            "Value added tax": 21
+            "Value added tax": 21,
+            "Corruption": 57,
+            "Trust in other people": 27,
+            "Voting participation": 70.25,
+            "Tertiary education": 34.9,
+            "Risk of poverty": 9.8
         },
         "2021": {
             "R&D (Innovation) spending": 1.6,
             "R&D (Innovation) spending in eur": 376.46799999999996
+        },
+        "2022": {
+            "Obesity rate": 17.8,
+            "Pisa results": 491,
+            "Fertility rate": 1.64,
+            "Life expectancy": 79.0
+        },
+        "2010": {
+            "Believe in god": 16
         }
     },
     "Denmark": {
@@ -132,11 +216,25 @@
             "Capital gains tax": 42,
             "Net average wage": 41930.66,
             "Home affordability": 6.2,
-            "Value added tax": 25
+            "Value added tax": 25,
+            "Corruption": 90,
+            "Trust in other people": 74,
+            "Voting participation": 84.16,
+            "Tertiary education": 52.7,
+            "Risk of poverty": 11.8
         },
         "2021": {
             "R&D (Innovation) spending": 2.6399999999999997,
             "R&D (Innovation) spending in eur": 1560.77
+        },
+        "2022": {
+            "Obesity rate": 19.4,
+            "Pisa results": 491,
+            "Fertility rate": 1.55,
+            "Life expectancy": 81.3
+        },
+        "2010": {
+            "Believe in god": 28
         }
     },
     "Estonia": {
@@ -152,11 +250,25 @@
             "Capital gains tax": 20,
             "Net average wage": 17523.61,
             "Home affordability": 11.1,
-            "Value added tax": 22
+            "Value added tax": 22,
+            "Corruption": 76,
+            "Trust in other people": 34,
+            "Voting participation": 63.53,
+            "Tertiary education": 47.3,
+            "Risk of poverty": 22.5
         },
         "2021": {
             "R&D (Innovation) spending": 1.5699999999999998,
             "R&D (Innovation) spending in eur": 370.558
+        },
+        "2022": {
+            "Obesity rate": 22.1,
+            "Pisa results": 516,
+            "Fertility rate": 1.41,
+            "Life expectancy": 78.1
+        },
+        "2010": {
+            "Believe in god": 18
         }
     },
     "Finland": {
@@ -172,11 +284,25 @@
             "Capital gains tax": 34,
             "Net average wage": 36475.01,
             "Home affordability": 8.5,
-            "Value added tax": 24
+            "Value added tax": 24,
+            "Corruption": 87,
+            "Trust in other people": 68,
+            "Voting participation": 72.6,
+            "Tertiary education": 43.1,
+            "Risk of poverty": 12.2
         },
         "2021": {
             "R&D (Innovation) spending": 2.7699999999999996,
             "R&D (Innovation) spending in eur": 1244.008
+        },
+        "2022": {
+            "Obesity rate": 22,
+            "Pisa results": 495,
+            "Fertility rate": 1.32,
+            "Life expectancy": 81.2
+        },
+        "2010": {
+            "Believe in god": 33
         }
     },
     "Germany": {
@@ -192,11 +318,25 @@
             "Capital gains tax": 26.4,
             "Net average wage": 38086.35,
             "Home affordability": 9.3,
-            "Value added tax": 19
+            "Value added tax": 19,
+            "Corruption": 78,
+            "Trust in other people": 42,
+            "Voting participation": 76.57,
+            "Tertiary education": 41.0,
+            "Risk of poverty": 14.4
         },
         "2021": {
             "R&D (Innovation) spending": 2.62,
             "R&D (Innovation) spending in eur": 1159.551
+        },
+        "2022": {
+            "Obesity rate": 19,
+            "Pisa results": 482,
+            "Fertility rate": 1.46,
+            "Life expectancy": 80.7
+        },
+        "2010": {
+            "Believe in god": 44
         }
     },
     "Greece": {
@@ -212,11 +352,25 @@
             "Capital gains tax": 15,
             "Net average wage": 17706.98,
             "Home affordability": 13.2,
-            "Value added tax": 24
+            "Value added tax": 24,
+            "Corruption": 49,
+            "Trust in other people": 8,
+            "Voting participation": 53.74,
+            "Tertiary education": 45.1,
+            "Risk of poverty": 18.9
         },
         "2021": {
             "R&D (Innovation) spending": 1.1,
             "R&D (Innovation) spending in eur": 191.071
+        },
+        "2022": {
+            "Obesity rate": 12,
+            "Pisa results": 436,
+            "Fertility rate": 1.32,
+            "Life expectancy": 80.8
+        },
+        "2010": {
+            "Believe in god": 79
         }
     },
     "Hungary": {
@@ -232,11 +386,25 @@
             "Capital gains tax": 15,
             "Net average wage": 12455.66,
             "Home affordability": 13.7,
-            "Value added tax": 27
+            "Value added tax": 27,
+            "Corruption": 42,
+            "Trust in other people": 27,
+            "Voting participation": 69.59,
+            "Tertiary education": 32.8,
+            "Risk of poverty": 13.1
         },
         "2021": {
             "R&D (Innovation) spending": 1.46,
             "R&D (Innovation) spending in eur": 234.01000000000002
+        },
+        "2022": {
+            "Obesity rate": 22.2,
+            "Pisa results": 477,
+            "Fertility rate": 1.56,
+            "Life expectancy": 76.0
+        },
+        "2010": {
+            "Believe in god": 45
         }
     },
     "Iceland": {
@@ -252,11 +420,24 @@
             "Capital gains tax": 22,
             "Net average wage": 53885.04,
             "Home affordability": 6,
-            "Value added tax": 24
+            "Value added tax": 24,
+            "Corruption": 72,
+            "Trust in other people": 62,
+            "Voting participation": 80.18,
+            "Tertiary education": 50.4
         },
         "2021": {
             "R&D (Innovation) spending": 2.7,
             "R&D (Innovation) spending in eur": 1597.5010000000002
+        },
+        "2022": {
+            "Obesity rate": 22.3,
+            "Pisa results": 447,
+            "Fertility rate": 1.59,
+            "Life expectancy": 82.1
+        },
+        "2010": {
+            "Believe in god": 31
         }
     },
     "Ireland": {
@@ -272,11 +453,25 @@
             "Capital gains tax": 33,
             "Net average wage": 43151.3,
             "Home affordability": 7.25,
-            "Value added tax": 23
+            "Value added tax": 23,
+            "Corruption": 77,
+            "Trust in other people": 37,
+            "Voting participation": 59.7,
+            "Tertiary education": 63.7,
+            "Risk of poverty": 12.0
         },
         "2021": {
             "R&D (Innovation) spending": 1.03,
             "R&D (Innovation) spending in eur": 918.1479999999999
+        },
+        "2022": {
+            "Obesity rate": 19.8,
+            "Pisa results": 504,
+            "Fertility rate": 1.54,
+            "Life expectancy": 82.6
+        },
+        "2010": {
+            "Believe in god": 70
         }
     },
     "Italy": {
@@ -292,11 +487,25 @@
             "Capital gains tax": 26,
             "Net average wage": 24206.84,
             "Home affordability": 10.3,
-            "Value added tax": 22
+            "Value added tax": 22,
+            "Corruption": 56,
+            "Trust in other people": 27,
+            "Voting participation": 63.81,
+            "Tertiary education": 29.2,
+            "Risk of poverty": 18.9
         },
         "2021": {
             "R&D (Innovation) spending": 1.19,
             "R&D (Innovation) spending in eur": 369.312
+        },
+        "2022": {
+            "Obesity rate": 7.1,
+            "Pisa results": 477,
+            "Fertility rate": 1.24,
+            "Life expectancy": 82.8
+        },
+        "2010": {
+            "Believe in god": 74
         }
     },
     "Latvia": {
@@ -312,11 +521,25 @@
             "Capital gains tax": 20,
             "Net average wage": 13521.9,
             "Home affordability": 9,
-            "Value added tax": 21
+            "Value added tax": 21,
+            "Corruption": 60,
+            "Trust in other people": 22,
+            "Voting participation": 59.41,
+            "Tertiary education": 47.4,
+            "Risk of poverty": 22.5
         },
         "2021": {
             "R&D (Innovation) spending": 0.63,
             "R&D (Innovation) spending in eur": 107.30699999999999
+        },
+        "2022": {
+            "Obesity rate": 23.3,
+            "Pisa results": 484,
+            "Fertility rate": 1.47,
+            "Life expectancy": 74.5
+        },
+        "2010": {
+            "Believe in god": 38
         }
     },
     "Lithuania": {
@@ -332,11 +555,25 @@
             "Capital gains tax": 20,
             "Net average wage": 14557.22,
             "Home affordability": 12,
-            "Value added tax": 21
+            "Value added tax": 21,
+            "Corruption": 61,
+            "Trust in other people": 32,
+            "Voting participation": 52.2,
+            "Tertiary education": 59.5,
+            "Risk of poverty": 20.6
         },
         "2021": {
             "R&D (Innovation) spending": 0.93,
             "R&D (Innovation) spending in eur": 186.96
+        },
+        "2022": {
+            "Obesity rate": 20.6,
+            "Pisa results": 477,
+            "Fertility rate": 1.27,
+            "Life expectancy": 75.8
+        },
+        "2010": {
+            "Believe in god": 47
         }
     },
     "Luxembourg": {
@@ -352,11 +589,25 @@
             "Capital gains tax": 0,
             "Net average wage": 49034.61,
             "Home affordability": 9.1,
-            "Value added tax": 17
+            "Value added tax": 17,
+            "Corruption": 78,
+            "Trust in other people": 31,
+            "Voting participation": 87.2,
+            "Tertiary education": 61.9,
+            "Risk of poverty": 18.8
         },
         "2021": {
             "R&D (Innovation) spending": 0.79,
             "R&D (Innovation) spending in eur": 897.512
+        },
+        "2022": {
+            "Obesity rate": 17.0,
+            "Pisa results": 474,
+            "Fertility rate": 1.31,
+            "Life expectancy": 83.0
+        },
+        "2010": {
+            "Believe in god": 46
         }
     },
     "Malta": {
@@ -372,11 +623,25 @@
             "Capital gains tax": 0,
             "Net average wage": 20465.58,
             "Home affordability": 12.1,
-            "Value added tax": 18
+            "Value added tax": 18,
+            "Corruption": 51,
+            "Trust in other people": 21,
+            "Voting participation": 85.63,
+            "Tertiary education": 43.3,
+            "Risk of poverty": 16.6
         },
         "2021": {
             "R&D (Innovation) spending": 0.6,
             "R&D (Innovation) spending in eur": 190.66500000000002
+        },
+        "2022": {
+            "Obesity rate": 26.1,
+            "Pisa results": 459,
+            "Fertility rate": 1.08,
+            "Life expectancy": 82.4
+        },
+        "2010": {
+            "Believe in god": 94
         }
     },
     "Netherlands": {
@@ -392,11 +657,25 @@
             "Capital gains tax": 33,
             "Net average wage": 45249.35,
             "Home affordability": 7.8,
-            "Value added tax": 21
+            "Value added tax": 21,
+            "Corruption": 79,
+            "Trust in other people": 57,
+            "Voting participation": 77.75,
+            "Tertiary education": 54.3,
+            "Risk of poverty": 13.0
         },
         "2021": {
             "R&D (Innovation) spending": 2.09,
             "R&D (Innovation) spending in eur": 1068.425
+        },
+        "2022": {
+            "Obesity rate": 13.8,
+            "Pisa results": 480,
+            "Fertility rate": 1.49,
+            "Life expectancy": 81.7
+        },
+        "2010": {
+            "Believe in god": 28
         }
     },
     "Norway": {
@@ -412,11 +691,25 @@
             "Capital gains tax": 37.8,
             "Net average wage": 45797.85,
             "Home affordability": 7.8,
-            "Value added tax": 25
+            "Value added tax": 25,
+            "Corruption": 84,
+            "Trust in other people": 72,
+            "Voting participation": 77.17,
+            "Tertiary education": 57.1,
+            "Risk of poverty": 11.5
         },
         "2021": {
             "R&D (Innovation) spending": 1.6400000000000001,
             "R&D (Innovation) spending in eur": 1293.335
+        },
+        "2022": {
+            "Obesity rate": 16.8,
+            "Pisa results": 474,
+            "Fertility rate": 1.41,
+            "Life expectancy": 82.5
+        },
+        "2010": {
+            "Believe in god": 22
         }
     },
     "Poland": {
@@ -432,11 +725,25 @@
             "Capital gains tax": 19,
             "Net average wage": 14425.3,
             "Home affordability": 11.8,
-            "Value added tax": 23
+            "Value added tax": 23,
+            "Corruption": 54,
+            "Trust in other people": 24,
+            "Voting participation": 74.4,
+            "Tertiary education": 49.2,
+            "Risk of poverty": 14.0
         },
         "2021": {
             "R&D (Innovation) spending": 1.38,
             "R&D (Innovation) spending in eur": 217.599
+        },
+        "2022": {
+            "Obesity rate": 18.6,
+            "Pisa results": 492,
+            "Fertility rate": 1.29,
+            "Life expectancy": 77.2
+        },
+        "2010": {
+            "Believe in god": 79
         }
     },
     "Portugal": {
@@ -452,11 +759,25 @@
             "Capital gains tax": 28,
             "Net average wage": 16943.49,
             "Home affordability": 13.2,
-            "Value added tax": 23
+            "Value added tax": 23,
+            "Corruption": 61,
+            "Trust in other people": 17,
+            "Voting participation": 59.9,
+            "Tertiary education": 39.7,
+            "Risk of poverty": 17.0
         },
         "2021": {
             "R&D (Innovation) spending": 1.55,
             "R&D (Innovation) spending in eur": 322.862
+        },
+        "2022": {
+            "Obesity rate": 15.8,
+            "Pisa results": 478,
+            "Fertility rate": 1.43,
+            "Life expectancy": 81.8
+        },
+        "2010": {
+            "Believe in god": 70
         }
     },
     "Romania": {
@@ -472,11 +793,25 @@
             "Capital gains tax": 10,
             "Net average wage": 11105.12,
             "Home affordability": 10.5,
-            "Value added tax": 19
+            "Value added tax": 19,
+            "Corruption": 46,
+            "Trust in other people": 12,
+            "Voting participation": 48.28,
+            "Tertiary education": 22.8,
+            "Risk of poverty": 21.1
         },
         "2021": {
             "R&D (Innovation) spending": 0.32,
             "R&D (Innovation) spending in eur": 41.374
+        },
+        "2022": {
+            "Obesity rate": 10.3,
+            "Pisa results": 428,
+            "Fertility rate": 1.71,
+            "Life expectancy": 75.1
+        },
+        "2010": {
+            "Believe in god": 93
         }
     },
     "Slovakia": {
@@ -492,11 +827,25 @@
             "Capital gains tax": 0,
             "Net average wage": 12744.11,
             "Home affordability": 14.6,
-            "Value added tax": 23
+            "Value added tax": 23,
+            "Corruption": 54,
+            "Trust in other people": 22,
+            "Voting participation": 68.5,
+            "Tertiary education": 41.1,
+            "Risk of poverty": 14.3
         },
         "2021": {
             "R&D (Innovation) spending": 0.73,
             "R&D (Innovation) spending in eur": 137.01600000000002
+        },
+        "2022": {
+            "Obesity rate": 17.1,
+            "Pisa results": 458,
+            "Fertility rate": 1.57,
+            "Life expectancy": 77.0
+        },
+        "2010": {
+            "Believe in god": 63
         }
     },
     "Slovenia": {
@@ -512,11 +861,25 @@
             "Capital gains tax": 0,
             "Net average wage": 17547.68,
             "Home affordability": 12.5,
-            "Value added tax": 22
+            "Value added tax": 22,
+            "Corruption": 56,
+            "Trust in other people": 25,
+            "Voting participation": 70.96,
+            "Tertiary education": 40.0,
+            "Risk of poverty": 12.7
         },
         "2021": {
             "R&D (Innovation) spending": 1.83,
             "R&D (Innovation) spending in eur": 451.886
+        },
+        "2022": {
+            "Obesity rate": 17.9,
+            "Pisa results": 485,
+            "Fertility rate": 1.55,
+            "Life expectancy": 81.3
+        },
+        "2010": {
+            "Believe in god": 32
         }
     },
     "Spain": {
@@ -532,11 +895,25 @@
             "Capital gains tax": 28,
             "Net average wage": 23567.74,
             "Home affordability": 8.1,
-            "Value added tax": 21
+            "Value added tax": 21,
+            "Corruption": 60,
+            "Trust in other people": 41,
+            "Voting participation": 66.59,
+            "Tertiary education": 50.6,
+            "Risk of poverty": 20.2
         },
         "2021": {
             "R&D (Innovation) spending": 1.15,
             "R&D (Innovation) spending in eur": 301.327
+        },
+        "2022": {
+            "Obesity rate": 14.9,
+            "Pisa results": 477,
+            "Fertility rate": 1.16,
+            "Life expectancy": 83.2
+        },
+        "2010": {
+            "Believe in god": 59
         }
     },
     "Sweden": {
@@ -552,11 +929,25 @@
             "Capital gains tax": 30,
             "Net average wage": 33926.03,
             "Home affordability": 7.8,
-            "Value added tax": 25
+            "Value added tax": 25,
+            "Corruption": 82,
+            "Trust in other people": 63,
+            "Voting participation": 84.2,
+            "Tertiary education": 58.0,
+            "Risk of poverty": 16.1
         },
         "2021": {
             "R&D (Innovation) spending": 3.2600000000000002,
             "R&D (Innovation) spending in eur": 1692.191
+        },
+        "2022": {
+            "Obesity rate": 17.2,
+            "Pisa results": 488,
+            "Fertility rate": 1.53,
+            "Life expectancy": 83.1
+        },
+        "2010": {
+            "Believe in god": 18
         }
     },
     "Switzerland": {
@@ -572,11 +963,25 @@
             "Capital gains tax": 0,
             "Net average wage": 85582.07,
             "Home affordability": 10.3,
-            "Value added tax": 8.1
+            "Value added tax": 8.1,
+            "Corruption": 82,
+            "Trust in other people": 59,
+            "Voting participation": 46.64,
+            "Tertiary education": 55.1,
+            "Risk of poverty": 16.4
         },
         "2021": {
             "R&D (Innovation) spending": 3.18,
             "R&D (Innovation) spending in eur": 2528.983
+        },
+        "2022": {
+            "Obesity rate": 13.5,
+            "Pisa results": 498,
+            "Fertility rate": 1.39,
+            "Life expectancy": 83.7
+        },
+        "2010": {
+            "Believe in god": 44
         }
     }
 }
