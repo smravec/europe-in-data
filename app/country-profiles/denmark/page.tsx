@@ -41,7 +41,7 @@ export default function Denmark(){
 
                     <Table.Tr>
                     <Table.Th>Home affordability</Table.Th>
-                    <Table.Td>{Math.trunc(CountryData["Denmark"]["2023"]["Home affordability"])}</Table.Td>
+                    <Table.Td>{CountryData["Denmark"]["2023"]["Home affordability"]}</Table.Td>
                     </Table.Tr>
 
                     <Table.Tr>
@@ -85,27 +85,52 @@ export default function Denmark(){
                 <Table.Tbody>
                     <Table.Tr>
                     <Table.Th > Trust in other people</Table.Th>
-                    <Table.Td>{Math.trunc(CountryData["Denmark"]["2023"]["Trust in other people"])}</Table.Td>
+                    <Table.Td>{Math.trunc(CountryData["Denmark"]["2023"]["Trust in other people"])} %</Table.Td>
                     </Table.Tr>
 
                     <Table.Tr>
-                    <Table.Th>Status</Table.Th>
-                    <Table.Td>Open</Table.Td>
+                    <Table.Th>Voting participation</Table.Th>
+                    <Table.Td>{Math.trunc(CountryData["Denmark"]["2023"]["Voting participation"])} %</Table.Td>
                     </Table.Tr>
 
                     <Table.Tr>
-                    <Table.Th>Total issues</Table.Th>
-                    <Table.Td>135</Table.Td>
+                    <Table.Th>Lack of corruption</Table.Th>
+                    <Table.Td>{Math.trunc(CountryData["Denmark"]["2023"]["Corruption"])}</Table.Td>
                     </Table.Tr>
 
                     <Table.Tr>
-                    <Table.Th>Total story points</Table.Th>
-                    <Table.Td>874</Table.Td>
+                    <Table.Th>Religiosity</Table.Th>
+                    <Table.Td>{Math.trunc(CountryData["Denmark"]["2010"]["Believe in god"])} %</Table.Td>
                     </Table.Tr>
 
                     <Table.Tr>
-                    <Table.Th>Last updated at</Table.Th>
-                    <Table.Td>September 26, 2024 17:41:26</Table.Td>
+                    <Table.Th>Risk of poverty</Table.Th>
+                    <Table.Td>{Math.trunc(CountryData["Denmark"]["2023"]["Risk of poverty"])} %</Table.Td>
+                    </Table.Tr>
+
+                    <Table.Tr>
+                    <Table.Th>Tertiary education</Table.Th>
+                    <Table.Td>{Math.trunc(CountryData["Denmark"]["2023"]["Tertiary education"])} %</Table.Td>
+                    </Table.Tr>
+
+                    <Table.Tr>
+                    <Table.Th>Pisa score</Table.Th>
+                    <Table.Td>{Math.trunc(CountryData["Denmark"]["2022"]["Pisa results"])}</Table.Td>
+                    </Table.Tr>
+
+                    <Table.Tr>
+                    <Table.Th>Obesity rate</Table.Th>
+                    <Table.Td>{CountryData["Denmark"]["2022"]["Obesity rate"]} %</Table.Td>
+                    </Table.Tr>
+
+                    <Table.Tr>
+                    <Table.Th>Fertility rate</Table.Th>
+                    <Table.Td>{CountryData["Denmark"]["2022"]["Fertility rate"]}</Table.Td>
+                    </Table.Tr>
+
+                    <Table.Tr>
+                    <Table.Th>Life expectancy</Table.Th>
+                    <Table.Td>{CountryData["Denmark"]["2022"]["Life expectancy"]} %</Table.Td>
                     </Table.Tr>
                 </Table.Tbody>
             </Table>

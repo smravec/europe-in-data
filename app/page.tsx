@@ -172,16 +172,16 @@ export default function Home(){
                         > 
                             <Text size='28px' fw={"600"} fz={{ base:"24px", xs:"28px"}}>Society</Text>
                             <Space h={"xs"}/>
-                            <Anchor>Trust in institutions</Anchor>
                             <Anchor>Trust in other people</Anchor>
                             <Anchor>Voting participation</Anchor>
                             <Anchor>Corruption</Anchor>
-                            <Anchor>Secondary education</Anchor>
+                            <Anchor>Religiosity</Anchor>
+                            <Anchor>Risk of poverty</Anchor>
                             <Anchor>Tertiary education</Anchor>
-                            <Anchor>Pisa results</Anchor>
+                            <Anchor>Pisa score</Anchor>
                             <Anchor>Obesity rate</Anchor>
                             <Anchor>Fertility rate</Anchor>
-                            <Anchor>Average lifespan</Anchor>
+                            <Anchor>Life expectancy</Anchor>
                         </Flex>
                     </GridCol>
 
