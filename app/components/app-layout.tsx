@@ -13,6 +13,7 @@ import { FaLandmark } from "react-icons/fa6";
 import { FaMoneyBill } from "react-icons/fa6";
 import { FaFlag } from "react-icons/fa";
 import { FaNewspaper } from "react-icons/fa6";
+import Link from 'next/link';
 
 export default function AppLayout({ children }: { children: React.ReactNode }) {
   const [opened, { toggle }] = useDisclosure();
@@ -43,16 +44,21 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
         >
           
           <Flex
-            align={"center"}
+            align={"center"} 
           >
+
+          <Link href={"/"} style={{ textDecoration: 'none' }}>
             <Image 
               src="./logo11.png"
               fit='contain'
               h="24px"
               w="auto"
-              ml={"14px"}
+              ml={"14px"}    
             />
+          </Link>
           
+          
+          <Link href={"/"} style={{ textDecoration: 'none' }}>
             <Title 
             size={"25px"} 
             c={"white"}
@@ -61,6 +67,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
             > 
               Europe in data
             </Title>
+          </Link>
           
           </Flex>
           
@@ -170,6 +177,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           />
 
           <NavLink
+            href='/country-profiles'
             variant='filled'
             active
             label="Country profiles"
