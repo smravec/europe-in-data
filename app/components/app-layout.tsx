@@ -49,7 +49,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
 
           <Link href={"/"} style={{ textDecoration: 'none' }}>
             <Image 
-              src="./logo11.png"
+              src="/logo11.png"
               fit='contain'
               h="24px"
               w="auto"
