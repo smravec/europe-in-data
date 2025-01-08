@@ -162,7 +162,7 @@ export default function Home(){
                             <Anchor>Corporate tax</Anchor>
                             <Anchor>Capital gains tax</Anchor>
                             <Anchor>Value added tax</Anchor>
-                            <Anchor>R&D (Innovation) spending</Anchor>
+                            <Anchor>R&D (Innovation) of gdp</Anchor>
                         </Flex>
                     </GridCol>
                     

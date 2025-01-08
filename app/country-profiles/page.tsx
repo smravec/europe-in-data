@@ -9,8 +9,6 @@ export default function CountryProfiles(){
     const theme = useMantineTheme();
     let countries = Object.keys(CountryData)
     
-
-    
     return(
         <Flex 
         bg={theme.colors.gray[2]}

@@ -52,7 +52,7 @@ export default function CountryProfile( props ){
 
                     <Table.Tr>
                     <Table.Th>Debt to gdp</Table.Th>
-                    <Table.Td>{Math.trunc(CountryData[Country]["2023"]["Government debt"])} %</Table.Td>
+                    <Table.Td>{Math.trunc(CountryData[Country]["2023"]["Debt to gdp"])} %</Table.Td>
                     </Table.Tr>
 
                     <Table.Tr>
@@ -71,8 +71,8 @@ export default function CountryProfile( props ){
                     </Table.Tr>
 
                     <Table.Tr>
-                    <Table.Th>R&D (Innovation) spending</Table.Th>
-                    <Table.Td>{Math.trunc(CountryData[Country]["2021"]["R&D (Innovation) spending"] * 100) / 100} %</Table.Td>
+                    <Table.Th>R&D (Innovation) to gdp</Table.Th>
+                    <Table.Td>{Math.trunc(CountryData[Country]["2021"]["R&D (Innovation) to gdp"] * 100) / 100} %</Table.Td>
                     </Table.Tr>
                 </Table.Tbody>
             </Table>

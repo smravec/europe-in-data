@@ -22,8 +22,6 @@ import CountryProfile from "../../components/country-profile"
 
 export default async function Country( {params} ){
     const { country } = await params;
-    console.log("this is a country ---")
-    console.log(FirstLetterToCapital(country))
     return(<>
       {IsValidCountry(country) ? <CountryProfile Country={FirstLetterToCapital(country)}/> : redirect("/country-profiles") }
     </>
