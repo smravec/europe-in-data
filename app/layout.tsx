@@ -53,7 +53,7 @@ export default function RootLayout({
 
     <link
       rel="icon"
-      href="./favicon.png"
+      href="/favicon.png"
       type="image/<generated>"
     />
 

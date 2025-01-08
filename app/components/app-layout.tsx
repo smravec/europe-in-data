@@ -92,6 +92,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
         >
           
           <NavLink
+            href='/economy'
             variant='filled'
             active
             label="Economy"
@@ -109,6 +110,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           />
 
           <NavLink
+            href='/society'
             variant='filled'
             active
             label="Society"
@@ -126,6 +128,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           />
 
           <NavLink
+            href='/government'
             variant='filled'
             active
             label="Government"
@@ -143,6 +146,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           />
 
           <NavLink
+            href='/ease-of-integration'
             variant='filled'
             active
             label="Ease of integration"
@@ -160,6 +164,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           />
 
           <NavLink
+            href='/environment'
             variant='filled'
             active
             label="Environment"
@@ -196,9 +201,10 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           />
 
           <NavLink
+            href='/articles'
             variant='filled'
             active
-            label="News"
+            label="Articles"
             color={theme.colors.gray[1]}
             c={"black"}
             leftSection={<FaNewspaper/>}
