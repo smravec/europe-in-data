@@ -15,7 +15,7 @@ export default function ComingSoon(){
                 Coming soon
             </Title>
             <Text mb={"sm"}>
-                Finished pages: Country profiles
+                Finished pages: Country profiles, Economy
             </Text>
 
             <Button onClick={()=>{router.push("/")}}>

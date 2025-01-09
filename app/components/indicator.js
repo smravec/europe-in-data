@@ -2,11 +2,11 @@ import Leaderboard from "./leaderboard"
 import CountryData from "../../country-data/country-data.json"
 
 export default function Indicator(props){
-    const Year =  "2023"//props.Year
-    const Indicator = "Gdp per capita"//props.Indicator
-    const Order =  "biggest"//props.Order
-    const DecimalPlaces = 0//props.DecimalPlaces
-    const Units =  "$"//props.Units
+    const Year =  props.Year
+    const Indicator = props.Indicator
+    const Order =  props.Order
+    const DecimalPlaces = props.DecimalPlaces
+    const Units =  props.Units
 
     let data = {
         units: Units,

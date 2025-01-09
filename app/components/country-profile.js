@@ -41,8 +41,8 @@ export default function CountryProfile( props ){
                     </Table.Tr>
 
                     <Table.Tr>
-                    <Table.Th>Home affordability</Table.Th>
-                    <Table.Td>{CountryData[Country]["2023"]["Home affordability"]}</Table.Td>
+                    <Table.Th>Home unaffordability</Table.Th>
+                    <Table.Td>{CountryData[Country]["2023"]["Home unaffordability"]}</Table.Td>
                     </Table.Tr>
 
                     <Table.Tr>
