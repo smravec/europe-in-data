@@ -1,14 +1,42 @@
 'use client';
 
-import { Table, useMantineTheme } from "@mantine/core"
+import FormatBigNumber from "../lib/format-big-nummber"
+import { ScrollArea,Table, useMantineTheme } from "@mantine/core"
 
-export default function Leaderboard( {props} ){
-    const theme = useMantineTheme();
+export default function Leaderboard(props){
     
+    const theme = useMantineTheme();
 
-    const data = {
-        headers: ["Rank","Country","Score"],
-        body: [[1,"austria","10"],[1,"belgium","20"],[1,"belgium","20"],[1,"belgium","20"],[1,"belgium","20"],[1,"belgium","20"],[1,"belgium","20"],[1,"belgium","20"],[1,"belgium","20"],[1,"belgium","20"]]
+    // const data = {
+    //     order: "biggest",
+    //     headers: ["Rank","Country","Score"],
+    //     body: [[1,"austria","10"],[1,"belgium","20"],[1,"belgium","20"],[1,"belgium","30"],[1,"belgium","20"],[1,"belgium","20"],[1,"belgium","20"],[1,"belgium","20"],[1,"belgium","20"],[1,"belgium","20"],[1,"belgium","20"],[1,"belgium","20"],[1,"belgium","20"],[1,"belgium","20"]]
+    // }
+
+    const data = props.data
+    const height = props.height
+
+    function SortData(biggest_smallest, data) {
+        let sorted_data = []
+        let temp_data = [...data.body]
+    
+        if(biggest_smallest == "biggest") {
+            temp_data.sort((a, b) => {
+                return parseFloat(b[2]) - parseFloat(a[2]);
+            });
+        }
+        else if(biggest_smallest == "smallest") {
+            temp_data.sort((a, b) => {
+                return parseFloat(a[2]) - parseFloat(b[2]);
+            });
+        }
+    
+        temp_data.forEach((item, index) => {
+            item[0] = index + 1;
+        });
+    
+        sorted_data = temp_data;
+        return sorted_data;
     }
 
     const headers = (
@@ -32,7 +60,7 @@ export default function Leaderboard( {props} ){
      )
     
     const body = (
-            data.body.map((array,index) => (
+            SortData(data.order,data).map((array,index) => (
                 <Table.Tr key={index} >
                     {array.map((item,index1) => (
                         index1 == 2 ?(
@@ -41,25 +69,26 @@ export default function Leaderboard( {props} ){
                             key={index1}
                             pr={"20px"}
                         >
-                            {item}
+                            {FormatBigNumber(item) + " " + data.units}
                         </Table.Td>
                         ):(
                         <Table.Td key={index1}>
                             {item}
                         </Table.Td>
-                        )
-                        
+                        )            
                     ))}
                 </Table.Tr>
             ))
     )
 
     return(
+        <ScrollArea h={height} type='always'>
         <Table 
         striped 
         highlightOnHover 
         withRowBorders={false}
         withColumnBorders
+        stickyHeader
         >
             <Table.Thead>
                 {headers}
@@ -68,7 +97,7 @@ export default function Leaderboard( {props} ){
             <Table.Tbody>
                 {body}
             </Table.Tbody>  
-        </Table>
-        
+        </Table> 
+        </ScrollArea>
     )
 }
