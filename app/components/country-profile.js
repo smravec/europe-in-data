@@ -4,6 +4,7 @@ import { Flex, Title, useMantineTheme, Table } from "@mantine/core"
 
 import CountryData from "../../country-data/country-data.json" 
 
+import FormatBigNumber from "../lib/format-big-nummber"
 
 export default function CountryProfile( props ){
     const theme = useMantineTheme()
@@ -22,17 +23,17 @@ export default function CountryProfile( props ){
                 <Table.Tbody>
                     <Table.Tr>
                     <Table.Th >Gdp per capita</Table.Th>
-                    <Table.Td> {Math.trunc(CountryData[Country]["2023"]["Gdp per capita"])} €</Table.Td>
+                    <Table.Td> {FormatBigNumber(Math.trunc(CountryData[Country]["2023"]["Gdp per capita"]))} €</Table.Td>
                     </Table.Tr>
 
                     <Table.Tr>
                     <Table.Th>Gdp per capita PPP</Table.Th>
-                    <Table.Td> {Math.trunc(CountryData[Country]["2023"]["Gdp per capita PPP"])} €</Table.Td>
+                    <Table.Td> {FormatBigNumber(Math.trunc(CountryData[Country]["2023"]["Gdp per capita PPP"]))} €</Table.Td>
                     </Table.Tr>
 
                     <Table.Tr>
                     <Table.Th>Net average monthly wage</Table.Th>
-                    <Table.Td>{Math.trunc(CountryData[Country]["2023"]["Net average wage"] /12)} €</Table.Td>
+                    <Table.Td>{FormatBigNumber(Math.trunc(CountryData[Country]["2023"]["Net average wage"] /12))} €</Table.Td>
                     </Table.Tr>
 
                     <Table.Tr>
@@ -85,7 +86,7 @@ export default function CountryProfile( props ){
             <Table variant="vertical" layout="fixed" >
                 <Table.Tbody>
                     <Table.Tr>
-                    <Table.Th > Trust in other people</Table.Th>
+                    <Table.Th> Trust in other people</Table.Th>
                     <Table.Td>{Math.trunc(CountryData[Country]["2023"]["Trust in other people"])} %</Table.Td>
                     </Table.Tr>
 
@@ -96,12 +97,12 @@ export default function CountryProfile( props ){
 
                     <Table.Tr>
                     <Table.Th>Lack of corruption</Table.Th>
-                    <Table.Td>{Math.trunc(CountryData[Country]["2023"]["Corruption"])}</Table.Td>
+                    <Table.Td>{Math.trunc(CountryData[Country]["2023"]["Lack of corruption score"])}</Table.Td>
                     </Table.Tr>
 
                     <Table.Tr>
                     <Table.Th>Religiosity</Table.Th>
-                    <Table.Td>{Math.trunc(CountryData[Country]["2010"]["Believe in god"])} %</Table.Td>
+                    <Table.Td>{Math.trunc(CountryData[Country]["2010"]["Religiosity"])} %</Table.Td>
                     </Table.Tr>
 
                     <Table.Tr>
@@ -116,7 +117,7 @@ export default function CountryProfile( props ){
 
                     <Table.Tr>
                     <Table.Th>Pisa score</Table.Th>
-                    <Table.Td>{Math.trunc(CountryData[Country]["2022"]["Pisa results"])}</Table.Td>
+                    <Table.Td>{Math.trunc(CountryData[Country]["2022"]["Pisa score"])}</Table.Td>
                     </Table.Tr>
 
                     <Table.Tr>

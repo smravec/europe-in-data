@@ -3,17 +3,16 @@ import { redirect } from "next/navigation"
 import Indicator from "../../components/indicator"
 
 const ValidIndicators = [
-    ["Gdp per capita",2023,"biggest","€",0],
-    ["Gdp per capita PPP",2023,"biggest","€",0],
-    ["Net average wage",2023,"biggest","€",0],
-    ["Unemployment",2023,"smallest","%",2],
-    ["Home unaffordability",2023,"smallest","",1],
-    ["Gdp growth past 5 years",2023,"biggest","%",2],
-    ["Debt to gdp",2023,"smallest","%",0],
-    ["Corporate tax",2023,"smallest","%",1],
-    ["Capital gains tax",2023,"smallest","%",1],
-    ["Value added tax",2023,"smallest","%",1],
-    ["R&D (Innovation) to gdp",2021,"biggest","%",2]
+    ["Trust in other people",2023,"biggest","%",0],
+    ["Voting participation",2023,"biggest","%",1],
+    ["Lack of corruption score",2023,"biggest","",0],
+    ["Religiosity",2010,"biggest","%",0],
+    ["Risk of poverty",2023,"smallest","%",1],
+    ["Tertiary education",2023,"biggest","%",1],
+    ["Pisa score",2022,"biggest","",0],
+    ["Obesity rate",2022,"smallest","%",1],
+    ["Fertility rate",2022,"biggest","%",2],
+    ["Life expectancy",2022,"biggest","",1]
 ]
 
 function IsValidIndicator(indicator){
@@ -42,9 +41,6 @@ function FindIndicatorIndex(indicator){
 
 export default async function IndicatorPage({params}){
   let {indicator} = await params
-  if(indicator == "rd-innovation-to-gdp"){
-    indicator = "R&D (Innovation) to gdp"
-  }
 
   const IndicatorIndex = FindIndicatorIndex(indicator) 
     
@@ -58,7 +54,7 @@ export default async function IndicatorPage({params}){
       Units={ValidIndicators[IndicatorIndex][3]}
       DecimalPlaces={ValidIndicators[IndicatorIndex][4]}
       /> 
-      : redirect("/economy") }
+      : redirect("/society") }
     </>
   )
 }

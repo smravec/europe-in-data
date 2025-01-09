@@ -30,7 +30,7 @@ export default function Indicator(props){
 
     return(
         <>
-            <Leaderboard height={500} data={data} />            
+            <Leaderboard height={515} data={data} />            
         </>
     )
 }

@@ -13,7 +13,7 @@
             "Net average wage": 38457.15,
             "Home unaffordability": 11.2,
             "Value added tax": 20,
-            "Corruption": 71,
+            "Lack of corruption score": 71,
             "Trust in other people": 50,
             "Voting participation": 77.7,
             "Tertiary education": 44.0,
@@ -25,12 +25,12 @@
         },
         "2022": {
             "Obesity rate": 17.7,
-            "Pisa results": 486,
+            "Pisa score": 486,
             "Fertility rate": 1.41,
             "Life expectancy": 81.4
         },
         "2010": {
-            "Believe in god": 44
+            "Religiosity": 44
         }
     },
     "Belgium": {
@@ -47,7 +47,7 @@
             "Net average wage": 35604.37,
             "Home unaffordability": 6.8,
             "Value added tax": 21,
-            "Corruption": 73,
+            "Lack of corruption score": 73,
             "Trust in other people": 36,
             "Voting participation": 88.45,
             "Tertiary education": 50.2,
@@ -59,12 +59,12 @@
         },
         "2022": {
             "Obesity rate": 15.8,
-            "Pisa results": 486,
+            "Pisa score": 486,
             "Fertility rate": 1.53,
             "Life expectancy": 81.8
         },
         "2010": {
-            "Believe in god": 37
+            "Religiosity": 37
         }
     },
     "Bulgaria": {
@@ -81,7 +81,7 @@
             "Net average wage": 9355.23,
             "Home unaffordability": 9.5,
             "Value added tax": 20,
-            "Corruption": 45,
+            "Lack of corruption score": 45,
             "Trust in other people": 17,
             "Voting participation": 39.11,
             "Tertiary education": 35.0,
@@ -93,12 +93,12 @@
         },
         "2022": {
             "Obesity rate": 11.7,
-            "Pisa results": 414,
+            "Pisa score": 414,
             "Fertility rate": 1.65,
             "Life expectancy": 74.2
         },
         "2010": {
-            "Believe in god": 36
+            "Religiosity": 36
         }
     },
     "Croatia": {
@@ -115,7 +115,7 @@
             "Net average wage": 12330.12,
             "Home unaffordability": 12.9,
             "Value added tax": 25,
-            "Corruption": 50,
+            "Lack of corruption score": 50,
             "Trust in other people": 14,
             "Voting participation": 62.31,
             "Tertiary education": 39.1,
@@ -127,12 +127,12 @@
         },
         "2022": {
             "Obesity rate": 16.7,
-            "Pisa results": 474,
+            "Pisa score": 474,
             "Fertility rate": 1.53,
             "Life expectancy": 77.7
         },
         "2010": {
-            "Believe in god": 69
+            "Religiosity": 69
         }
     },
     "Cyprus": {
@@ -149,7 +149,7 @@
             "Net average wage": 22913.46,
             "Home unaffordability": 8.2,
             "Value added tax": 19,
-            "Corruption": 53,
+            "Lack of corruption score": 53,
             "Trust in other people": 7,
             "Voting participation": 72.45,
             "Tertiary education": 65.3,
@@ -161,12 +161,12 @@
         },
         "2022": {
             "Obesity rate": 13.5,
-            "Pisa results": 403,
+            "Pisa score": 403,
             "Fertility rate": 1.37,
             "Life expectancy": 81.6
         },
         "2010": {
-            "Believe in god": 88
+            "Religiosity": 88
         }
     },
     "Czechia": {
@@ -183,7 +183,7 @@
             "Net average wage": 17168.06,
             "Home unaffordability": 12.8,
             "Value added tax": 21,
-            "Corruption": 57,
+            "Lack of corruption score": 57,
             "Trust in other people": 27,
             "Voting participation": 70.25,
             "Tertiary education": 34.9,
@@ -195,12 +195,12 @@
         },
         "2022": {
             "Obesity rate": 17.8,
-            "Pisa results": 491,
+            "Pisa score": 491,
             "Fertility rate": 1.64,
             "Life expectancy": 79.0
         },
         "2010": {
-            "Believe in god": 16
+            "Religiosity": 16
         }
     },
     "Denmark": {
@@ -217,7 +217,7 @@
             "Net average wage": 41930.66,
             "Home unaffordability": 6.2,
             "Value added tax": 25,
-            "Corruption": 90,
+            "Lack of corruption score": 90,
             "Trust in other people": 74,
             "Voting participation": 84.16,
             "Tertiary education": 52.7,
@@ -229,12 +229,12 @@
         },
         "2022": {
             "Obesity rate": 19.4,
-            "Pisa results": 491,
+            "Pisa score": 491,
             "Fertility rate": 1.55,
             "Life expectancy": 81.3
         },
         "2010": {
-            "Believe in god": 28
+            "Religiosity": 28
         }
     },
     "Estonia": {
@@ -251,7 +251,7 @@
             "Net average wage": 17523.61,
             "Home unaffordability": 11.1,
             "Value added tax": 22,
-            "Corruption": 76,
+            "Lack of corruption score": 76,
             "Trust in other people": 34,
             "Voting participation": 63.53,
             "Tertiary education": 47.3,
@@ -263,12 +263,12 @@
         },
         "2022": {
             "Obesity rate": 22.1,
-            "Pisa results": 516,
+            "Pisa score": 516,
             "Fertility rate": 1.41,
             "Life expectancy": 78.1
         },
         "2010": {
-            "Believe in god": 18
+            "Religiosity": 18
         }
     },
     "Finland": {
@@ -285,7 +285,7 @@
             "Net average wage": 36475.01,
             "Home unaffordability": 8.5,
             "Value added tax": 24,
-            "Corruption": 87,
+            "Lack of corruption score": 87,
             "Trust in other people": 68,
             "Voting participation": 72.6,
             "Tertiary education": 43.1,
@@ -297,12 +297,12 @@
         },
         "2022": {
             "Obesity rate": 22,
-            "Pisa results": 495,
+            "Pisa score": 495,
             "Fertility rate": 1.32,
             "Life expectancy": 81.2
         },
         "2010": {
-            "Believe in god": 33
+            "Religiosity": 33
         }
     },
     "Germany": {
@@ -319,7 +319,7 @@
             "Net average wage": 38086.35,
             "Home unaffordability": 9.3,
             "Value added tax": 19,
-            "Corruption": 78,
+            "Lack of corruption score": 78,
             "Trust in other people": 42,
             "Voting participation": 76.57,
             "Tertiary education": 41.0,
@@ -331,12 +331,12 @@
         },
         "2022": {
             "Obesity rate": 19,
-            "Pisa results": 482,
+            "Pisa score": 482,
             "Fertility rate": 1.46,
             "Life expectancy": 80.7
         },
         "2010": {
-            "Believe in god": 44
+            "Religiosity": 44
         }
     },
     "Greece": {
@@ -353,7 +353,7 @@
             "Net average wage": 17706.98,
             "Home unaffordability": 13.2,
             "Value added tax": 24,
-            "Corruption": 49,
+            "Lack of corruption score": 49,
             "Trust in other people": 8,
             "Voting participation": 53.74,
             "Tertiary education": 45.1,
@@ -365,12 +365,12 @@
         },
         "2022": {
             "Obesity rate": 12,
-            "Pisa results": 436,
+            "Pisa score": 436,
             "Fertility rate": 1.32,
             "Life expectancy": 80.8
         },
         "2010": {
-            "Believe in god": 79
+            "Religiosity": 79
         }
     },
     "Hungary": {
@@ -387,7 +387,7 @@
             "Net average wage": 12455.66,
             "Home unaffordability": 13.7,
             "Value added tax": 27,
-            "Corruption": 42,
+            "Lack of corruption score": 42,
             "Trust in other people": 27,
             "Voting participation": 69.59,
             "Tertiary education": 32.8,
@@ -399,12 +399,12 @@
         },
         "2022": {
             "Obesity rate": 22.2,
-            "Pisa results": 477,
+            "Pisa score": 477,
             "Fertility rate": 1.56,
             "Life expectancy": 76.0
         },
         "2010": {
-            "Believe in god": 45
+            "Religiosity": 45
         }
     },
     "Iceland": {
@@ -421,7 +421,7 @@
             "Net average wage": 53885.04,
             "Home unaffordability": 6,
             "Value added tax": 24,
-            "Corruption": 72,
+            "Lack of corruption score": 72,
             "Trust in other people": 62,
             "Voting participation": 80.18,
             "Tertiary education": 50.4,
@@ -433,12 +433,12 @@
         },
         "2022": {
             "Obesity rate": 22.3,
-            "Pisa results": 447,
+            "Pisa score": 447,
             "Fertility rate": 1.59,
             "Life expectancy": 82.1
         },
         "2010": {
-            "Believe in god": 31
+            "Religiosity": 31
         }
     },
     "Ireland": {
@@ -455,7 +455,7 @@
             "Net average wage": 43151.3,
             "Home unaffordability": 7.25,
             "Value added tax": 23,
-            "Corruption": 77,
+            "Lack of corruption score": 77,
             "Trust in other people": 37,
             "Voting participation": 59.7,
             "Tertiary education": 63.7,
@@ -467,12 +467,12 @@
         },
         "2022": {
             "Obesity rate": 19.8,
-            "Pisa results": 504,
+            "Pisa score": 504,
             "Fertility rate": 1.54,
             "Life expectancy": 82.6
         },
         "2010": {
-            "Believe in god": 70
+            "Religiosity": 70
         }
     },
     "Italy": {
@@ -489,7 +489,7 @@
             "Net average wage": 24206.84,
             "Home unaffordability": 10.3,
             "Value added tax": 22,
-            "Corruption": 56,
+            "Lack of corruption score": 56,
             "Trust in other people": 27,
             "Voting participation": 63.81,
             "Tertiary education": 29.2,
@@ -501,12 +501,12 @@
         },
         "2022": {
             "Obesity rate": 7.1,
-            "Pisa results": 477,
+            "Pisa score": 477,
             "Fertility rate": 1.24,
             "Life expectancy": 82.8
         },
         "2010": {
-            "Believe in god": 74
+            "Religiosity": 74
         }
     },
     "Latvia": {
@@ -523,7 +523,7 @@
             "Net average wage": 13521.9,
             "Home unaffordability": 9,
             "Value added tax": 21,
-            "Corruption": 60,
+            "Lack of corruption score": 60,
             "Trust in other people": 22,
             "Voting participation": 59.41,
             "Tertiary education": 47.4,
@@ -535,12 +535,12 @@
         },
         "2022": {
             "Obesity rate": 23.3,
-            "Pisa results": 484,
+            "Pisa score": 484,
             "Fertility rate": 1.47,
             "Life expectancy": 74.5
         },
         "2010": {
-            "Believe in god": 38
+            "Religiosity": 38
         }
     },
     "Lithuania": {
@@ -557,7 +557,7 @@
             "Net average wage": 14557.22,
             "Home unaffordability": 12,
             "Value added tax": 21,
-            "Corruption": 61,
+            "Lack of corruption score": 61,
             "Trust in other people": 32,
             "Voting participation": 52.2,
             "Tertiary education": 59.5,
@@ -569,12 +569,12 @@
         },
         "2022": {
             "Obesity rate": 20.6,
-            "Pisa results": 477,
+            "Pisa score": 477,
             "Fertility rate": 1.27,
             "Life expectancy": 75.8
         },
         "2010": {
-            "Believe in god": 47
+            "Religiosity": 47
         }
     },
     "Luxembourg": {
@@ -591,7 +591,7 @@
             "Net average wage": 49034.61,
             "Home unaffordability": 9.1,
             "Value added tax": 17,
-            "Corruption": 78,
+            "Lack of corruption score": 78,
             "Trust in other people": 31,
             "Voting participation": 87.2,
             "Tertiary education": 61.9,
@@ -603,12 +603,12 @@
         },
         "2022": {
             "Obesity rate": 17.0,
-            "Pisa results": 474,
+            "Pisa score": 474,
             "Fertility rate": 1.31,
             "Life expectancy": 83.0
         },
         "2010": {
-            "Believe in god": 46
+            "Religiosity": 46
         }
     },
     "Malta": {
@@ -625,7 +625,7 @@
             "Net average wage": 20465.58,
             "Home unaffordability": 12.1,
             "Value added tax": 18,
-            "Corruption": 51,
+            "Lack of corruption score": 51,
             "Trust in other people": 21,
             "Voting participation": 85.63,
             "Tertiary education": 43.3,
@@ -637,12 +637,12 @@
         },
         "2022": {
             "Obesity rate": 26.1,
-            "Pisa results": 459,
+            "Pisa score": 459,
             "Fertility rate": 1.08,
             "Life expectancy": 82.4
         },
         "2010": {
-            "Believe in god": 94
+            "Religiosity": 94
         }
     },
     "Netherlands": {
@@ -659,7 +659,7 @@
             "Net average wage": 45249.35,
             "Home unaffordability": 7.8,
             "Value added tax": 21,
-            "Corruption": 79,
+            "Lack of corruption score": 79,
             "Trust in other people": 57,
             "Voting participation": 77.75,
             "Tertiary education": 54.3,
@@ -671,12 +671,12 @@
         },
         "2022": {
             "Obesity rate": 13.8,
-            "Pisa results": 480,
+            "Pisa score": 480,
             "Fertility rate": 1.49,
             "Life expectancy": 81.7
         },
         "2010": {
-            "Believe in god": 28
+            "Religiosity": 28
         }
     },
     "Norway": {
@@ -693,7 +693,7 @@
             "Net average wage": 45797.85,
             "Home unaffordability": 7.8,
             "Value added tax": 25,
-            "Corruption": 84,
+            "Lack of corruption score": 84,
             "Trust in other people": 72,
             "Voting participation": 77.17,
             "Tertiary education": 57.1,
@@ -705,12 +705,12 @@
         },
         "2022": {
             "Obesity rate": 16.8,
-            "Pisa results": 474,
+            "Pisa score": 474,
             "Fertility rate": 1.41,
             "Life expectancy": 82.5
         },
         "2010": {
-            "Believe in god": 22
+            "Religiosity": 22
         }
     },
     "Poland": {
@@ -727,7 +727,7 @@
             "Net average wage": 14425.3,
             "Home unaffordability": 11.8,
             "Value added tax": 23,
-            "Corruption": 54,
+            "Lack of corruption score": 54,
             "Trust in other people": 24,
             "Voting participation": 74.4,
             "Tertiary education": 49.2,
@@ -739,12 +739,12 @@
         },
         "2022": {
             "Obesity rate": 18.6,
-            "Pisa results": 492,
+            "Pisa score": 492,
             "Fertility rate": 1.29,
             "Life expectancy": 77.2
         },
         "2010": {
-            "Believe in god": 79
+            "Religiosity": 79
         }
     },
     "Portugal": {
@@ -761,7 +761,7 @@
             "Net average wage": 16943.49,
             "Home unaffordability": 13.2,
             "Value added tax": 23,
-            "Corruption": 61,
+            "Lack of corruption score": 61,
             "Trust in other people": 17,
             "Voting participation": 59.9,
             "Tertiary education": 39.7,
@@ -773,12 +773,12 @@
         },
         "2022": {
             "Obesity rate": 15.8,
-            "Pisa results": 478,
+            "Pisa score": 478,
             "Fertility rate": 1.43,
             "Life expectancy": 81.8
         },
         "2010": {
-            "Believe in god": 70
+            "Religiosity": 70
         }
     },
     "Romania": {
@@ -795,7 +795,7 @@
             "Net average wage": 11105.12,
             "Home unaffordability": 10.5,
             "Value added tax": 19,
-            "Corruption": 46,
+            "Lack of corruption score": 46,
             "Trust in other people": 12,
             "Voting participation": 48.28,
             "Tertiary education": 22.8,
@@ -807,12 +807,12 @@
         },
         "2022": {
             "Obesity rate": 10.3,
-            "Pisa results": 428,
+            "Pisa score": 428,
             "Fertility rate": 1.71,
             "Life expectancy": 75.1
         },
         "2010": {
-            "Believe in god": 93
+            "Religiosity": 93
         }
     },
     "Slovakia": {
@@ -829,7 +829,7 @@
             "Net average wage": 12744.11,
             "Home unaffordability": 14.6,
             "Value added tax": 23,
-            "Corruption": 54,
+            "Lack of corruption score": 54,
             "Trust in other people": 22,
             "Voting participation": 68.5,
             "Tertiary education": 41.1,
@@ -841,12 +841,12 @@
         },
         "2022": {
             "Obesity rate": 17.1,
-            "Pisa results": 458,
+            "Pisa score": 458,
             "Fertility rate": 1.57,
             "Life expectancy": 77.0
         },
         "2010": {
-            "Believe in god": 63
+            "Religiosity": 63
         }
     },
     "Slovenia": {
@@ -863,7 +863,7 @@
             "Net average wage": 17547.68,
             "Home unaffordability": 12.5,
             "Value added tax": 22,
-            "Corruption": 56,
+            "Lack of corruption score": 56,
             "Trust in other people": 25,
             "Voting participation": 70.96,
             "Tertiary education": 40.0,
@@ -875,12 +875,12 @@
         },
         "2022": {
             "Obesity rate": 17.9,
-            "Pisa results": 485,
+            "Pisa score": 485,
             "Fertility rate": 1.55,
             "Life expectancy": 81.3
         },
         "2010": {
-            "Believe in god": 32
+            "Religiosity": 32
         }
     },
     "Spain": {
@@ -897,7 +897,7 @@
             "Net average wage": 23567.74,
             "Home unaffordability": 8.1,
             "Value added tax": 21,
-            "Corruption": 60,
+            "Lack of corruption score": 60,
             "Trust in other people": 41,
             "Voting participation": 66.59,
             "Tertiary education": 50.6,
@@ -909,12 +909,12 @@
         },
         "2022": {
             "Obesity rate": 14.9,
-            "Pisa results": 477,
+            "Pisa score": 477,
             "Fertility rate": 1.16,
             "Life expectancy": 83.2
         },
         "2010": {
-            "Believe in god": 59
+            "Religiosity": 59
         }
     },
     "Sweden": {
@@ -931,7 +931,7 @@
             "Net average wage": 33926.03,
             "Home unaffordability": 7.8,
             "Value added tax": 25,
-            "Corruption": 82,
+            "Lack of corruption score": 82,
             "Trust in other people": 63,
             "Voting participation": 84.2,
             "Tertiary education": 58.0,
@@ -943,12 +943,12 @@
         },
         "2022": {
             "Obesity rate": 17.2,
-            "Pisa results": 488,
+            "Pisa score": 488,
             "Fertility rate": 1.53,
             "Life expectancy": 83.1
         },
         "2010": {
-            "Believe in god": 18
+            "Religiosity": 18
         }
     },
     "Switzerland": {
@@ -965,7 +965,7 @@
             "Net average wage": 85582.07,
             "Home unaffordability": 10.3,
             "Value added tax": 8.1,
-            "Corruption": 82,
+            "Lack of corruption score": 82,
             "Trust in other people": 59,
             "Voting participation": 46.64,
             "Tertiary education": 55.1,
@@ -977,12 +977,12 @@
         },
         "2022": {
             "Obesity rate": 13.5,
-            "Pisa results": 498,
+            "Pisa score": 498,
             "Fertility rate": 1.39,
             "Life expectancy": 83.7
         },
         "2010": {
-            "Believe in god": 44
+            "Religiosity": 44
         }
     }
 }

@@ -15,10 +15,10 @@ export default function ComingSoon(){
                 Coming soon
             </Title>
             <Text mb={"sm"}>
-                Finished pages: Country profiles, Economy
+                Finished pages: Country profiles, Economy, Society
             </Text>
 
-            <Button onClick={()=>{router.push("/")}}>
+            <Button onClick={()=>{router.push("/")}} variant="filled" color='main'>
                 Back to main page
             </Button>
         </Flex>
