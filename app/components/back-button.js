@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 
 import { IoArrowBack } from "react-icons/io5";
 
-import { Button,Flex,Text } from "@mantine/core";
+import { Button } from "@mantine/core";
 
 
 export default function BackButton(props){

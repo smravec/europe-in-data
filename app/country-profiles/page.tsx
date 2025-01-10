@@ -3,7 +3,7 @@
 import Link from "next/link";
 import CountryData from "../../country-data/country-data.json"
 
-import { Flex , Title, useMantineTheme , SimpleGrid} from "@mantine/core";
+import { Flex , Title, useMantineTheme , SimpleGrid, Anchor} from "@mantine/core";
 
 export default function CountryProfiles(){
     const theme = useMantineTheme();
@@ -28,7 +28,7 @@ export default function CountryProfiles(){
             spacing={"20px"}
             >
             {countries.map((country) => (
-                <Link style={{fontSize: "20px"}} href={`/country-profiles/${country.toLowerCase()}`} key={country}>{country}</Link>
+                <Anchor component={Link} style={{fontSize: "20px"}} href={`/country-profiles/${country.toLowerCase()}`} key={country}>{country}</Anchor>
             ))}
             </SimpleGrid> 
         </Flex>

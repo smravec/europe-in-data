@@ -1,7 +1,7 @@
 'use client'
 
 import Link from "next/link";
-import { Title, useMantineTheme, Flex,SimpleGrid } from "@mantine/core";
+import { Title, useMantineTheme, Flex,SimpleGrid, Anchor } from "@mantine/core";
 
 export default function Society(){
     const theme = useMantineTheme()
@@ -18,21 +18,21 @@ export default function Society(){
         style={{borderRadius: "8px"}}
         bd={"1px solid"  + theme.colors.gray[4]}
         >
-            <Title mb={"lg"}>Countries</Title>
+            <Title mb={"lg"}>Society indicators</Title>
             <SimpleGrid
             cols={{base: 2, sm:4}}
             verticalSpacing={"2px"}
             spacing={"20px"}
             >
-                <Link href="/society/trust-in-other-people">Trust in other people</Link>
-                <Link href="/society/voting-participation">Voting participation</Link>
-                <Link href="/society/lack-of-corruption-score">Lack of corruption score</Link>
-                <Link href="/society/religiosity">Religiosity</Link>
-                <Link href="/society/tertiary-education">Tertiary education</Link>
-                <Link href="/society/pisa-score">Pisa score</Link>
-                <Link href="/society/obesity-rate">Obesity rate</Link>
-                <Link href="/society/fertility-rate">Fertility rate</Link>    
-                <Link href="/society/life-expectancy">Life expectancy</Link>    
+                <Anchor component={Link} href="/society/trust-in-other-people">Trust in other people</Anchor>
+                <Anchor component={Link} href="/society/voting-participation">Voting participation</Anchor>
+                <Anchor component={Link} href="/society/lack-of-corruption-score">Lack of corruption score</Anchor>
+                <Anchor component={Link} href="/society/religiosity">Religiosity</Anchor>
+                <Anchor component={Link} href="/society/tertiary-education">Tertiary education</Anchor>
+                <Anchor component={Link} href="/society/pisa-score">Pisa score</Anchor>
+                <Anchor component={Link} href="/society/obesity-rate">Obesity rate</Anchor>
+                <Anchor component={Link} href="/society/fertility-rate">Fertility rate</Anchor>    
+                <Anchor component={Link} href="/society/life-expectancy">Life expectancy</Anchor>    
             </SimpleGrid> 
         </Flex>
     )
