@@ -193,16 +193,16 @@ export default function Home(){
                         > 
                             <Text size='28px' fw={"600"} fz={{ base:"24px", xs:"28px"}}>Government</Text>
                             <Space h={"xs"}/>
-                            <Anchor>Coming soon</Anchor>
-                            <Anchor>Coming soon</Anchor>
-                            <Anchor>Coming soon</Anchor>
-                            <Anchor>Coming soon</Anchor>
-                            <Anchor>Coming soon</Anchor>
-                            <Anchor>Coming soon</Anchor>
-                            <Anchor>Coming soon</Anchor>
-                            <Anchor>Coming soon</Anchor>
-                            <Anchor>Coming soon</Anchor>
-                            <Anchor>Coming soon</Anchor>
+                            <Anchor component={Link} href={"/government"}>Coming soon</Anchor>
+                            <Anchor component={Link} href={"/government"}>Coming soon</Anchor>
+                            <Anchor component={Link} href={"/government"}>Coming soon</Anchor>
+                            <Anchor component={Link} href={"/government"}>Coming soon</Anchor>
+                            <Anchor component={Link} href={"/government"}>Coming soon</Anchor>
+                            <Anchor component={Link} href={"/government"}>Coming soon</Anchor>
+                            <Anchor component={Link} href={"/government"}>Coming soon</Anchor>
+                            <Anchor component={Link} href={"/government"}>Coming soon</Anchor>
+                            <Anchor component={Link} href={"/government"}>Coming soon</Anchor>
+                            <Anchor component={Link} href={"/government"}>Coming soon</Anchor>
                         </Flex>
                     </GridCol>
                     
@@ -213,16 +213,16 @@ export default function Home(){
                         >
                             <Text size='28px' fw={"600"} fz={{ base:"24px", xs:"28px"}}>Ease of integration</Text>
                             <Space h={"xs"}/>
-                            <Anchor>Coming soon</Anchor>
-                            <Anchor>Coming soon</Anchor>
-                            <Anchor>Coming soon</Anchor>
-                            <Anchor>Coming soon</Anchor>
-                            <Anchor>Coming soon</Anchor>
-                            <Anchor>Coming soon</Anchor>
-                            <Anchor>Coming soon</Anchor>
-                            <Anchor>Coming soon</Anchor>
-                            <Anchor>Coming soon</Anchor>
-                            <Anchor>Coming soon</Anchor>
+                            <Anchor component={Link} href={"/ease-of-integration"}>Coming soon</Anchor>
+                            <Anchor component={Link} href={"/ease-of-integration"}>Coming soon</Anchor>
+                            <Anchor component={Link} href={"/ease-of-integration"}>Coming soon</Anchor>
+                            <Anchor component={Link} href={"/ease-of-integration"}>Coming soon</Anchor>
+                            <Anchor component={Link} href={"/ease-of-integration"}>Coming soon</Anchor>
+                            <Anchor component={Link} href={"/ease-of-integration"}>Coming soon</Anchor>
+                            <Anchor component={Link} href={"/ease-of-integration"}>Coming soon</Anchor>
+                            <Anchor component={Link} href={"/ease-of-integration"}>Coming soon</Anchor>
+                            <Anchor component={Link} href={"/ease-of-integration"}>Coming soon</Anchor>
+                            <Anchor component={Link} href={"/ease-of-integration"}>Coming soon</Anchor>
                         </Flex>
                     </GridCol>
             
@@ -232,16 +232,16 @@ export default function Home(){
                         >
                             <Text size='28px' fw={"600"} fz={{ base:"24px", xs:"28px"}}>Environment</Text>
                             <Space h={"xs"}/>
-                            <Anchor>Coming soon</Anchor>
-                            <Anchor>Coming soon</Anchor>
-                            <Anchor>Coming soon</Anchor>
-                            <Anchor>Coming soon</Anchor>
-                            <Anchor>Coming soon</Anchor>
-                            <Anchor>Coming soon</Anchor>
-                            <Anchor>Coming soon</Anchor>
-                            <Anchor>Coming soon</Anchor>
-                            <Anchor>Coming soon</Anchor>
-                            <Anchor>Coming soon</Anchor>
+                            <Anchor component={Link} href={"/environment"}>Coming soon</Anchor>
+                            <Anchor component={Link} href={"/environment"}>Coming soon</Anchor>
+                            <Anchor component={Link} href={"/environment"}>Coming soon</Anchor>
+                            <Anchor component={Link} href={"/environment"}>Coming soon</Anchor>
+                            <Anchor component={Link} href={"/environment"}>Coming soon</Anchor>
+                            <Anchor component={Link} href={"/environment"}>Coming soon</Anchor>
+                            <Anchor component={Link} href={"/environment"}>Coming soon</Anchor>
+                            <Anchor component={Link} href={"/environment"}>Coming soon</Anchor>
+                            <Anchor component={Link} href={"/environment"}>Coming soon</Anchor>
+                            <Anchor component={Link} href={"/environment"}>Coming soon</Anchor>
                         </Flex>
                     </GridCol>
 
