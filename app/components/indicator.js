@@ -37,7 +37,7 @@ export default function Indicator(props){
     return(
         <>
             <BackButton Url={PrevPage}/>
-            <Leaderboard height={515} data={data} />            
+            <Leaderboard height={510} data={data} />            
         </>
     )
 }

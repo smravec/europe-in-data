@@ -113,6 +113,7 @@ export default function Leaderboard(props){
         withRowBorders={false}
         withColumnBorders
         stickyHeader
+        verticalSpacing={"4px"}
         >
             <Table.Thead>
                 {headers}
