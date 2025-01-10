@@ -1,5 +1,10 @@
+'use client'
+
 import Leaderboard from "./leaderboard"
 import CountryData from "../../country-data/country-data.json"
+import { Button } from "@mantine/core"
+import { useRouter } from "next/navigation"
+
 
 export default function Indicator(props){
     const Year =  props.Year
@@ -7,6 +12,10 @@ export default function Indicator(props){
     const Order =  props.Order
     const DecimalPlaces = props.DecimalPlaces
     const Units =  props.Units
+
+    const PrevPage = props.PrevPage
+
+    const router = useRouter()
 
     let data = {
         units: Units,
@@ -30,6 +39,14 @@ export default function Indicator(props){
 
     return(
         <>
+            <Button 
+            onClick={()=>{router.push(PrevPage)}} 
+            variant="filled" 
+            color='main'
+            w={"100px"}
+            mb={"lg"}>
+                Back
+            </Button>
             <Leaderboard height={515} data={data} />            
         </>
     )

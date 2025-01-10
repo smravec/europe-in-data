@@ -82,6 +82,7 @@ export default function Leaderboard(props){
     )
 
     return(
+        
         <ScrollArea h={height} type='always'>
         <Table 
         striped 

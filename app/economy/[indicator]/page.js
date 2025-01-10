@@ -7,7 +7,7 @@ const ValidIndicators = [
     ["Gdp per capita PPP",2023,"biggest","€",0],
     ["Net average wage",2023,"biggest","€",0],
     ["Unemployment",2023,"smallest","%",2],
-    ["Home unaffordability",2023,"smallest","",1],
+    ["House price to wage",2023,"smallest","",1],
     ["Gdp growth past 5 years",2023,"biggest","%",2],
     ["Debt to gdp",2023,"smallest","%",0],
     ["Corporate tax",2023,"smallest","%",1],
@@ -32,7 +32,7 @@ function FindIndicatorIndex(indicator){
   let IndicatorIndex = -1 
 
   ValidIndicators.forEach((element, index) => {
-    if(element[0].toLowerCase().replace(/ /g, "-") == indicator){
+    if(element[0].toLowerCase().replace(/ /g, "-") == indicator.toLowerCase().replace(/ /g, "-")){
       IndicatorIndex = index
     }
   });
@@ -57,6 +57,7 @@ export default async function IndicatorPage({params}){
       Order={ValidIndicators[IndicatorIndex][2]}
       Units={ValidIndicators[IndicatorIndex][3]}
       DecimalPlaces={ValidIndicators[IndicatorIndex][4]}
+      PrevPage={"/economy"}
       /> 
       : redirect("/economy") }
     </>

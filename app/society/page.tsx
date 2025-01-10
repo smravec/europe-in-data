@@ -26,7 +26,7 @@ export default function Society(){
             >
                 <Link href="/society/trust-in-other-people">Trust in other people</Link>
                 <Link href="/society/voting-participation">Voting participation</Link>
-                <Link href="/society/lack-of-corruption">Lack of corruption</Link>
+                <Link href="/society/lack-of-corruption-score">Lack of corruption score</Link>
                 <Link href="/society/religiosity">Religiosity</Link>
                 <Link href="/society/tertiary-education">Tertiary education</Link>
                 <Link href="/society/pisa-score">Pisa score</Link>

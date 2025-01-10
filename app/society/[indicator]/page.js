@@ -11,7 +11,7 @@ const ValidIndicators = [
     ["Tertiary education",2023,"biggest","%",1],
     ["Pisa score",2022,"biggest","",0],
     ["Obesity rate",2022,"smallest","%",1],
-    ["Fertility rate",2022,"biggest","%",2],
+    ["Fertility rate",2022,"biggest","",2],
     ["Life expectancy",2022,"biggest","",1]
 ]
 
@@ -53,6 +53,7 @@ export default async function IndicatorPage({params}){
       Order={ValidIndicators[IndicatorIndex][2]}
       Units={ValidIndicators[IndicatorIndex][3]}
       DecimalPlaces={ValidIndicators[IndicatorIndex][4]}
+      PrevPage={"/society"}
       /> 
       : redirect("/society") }
     </>

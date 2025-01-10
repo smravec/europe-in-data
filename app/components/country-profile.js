@@ -1,6 +1,7 @@
 'use client'
 
-import { Flex, Title, useMantineTheme, Table } from "@mantine/core"
+import { Flex, Title, useMantineTheme, Table, Button } from "@mantine/core"
+import { useRouter } from "next/navigation"
 
 import CountryData from "../../country-data/country-data.json" 
 
@@ -10,8 +11,19 @@ export default function CountryProfile( props ){
     const theme = useMantineTheme()
     const Country = props.Country
 
+    const router = useRouter()
+
     return(
         <Flex direction={"column"} >
+            <Button 
+            onClick={()=>{router.push("/country-profiles")}} 
+            variant="filled" 
+            color='main'
+            w={"100px"}
+            mb={"lg"}>
+                Back
+            </Button>
+
             <Title order={1} mb={"lg"}>
             {CountryData[Country]["Icon"]} {Country}
             </Title>
@@ -42,8 +54,8 @@ export default function CountryProfile( props ){
                     </Table.Tr>
 
                     <Table.Tr>
-                    <Table.Th>Home unaffordability</Table.Th>
-                    <Table.Td>{CountryData[Country]["2023"]["Home unaffordability"]}</Table.Td>
+                    <Table.Th>House price to wage</Table.Th>
+                    <Table.Td>{CountryData[Country]["2023"]["House price to wage"]}</Table.Td>
                     </Table.Tr>
 
                     <Table.Tr>
@@ -96,7 +108,7 @@ export default function CountryProfile( props ){
                     </Table.Tr>
 
                     <Table.Tr>
-                    <Table.Th>Lack of corruption</Table.Th>
+                    <Table.Th>Lack of corruption score</Table.Th>
                     <Table.Td>{Math.trunc(CountryData[Country]["2023"]["Lack of corruption score"])}</Table.Td>
                     </Table.Tr>
 
