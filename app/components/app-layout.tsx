@@ -13,6 +13,8 @@ import { FaLandmark } from "react-icons/fa6";
 import { FaMoneyBill } from "react-icons/fa6";
 import { FaFlag } from "react-icons/fa";
 import { FaNewspaper } from "react-icons/fa6";
+
+//Next
 import Link from 'next/link';
 
 export default function AppLayout({ children }: { children: React.ReactNode }) {
@@ -92,6 +94,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
         >
           
           <NavLink
+            component={Link}
             href='/economy'
             variant='filled'
             active
@@ -110,6 +113,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           />
 
           <NavLink
+            component={Link}
             href='/society'
             variant='filled'
             active
@@ -128,6 +132,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           />
 
           <NavLink
+            component={Link}
             href='/government'
             variant='filled'
             active
@@ -146,6 +151,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           />
 
           <NavLink
+            component={Link}
             href='/ease-of-integration'
             variant='filled'
             active
@@ -164,6 +170,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           />
 
           <NavLink
+            component={Link}
             href='/environment'
             variant='filled'
             active
@@ -182,6 +189,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           />
 
           <NavLink
+            component={Link}
             href='/country-profiles'
             variant='filled'
             active
@@ -201,6 +209,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           />
 
           <NavLink
+            component={Link}
             href='/articles'
             variant='filled'
             active
