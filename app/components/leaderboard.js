@@ -59,7 +59,7 @@ export default function Leaderboard(props){
         <Table.Tr>
             {data.headers.map((item, index) => 
                 index === 0 ? (
-                    <Table.Th key={item} w="10%" bg="main" c="white" fz={"16px"} >{item}</Table.Th>
+                    <Table.Th key={item} w="10%" bg="main" c="white" fz={"18px"} >{item}</Table.Th>
                 ) : (
                     <Table.Th 
                         key={item} 
@@ -67,7 +67,7 @@ export default function Leaderboard(props){
                         c="white"
                         ta={index === 2 ? "right" : "left"}
                         pr={index === 2 ? "10px": "0px"}
-                        fz={"16px"}
+                        fz={"18px"}
                     >
                         {item}
                     </Table.Th>
@@ -85,17 +85,18 @@ export default function Leaderboard(props){
                             ta={"right"} 
                             key={index1}
                             pr={"20px"}
+                            fz={"16px"}
                         >
                             {FormatBigNumber(item) + " " + data.units}
                         </Table.Td>
                         ):( index1 == 1 ?
                             <Table.Td key={index1}>
-                                <Anchor component={Link} href={"/country-profiles/" + WhichCountry(item)}>
+                                <Anchor component={Link} fz={"16px"} href={"/country-profiles/" + WhichCountry(item)}>
                                     {item}
                                 </Anchor>
                             </Table.Td> 
                             :
-                            <Table.Td key={index1}>
+                            <Table.Td key={index1} fz={"16px"}>
                                 {item}
                             </Table.Td>
                         )            
