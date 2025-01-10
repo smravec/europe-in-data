@@ -2,6 +2,8 @@
 
 import { Button, Stack, Title, useMantineTheme, Text, Anchor, ScrollArea, Flex, Space, Grid, GridCol } from '@mantine/core';
 
+import Link from 'next/link';
+
 //import leaflet component this way cause of old libs
 import dynamic from "next/dynamic";
 const EuropeMap = dynamic(() => import("./components/europe-map"), { ssr: false });
@@ -152,17 +154,17 @@ export default function Home(){
                         > 
                             <Text size='28px' fw={"600"} fz={{ base:"24px", xs:"28px"}}>Economy</Text>
                             <Space h={"xs"}/>
-                            <Anchor>Gdp per capita</Anchor>
-                            <Anchor>Gdp per capita PPP</Anchor>
-                            <Anchor>Net average wage</Anchor>
-                            <Anchor>Unemployment</Anchor>
-                            <Anchor>Home affordability</Anchor>
-                            <Anchor>Gdp growth past 5 years</Anchor>
-                            <Anchor>Debt to gdp</Anchor>
-                            <Anchor>Corporate tax</Anchor>
-                            <Anchor>Capital gains tax</Anchor>
-                            <Anchor>Value added tax</Anchor>
-                            <Anchor>R&D (Innovation) of gdp</Anchor>
+                            <Anchor component={Link} href={"/economy/gdp-per-capita"} >Gdp per capita</Anchor>
+                            <Anchor component={Link} href={"/economy/gdp-per-capita-ppp"}>Gdp per capita PPP</Anchor>
+                            <Anchor component={Link} href={"/economy/net-average-wage"}>Net average wage</Anchor>
+                            <Anchor component={Link} href={"/economy/unemployment"}>Unemployment</Anchor>
+                            <Anchor component={Link} href={"/economy/house-price-to-wage"}>House price to wage</Anchor>
+                            <Anchor component={Link} href={"/economy/gdp-growth-past-5-years"}>Gdp growth past 5 years</Anchor>
+                            <Anchor component={Link} href={"/economy/debt-to-gpd"}>Debt to gdp</Anchor>
+                            <Anchor component={Link} href={"/economy/corporate-tax"}>Corporate tax</Anchor>
+                            <Anchor component={Link} href={"/economy/capital-gains-tax"}>Capital gains tax</Anchor>
+                            <Anchor component={Link} href={"/economy/value-added-tax"}>Value added tax</Anchor>
+                            <Anchor component={Link} href={"/economy/rd-innovation-of-gdp"}>R&D (Innovation) of gdp</Anchor>
                         </Flex>
                     </GridCol>
                     
@@ -172,16 +174,16 @@ export default function Home(){
                         > 
                             <Text size='28px' fw={"600"} fz={{ base:"24px", xs:"28px"}}>Society</Text>
                             <Space h={"xs"}/>
-                            <Anchor>Trust in other people</Anchor>
-                            <Anchor>Voting participation</Anchor>
-                            <Anchor>Corruption</Anchor>
-                            <Anchor>Religiosity</Anchor>
-                            <Anchor>Risk of poverty</Anchor>
-                            <Anchor>Tertiary education</Anchor>
-                            <Anchor>Pisa score</Anchor>
-                            <Anchor>Obesity rate</Anchor>
-                            <Anchor>Fertility rate</Anchor>
-                            <Anchor>Life expectancy</Anchor>
+                            <Anchor component={Link} href={"/society/trust-in-other-people"}>Trust in other people</Anchor>
+                            <Anchor component={Link} href={"/society/voting-participation"}>Voting participation</Anchor>
+                            <Anchor component={Link} href={"/society/lack-of-corruption-score"}>Lack of corruption score</Anchor>
+                            <Anchor component={Link} href={"/society/religiosity"}>Religiosity</Anchor>
+                            <Anchor component={Link} href={"/society/risk-of-poverty"}>Risk of poverty</Anchor>
+                            <Anchor component={Link} href={"/society/tertiary-education"}>Tertiary education</Anchor>
+                            <Anchor component={Link} href={"/society/pisa-score"}>Pisa score</Anchor>
+                            <Anchor component={Link} href={"/society/obesity-rate"}>Obesity rate</Anchor>
+                            <Anchor component={Link} href={"/society/fertility-rate"}>Fertility rate</Anchor>
+                            <Anchor component={Link} href={"/society/life-expectancy"}>Life expectancy</Anchor>
                         </Flex>
                     </GridCol>
 

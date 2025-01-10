@@ -1,7 +1,11 @@
 'use client';
 
 import FormatBigNumber from "../lib/format-big-nummber"
-import { ScrollArea,Table, useMantineTheme } from "@mantine/core"
+import { ScrollArea,Table, useMantineTheme, Anchor } from "@mantine/core"
+
+import Link from "next/link";
+
+import CountryData from "../../country-data/country-data.json"
 
 export default function Leaderboard(props){
     
@@ -39,6 +43,18 @@ export default function Leaderboard(props){
         return sorted_data;
     }
 
+    function WhichCountry (country){
+        const countries = Object.keys(CountryData)
+        let found_country = ""
+
+        countries.forEach(element => {
+            if(country.includes(element.toString())){
+                found_country = element.toString().toLowerCase()
+            }
+        });
+        return found_country
+    }
+
     const headers = (
         <Table.Tr>
             {data.headers.map((item, index) => 
@@ -71,10 +87,16 @@ export default function Leaderboard(props){
                         >
                             {FormatBigNumber(item) + " " + data.units}
                         </Table.Td>
-                        ):(
-                        <Table.Td key={index1}>
-                            {item}
-                        </Table.Td>
+                        ):( index1 == 1 ?
+                            <Table.Td key={index1}>
+                                <Anchor component={Link} href={"/country-profiles/" + WhichCountry(item)}>
+                                    {item}
+                                </Anchor>
+                            </Table.Td> 
+                            :
+                            <Table.Td key={index1}>
+                                {item}
+                            </Table.Td>
                         )            
                     ))}
                 </Table.Tr>
@@ -86,7 +108,6 @@ export default function Leaderboard(props){
         <ScrollArea h={height} type='always'>
         <Table 
         striped 
-        highlightOnHover 
         withRowBorders={false}
         withColumnBorders
         stickyHeader

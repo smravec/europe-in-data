@@ -96,6 +96,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           <NavLink
             component={Link}
             href='/economy'
+            onClick={toggle}
             variant='filled'
             active
             label="Economy"
@@ -115,6 +116,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           <NavLink
             component={Link}
             href='/society'
+            onClick={toggle}
             variant='filled'
             active
             label="Society"
@@ -134,6 +136,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           <NavLink
             component={Link}
             href='/government'
+            onClick={toggle}
             variant='filled'
             active
             label="Government"
@@ -153,6 +156,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           <NavLink
             component={Link}
             href='/ease-of-integration'
+            onClick={toggle}
             variant='filled'
             active
             label="Ease of integration"
@@ -172,6 +176,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           <NavLink
             component={Link}
             href='/environment'
+            onClick={toggle}
             variant='filled'
             active
             label="Environment"
@@ -191,6 +196,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           <NavLink
             component={Link}
             href='/country-profiles'
+            onClick={toggle}
             variant='filled'
             active
             label="Country profiles"
@@ -211,6 +217,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           <NavLink
             component={Link}
             href='/articles'
+            onClick={toggle}
             variant='filled'
             active
             label="Articles"
