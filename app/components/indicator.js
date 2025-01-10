@@ -2,8 +2,7 @@
 
 import Leaderboard from "./leaderboard"
 import CountryData from "../../country-data/country-data.json"
-import { Button } from "@mantine/core"
-import { useRouter } from "next/navigation"
+import BackButton from "./back-button"
 
 
 export default function Indicator(props){
@@ -14,8 +13,6 @@ export default function Indicator(props){
     const Units =  props.Units
 
     const PrevPage = props.PrevPage
-
-    const router = useRouter()
 
     let data = {
         units: Units,
@@ -39,14 +36,7 @@ export default function Indicator(props){
 
     return(
         <>
-            <Button 
-            onClick={()=>{router.push(PrevPage)}} 
-            variant="filled" 
-            color='main'
-            w={"100px"}
-            mb={"lg"}>
-                Back
-            </Button>
+            <BackButton Url={PrevPage}/>
             <Leaderboard height={515} data={data} />            
         </>
     )

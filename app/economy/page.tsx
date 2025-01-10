@@ -26,7 +26,7 @@ export default function Economy(){
             >
                 <Link href="/economy/gdp-per-capita">Gdp per capita</Link>
                 <Link href="/economy/gdp-per-capita-ppp">Gdp per capita PPP</Link>
-                <Link href="/economy/net-average-wage">Net average wage</Link>
+                <Link href="/economy/net-average-monthly-wage">Net average monthly wage</Link>
                 <Link href="/economy/unemployment">Unemployment</Link>
                 <Link href="/economy/house-price-to-wage">House price to wage</Link>
                 <Link href="/economy/gdp-growth-past-5-years">Gdp growth past 5 years</Link>

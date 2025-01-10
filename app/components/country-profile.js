@@ -1,28 +1,21 @@
 'use client'
 
 import { Flex, Title, useMantineTheme, Table, Button } from "@mantine/core"
-import { useRouter } from "next/navigation"
 
 import CountryData from "../../country-data/country-data.json" 
 
 import FormatBigNumber from "../lib/format-big-nummber"
 
+import BackButton from "./back-button"
+
 export default function CountryProfile( props ){
     const theme = useMantineTheme()
     const Country = props.Country
 
-    const router = useRouter()
 
     return(
         <Flex direction={"column"} >
-            <Button 
-            onClick={()=>{router.push("/country-profiles")}} 
-            variant="filled" 
-            color='main'
-            w={"100px"}
-            mb={"lg"}>
-                Back
-            </Button>
+            <BackButton Url={"/country-profiles/"}/>
 
             <Title order={1} mb={"lg"}>
             {CountryData[Country]["Icon"]} {Country}
@@ -45,7 +38,7 @@ export default function CountryProfile( props ){
 
                     <Table.Tr>
                     <Table.Th>Net average monthly wage</Table.Th>
-                    <Table.Td>{FormatBigNumber(Math.trunc(CountryData[Country]["2023"]["Net average wage"] /12))} €</Table.Td>
+                    <Table.Td>{FormatBigNumber(Math.trunc(CountryData[Country]["2023"]["Net average monthly wage"] ))} €</Table.Td>
                     </Table.Tr>
 
                     <Table.Tr>

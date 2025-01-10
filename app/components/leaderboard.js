@@ -59,7 +59,7 @@ export default function Leaderboard(props){
         <Table.Tr>
             {data.headers.map((item, index) => 
                 index === 0 ? (
-                    <Table.Th key={item} w="10%" bg="main" c="white">{item}</Table.Th>
+                    <Table.Th key={item} w="10%" bg="main" c="white" fz={"16px"} >{item}</Table.Th>
                 ) : (
                     <Table.Th 
                         key={item} 
@@ -67,6 +67,7 @@ export default function Leaderboard(props){
                         c="white"
                         ta={index === 2 ? "right" : "left"}
                         pr={index === 2 ? "10px": "0px"}
+                        fz={"16px"}
                     >
                         {item}
                     </Table.Th>

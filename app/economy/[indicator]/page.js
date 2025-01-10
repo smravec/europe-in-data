@@ -5,7 +5,7 @@ import Indicator from "../../components/indicator"
 const ValidIndicators = [
     ["Gdp per capita",2023,"biggest","€",0],
     ["Gdp per capita PPP",2023,"biggest","€",0],
-    ["Net average wage",2023,"biggest","€",0],
+    ["Net average monthly wage",2023,"biggest","€",0],
     ["Unemployment",2023,"smallest","%",2],
     ["House price to wage",2023,"smallest","",1],
     ["Gdp growth past 5 years",2023,"biggest","%",2],
@@ -46,7 +46,10 @@ export default async function IndicatorPage({params}){
     indicator = "R&D (Innovation) to gdp"
   }
 
+  console.log("test")
+
   const IndicatorIndex = FindIndicatorIndex(indicator) 
+  console.log(IndicatorIndex)
     
   return(
     <>
