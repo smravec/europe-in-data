@@ -48,17 +48,17 @@ export default function EconomyScoreFormula(country){
     )
 
     const taxes_score = (
-        (33.3 * 
+        (40 * 
         [( FindBestValue("Capital gains tax", "2023", "biggest") 
         - CountryData[country]["2023"]["Capital gains tax"]) / 
         ( FindBestValue("Capital gains tax", "2023", "biggest")  - FindBestValue("Capital gains tax", "2023", "smallest") )])
         + 
-        (33.3 * 
+        (20 * 
         [( FindBestValue("Value added tax", "2023", "biggest") 
         - CountryData[country]["2023"]["Value added tax"]) / 
         ( FindBestValue("Value added tax", "2023", "biggest")  - FindBestValue("Value added tax", "2023", "smallest") )])
         + 
-        (33.3 * 
+        (40 * 
         [( FindBestValue("Corporate tax", "2023", "biggest") 
         - CountryData[country]["2023"]["Corporate tax"]) / 
         ( FindBestValue("Corporate tax", "2023", "biggest")  - FindBestValue("Corporate tax", "2023", "smallest") )])
@@ -87,7 +87,7 @@ export default function EconomyScoreFormula(country){
     // 20 unemployment 
     // 10 debt to gdp 
     // 20 R&D (Innovation) to gdp
-    // 5 taxes capital gains + value added tax + corporate tax
+    // 5 taxes 40 capital gains + 20 value added tax + 40 corporate tax
 
     // 30 net average wage
     // 5 house price to wage 
@@ -103,8 +103,5 @@ export default function EconomyScoreFormula(country){
         + house_price_to_wage_score * 0.05
         + gdp_growth_past_5_years_score * 0.05 )
     
- //   console.log(overall_score)
-    console.log(debt_to_gdp_score)
-
     return Math.trunc(overall_score)
 }
