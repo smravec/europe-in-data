@@ -10,7 +10,7 @@ export default function Economy(){
 
     return(
         <>
-        <OwnScore Category={"Economy"} Order={"biggest"}/>
+        <OwnScore Category={"Economy"} Order={"biggest"} Captions={"Based on economy indicators"}/>
         <Flex 
         bg={theme.colors.gray[2]}
         direction={"column"}

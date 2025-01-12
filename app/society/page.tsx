@@ -2,11 +2,15 @@
 
 import Link from "next/link";
 import { Title, useMantineTheme, Flex,SimpleGrid, Anchor } from "@mantine/core";
+import OwnScore from "../components/own-score";
 
 export default function Society(){
     const theme = useMantineTheme()
 
     return(
+        <>
+        <OwnScore Category={"Society"} Order={"biggest"} Captions={"Based on society indicators"} />
+        
         <Flex 
         bg={theme.colors.gray[2]}
         direction={"column"}
@@ -17,6 +21,7 @@ export default function Society(){
         pb={"20px"}
         style={{borderRadius: "8px"}}
         bd={"1px solid"  + theme.colors.gray[4]}
+        mt={"sm"}
         >
             <Title mb={"lg"}>Society indicators</Title>
             <SimpleGrid
@@ -35,5 +40,7 @@ export default function Society(){
                 <Anchor component={Link} href="/society/life-expectancy">Life expectancy</Anchor>    
             </SimpleGrid> 
         </Flex>
+        </>
+
     )
 }

@@ -1,13 +1,14 @@
 'use client'
 
 import Leaderboard from "./leaderboard"
-import {EconomyScoreFormula} from "../lib/score-formulas"
+import {EconomyScoreFormula, SocietyScoreFormula} from "../lib/score-formulas"
 
 import CountryData from "../../country-data/country-data.json"
 
 export default function OwnScore(props){
     const Order =  props.Order
     const Category = props.Category 
+    const Captions = props.Captions
 
     const Units =  ""
     let data = {
@@ -25,6 +26,12 @@ export default function OwnScore(props){
             if(category == "Economy"){
                 data_to_return.push([1,CountryData[country]["Icon"] + " " + country, EconomyScoreFormula(country)])
             }
+            else if(category == "Society"){
+                data_to_return.push([1,CountryData[country]["Icon"] + " " + country, SocietyScoreFormula(country)])
+            }
+            else if(category == "Overall"){
+                data_to_return.push([1,CountryData[country]["Icon"] + " " + country, (Math.ceil((SocietyScoreFormula(country) / 2) + (EconomyScoreFormula(country) / 2)))])
+            }
         });
 
         return data_to_return
@@ -33,6 +40,6 @@ export default function OwnScore(props){
     data.body = getData(Category)
 
     return(
-            <Leaderboard height={510} data={data} caption={"Based on economy indicators"} />            
+            <Leaderboard height={510} data={data} caption={Captions} />            
     )
 }

@@ -108,4 +108,67 @@ export function EconomyScoreFormula(country){
 
 export function SocietyScoreFormula(country){
 
+    const fertility_rate_score = (
+        100 * (
+        CountryData[country]["2022"]["Fertility rate"] /
+        FindBestValue("Fertility rate", "2022", "biggest"))
+    )
+
+    const obesity_rate_score = (
+        100 * (
+        CountryData[country]["2022"]["Obesity rate"] /
+        FindBestValue("Obesity rate", "2022", "biggest"))
+    )
+
+    const life_expectancy_score = (
+        100 * (
+        CountryData[country]["2022"]["Life expectancy"] /
+        FindBestValue("Life expectancy", "2022", "biggest"))
+    )
+
+    const lack_of_corruption_score = (
+        100 * (
+        CountryData[country]["2023"]["Lack of corruption score"] /
+        FindBestValue("Lack of corruption score", "2023", "biggest"))
+    )
+
+    const trust_in_other_people_score = (
+        100 * (
+        CountryData[country]["2023"]["Trust in other people"] /
+        FindBestValue("Trust in other people", "2023", "biggest"))
+    )
+
+    const pisa_score = (
+        100 * (
+        CountryData[country]["2022"]["Pisa score"] /
+        FindBestValue("Pisa score", "2022", "biggest"))
+    )
+
+    const risk_of_poverty_score = (
+        100 * 
+        [( FindBestValue("Risk of poverty", "2023", "biggest") 
+        - CountryData[country]["2023"]["Risk of poverty"]) / 
+        ( FindBestValue("Risk of poverty", "2023", "biggest")  - FindBestValue("Risk of poverty", "2023", "smallest") )]
+    )
+    
+    
+    // 5 Fertility rate
+    // 10 Obesity rate 
+    // 25 Life expectancy
+
+    // 20 Lack of corruption score
+    // 10 Trust in other people
+    // 20 Pisa score
+    // 10 Risk of poverty
+
+    const overall_score =  (
+        fertility_rate_score * 0.05 
+        + obesity_rate_score * 0.1 
+        + life_expectancy_score * 0.25
+        + lack_of_corruption_score * 0.2
+        + trust_in_other_people_score * 0.1
+        + pisa_score * 0.2
+        + risk_of_poverty_score * 0.1)
+    
+    return Math.trunc(overall_score)
 }

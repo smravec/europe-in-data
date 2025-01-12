@@ -120,7 +120,7 @@ export default function Leaderboard(props){
 
     return(
         
-        <ScrollArea h={height} type='always'>
+        <ScrollArea h={height} type='always' w={"100%"}>
         <Table 
         striped 
         withRowBorders={false}

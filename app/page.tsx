@@ -10,6 +10,7 @@ const EuropeMap = dynamic(() => import("./components/europe-map"), { ssr: false 
 
 import { countries } from './lib/country-names';
 import SelectBox from './components/select-box';
+import OwnScore from './components/own-score';
 
 export default function Home(){
     const theme = useMantineTheme();
@@ -36,6 +37,8 @@ export default function Home(){
                 pb={"20px"}
                 style={{borderRadius: "8px"}}
                 bd={"1px solid"  + theme.colors.gray[4]}
+                pr={"5%"}
+                pl={"5%"}
             >
                 <Title fz={{ base:"28px", xs:"34px"}} ta={"center"}  >
                     Overall country ranking 
@@ -43,54 +46,8 @@ export default function Home(){
 
                 <Space h={"lg"}/>
   
-                <ScrollArea h={250} type='always' w={"95%"}>
-                <Flex>
-                    <Flex
-                    w={"80%"}
-                    miw={"fit-content"}
-                    >
-                        <Flex
-                            direction={"column"}
-                            align={"center"}
-                            w={"30%"}
-                        >
-                            <Text pl={"4px"}  bg={"main"} fw={"600"} c={"white"} fz={"20px"} w={"100%"}>Rank</Text>
-                            {countries.map((item, index)=>(
-                                (index % 2 == 0) 
-                                ? <Text pl={"4px"} w={"100%"} bg={theme.colors.gray[1]} key={index}>{index + 1}</Text> : 
-                                <Text pl={"4px"} w={"100%"} bg={"white"} key={index}>{index + 1}</Text>
-                            ))}
-                        </Flex>
-
-                        <Flex
-                            direction={"column"}
-                            w={"69.9%"}
-                        >
-                            <Text bg={"main"} fw={"600"} c={"white"} fz={"20px"} w={"100%"}>Country</Text>
-                            {countries.map((item, index)=>(
-                                (index % 2 == 0) 
-                                ? <Anchor w={"100%"} bg={theme.colors.gray[1]} key={index}>{item}</Anchor> : 
-                                <Anchor w={"100%"} bg={"white"} key={index}>{item}</Anchor>  
-                            ))}
-                        </Flex>
-                    </Flex>
-
-                    <Flex
-                    direction={"column"}
-                    align={"flex-end"}
-                    w={"20%"}
-                    miw={"fit-content"}
-                    bg={"yellow"}
-                    >
-                        <Text bg={"main"} fw={"600"} c={"white"} fz={"20px"} w={"100%"} ta={"center"} >Score</Text>
-                        {countries.map((item, index)=>(
-                             (index % 2 == 0) 
-                             ? <Text w={"100%"} ta={"center"} bg={theme.colors.gray[1]} key={index}>0</Text> : 
-                             <Text w={"100%" } ta={"center"} bg={"white"} key={index}>0</Text>  
-                        ))}
-                    </Flex>
-                </Flex>
-                </ScrollArea>
+                <OwnScore Category={"Overall"} Order={"biggest"} Captions={"Based on society and economy indicators"} />
+                
             </Flex>
         
             <Flex
