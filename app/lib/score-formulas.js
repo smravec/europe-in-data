@@ -48,17 +48,17 @@ export default function EconomyScoreFormula(country){
     )
 
     const taxes_score = (
-        (50 * 
+        (33.3 * 
         [( FindBestValue("Capital gains tax", "2023", "biggest") 
         - CountryData[country]["2023"]["Capital gains tax"]) / 
         ( FindBestValue("Capital gains tax", "2023", "biggest")  - FindBestValue("Capital gains tax", "2023", "smallest") )])
         + 
-        (30 * 
+        (33.3 * 
         [( FindBestValue("Value added tax", "2023", "biggest") 
         - CountryData[country]["2023"]["Value added tax"]) / 
         ( FindBestValue("Value added tax", "2023", "biggest")  - FindBestValue("Value added tax", "2023", "smallest") )])
         + 
-        (20 * 
+        (33.3 * 
         [( FindBestValue("Corporate tax", "2023", "biggest") 
         - CountryData[country]["2023"]["Corporate tax"]) / 
         ( FindBestValue("Corporate tax", "2023", "biggest")  - FindBestValue("Corporate tax", "2023", "smallest") )])
@@ -83,24 +83,24 @@ export default function EconomyScoreFormula(country){
         FindBestValue("Gdp growth past 5 years", "2023", "biggest"))
     )
 
-    // 20 gpd per capita ppp 
-    // 20 unemployment
-    // 5 debt to gdp 
-    // 5  R&D (Innovation) to gdp
+    // 5 gpd per capita ppp 
+    // 20 unemployment 
+    // 10 debt to gdp 
+    // 20 R&D (Innovation) to gdp
     // 5 taxes capital gains + value added tax + corporate tax
 
     // 30 net average wage
-    // 10 house price to wage
+    // 5 house price to wage 
     // 5 gdp growth past 5 years
 
     const overall_score =  (
-        gdp_per_capita_ppp_score * 0.2
+        gdp_per_capita_ppp_score * 0.05
         + unemployment_score * 0.2
-        + debt_to_gdp_score * 0.05
-        + innovation_score * 0.05
+        + debt_to_gdp_score * 0.1
+        + innovation_score * 0.2
         + taxes_score * 0.05
         + net_average_wage_score * 0.3
-        + house_price_to_wage_score * 0.1
+        + house_price_to_wage_score * 0.05
         + gdp_growth_past_5_years_score * 0.05 )
     
  //   console.log(overall_score)

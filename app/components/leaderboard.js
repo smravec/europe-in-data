@@ -128,6 +128,10 @@ export default function Leaderboard(props){
         stickyHeader
         verticalSpacing={"4px"}
         >
+            <Table.Caption>
+                {props.caption}
+            </Table.Caption>
+
             <Table.Thead>
                 {headers}
             </Table.Thead>

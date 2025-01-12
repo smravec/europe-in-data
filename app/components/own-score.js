@@ -33,6 +33,6 @@ export default function OwnScore(props){
     data.body = getData(Category)
 
     return(
-            <Leaderboard height={510} data={data} />            
+            <Leaderboard height={510} data={data} caption={"Based on economy indicators"} />            
     )
 }
