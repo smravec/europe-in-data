@@ -22,22 +22,23 @@ export default function Society(){
         style={{borderRadius: "8px"}}
         bd={"1px solid"  + theme.colors.gray[4]}
         mt={"sm"}
+        pl={"20px"}
         >
             <Title mb={"lg"}>Society indicators</Title>
             <SimpleGrid
-            cols={{base: 2, sm:4}}
+            cols={{base: 1, sm:2 , md: 2, lg: 4}}
             verticalSpacing={"2px"}
             spacing={"20px"}
             >
-                <Anchor component={Link} href="/society/trust-in-other-people">Trust in other people</Anchor>
-                <Anchor component={Link} href="/society/voting-participation">Voting participation</Anchor>
-                <Anchor component={Link} href="/society/lack-of-corruption-score">Lack of corruption score</Anchor>
-                <Anchor component={Link} href="/society/religiosity">Religiosity</Anchor>
-                <Anchor component={Link} href="/society/tertiary-education">Tertiary education</Anchor>
-                <Anchor component={Link} href="/society/pisa-score">Pisa score</Anchor>
-                <Anchor component={Link} href="/society/obesity-rate">Obesity rate</Anchor>
-                <Anchor component={Link} href="/society/fertility-rate">Fertility rate</Anchor>    
-                <Anchor component={Link} href="/society/life-expectancy">Life expectancy</Anchor>    
+                <Anchor component={Link}  style={{fontSize: "20px", whiteSpace: "nowrap"}} href="/society/trust-in-other-people">Trust in other people</Anchor>
+                <Anchor component={Link}  style={{fontSize: "20px", whiteSpace: "nowrap"}} href="/society/voting-participation">Voting participation</Anchor>
+                <Anchor component={Link}  style={{fontSize: "20px", whiteSpace: "nowrap"}} href="/society/lack-of-corruption-score">Lack of corruption score</Anchor>
+                <Anchor component={Link}  style={{fontSize: "20px", whiteSpace: "nowrap"}} href="/society/religiosity">Religiosity</Anchor>
+                <Anchor component={Link}  style={{fontSize: "20px", whiteSpace: "nowrap"}} href="/society/tertiary-education">Tertiary education</Anchor>
+                <Anchor component={Link}  style={{fontSize: "20px", whiteSpace: "nowrap"}} href="/society/pisa-score">Pisa score</Anchor>
+                <Anchor component={Link}  style={{fontSize: "20px", whiteSpace: "nowrap"}} href="/society/obesity-rate">Obesity rate</Anchor>
+                <Anchor component={Link}  style={{fontSize: "20px", whiteSpace: "nowrap"}} href="/society/fertility-rate">Fertility rate</Anchor>    
+                <Anchor component={Link}  style={{fontSize: "20px", whiteSpace: "nowrap"}} href="/society/life-expectancy">Life expectancy</Anchor>    
             </SimpleGrid> 
         </Flex>
         </>

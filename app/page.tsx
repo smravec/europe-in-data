@@ -47,7 +47,6 @@ export default function Home(){
                 <Space h={"lg"}/>
   
                 <OwnScore Category={"Overall"} Order={"biggest"} Captions={"Based on society and economy indicators"} />
-                
             </Flex>
         
             <Flex

@@ -22,24 +22,25 @@ export default function Economy(){
         style={{borderRadius: "8px"}}
         bd={"1px solid"  + theme.colors.gray[4]}
         mt={"sm"}
+        pl={"20px"}
         >
             <Title mb={"lg"}>Economy indicators</Title>
             <SimpleGrid
-            cols={{base: 2, sm:4}}
+            cols={{base: 1, sm:2 , md: 2, lg: 4}}
             verticalSpacing={"2px"}
             spacing={"20px"}
             >
-                <Anchor component={Link} href="/economy/gdp-per-capita">Gdp per capita</Anchor>
-                <Anchor component={Link} href="/economy/gdp-per-capita-ppp">Gdp per capita PPP</Anchor>
-                <Anchor component={Link} href="/economy/net-average-monthly-wage">Net average monthly wage</Anchor>
-                <Anchor component={Link} href="/economy/unemployment">Unemployment</Anchor>
-                <Anchor component={Link} href="/economy/house-price-to-wage">House price to wage</Anchor>
-                <Anchor component={Link} href="/economy/gdp-growth-past-5-years">Gdp growth past 5 years</Anchor>
-                <Anchor component={Link} href="/economy/debt-to-gdp">Debt to gdp</Anchor>    
-                <Anchor component={Link} href="/economy/corporate-tax">Corporate tax</Anchor>    
-                <Anchor component={Link} href="/economy/capital-gains-tax">Capital gains tax</Anchor>    
-                <Anchor component={Link} href="/economy/value-added-tax">Value added tax</Anchor>    
-                <Anchor component={Link} href="/economy/rd-innovation-to-gdp">R&D (Innovation) to gdp</Anchor>
+                <Anchor component={Link}  style={{fontSize: "20px", whiteSpace: "nowrap"}} href="/economy/gdp-per-capita">Gdp per capita</Anchor>
+                <Anchor component={Link}  style={{fontSize: "20px", whiteSpace: "nowrap"}} href="/economy/gdp-per-capita-ppp">Gdp per capita PPP</Anchor>
+                <Anchor component={Link}  style={{fontSize: "20px", whiteSpace: "nowrap"}} href="/economy/net-average-monthly-wage">Net average monthly wage</Anchor>
+                <Anchor component={Link}  style={{fontSize: "20px", whiteSpace: "nowrap"}} href="/economy/unemployment">Unemployment</Anchor>
+                <Anchor component={Link}  style={{fontSize: "20px", whiteSpace: "nowrap"}} href="/economy/house-price-to-wage">House price to wage</Anchor>
+                <Anchor component={Link}  style={{fontSize: "20px", whiteSpace: "nowrap"}} href="/economy/gdp-growth-past-5-years">Gdp growth past 5 years</Anchor>
+                <Anchor component={Link}  style={{fontSize: "20px", whiteSpace: "nowrap"}} href="/economy/debt-to-gdp">Debt to gdp</Anchor>    
+                <Anchor component={Link}  style={{fontSize: "20px", whiteSpace: "nowrap"}} href="/economy/corporate-tax">Corporate tax</Anchor>    
+                <Anchor component={Link}  style={{fontSize: "20px", whiteSpace: "nowrap"}} href="/economy/capital-gains-tax">Capital gains tax</Anchor>    
+                <Anchor component={Link}  style={{fontSize: "20px", whiteSpace: "nowrap"}} href="/economy/value-added-tax">Value added tax</Anchor>    
+                <Anchor component={Link}  style={{fontSize: "20px", whiteSpace: "nowrap"}} href="/economy/rd-innovation-to-gdp">R&D (Innovation) to gdp</Anchor>
             </SimpleGrid> 
         </Flex>
         </>
