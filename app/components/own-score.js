@@ -1,7 +1,7 @@
 'use client'
 
 import Leaderboard from "./leaderboard"
-import EconomyScoreFormula from "../lib/score-formulas"
+import {EconomyScoreFormula} from "../lib/score-formulas"
 
 import CountryData from "../../country-data/country-data.json"
 

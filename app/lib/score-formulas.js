@@ -20,7 +20,7 @@ function FindBestValue(indicator,year,biggest_smallest){
     return BestValue
 }
 
-export default function EconomyScoreFormula(country){
+export function EconomyScoreFormula(country){
     const gdp_per_capita_ppp_score = (
         100 * (
         CountryData[country]["2023"]["Gdp per capita PPP"] /
@@ -85,8 +85,8 @@ export default function EconomyScoreFormula(country){
 
     // 20 gpd per capita ppp 
     // 10 unemployment 
-    // 5 debt to gdp 
-    // 20 R&D (Innovation) to gdp
+    // 7.5 debt to gdp 
+    // 17.5 R&D (Innovation) to gdp
     // 5 taxes 40 capital gains + 20 value added tax + 40 corporate tax
 
     // 30 net average wage
@@ -96,12 +96,16 @@ export default function EconomyScoreFormula(country){
     const overall_score =  (
         gdp_per_capita_ppp_score * 0.2
         + unemployment_score * 0.1
-        + debt_to_gdp_score * 0.05
-        + innovation_score * 0.2
+        + debt_to_gdp_score * 0.075
+        + innovation_score * 0.175
         + taxes_score * 0.05
         + net_average_wage_score * 0.3
         + house_price_to_wage_score * 0.05
         + gdp_growth_past_5_years_score * 0.05 )
     
     return Math.trunc(overall_score)
+}
+
+export function SocietyScoreFormula(country){
+
 }
