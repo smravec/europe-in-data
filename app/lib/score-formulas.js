@@ -83,9 +83,9 @@ export default function EconomyScoreFormula(country){
         FindBestValue("Gdp growth past 5 years", "2023", "biggest"))
     )
 
-    // 5 gpd per capita ppp 
-    // 20 unemployment 
-    // 10 debt to gdp 
+    // 20 gpd per capita ppp 
+    // 10 unemployment 
+    // 5 debt to gdp 
     // 20 R&D (Innovation) to gdp
     // 5 taxes 40 capital gains + 20 value added tax + 40 corporate tax
 
@@ -94,9 +94,9 @@ export default function EconomyScoreFormula(country){
     // 5 gdp growth past 5 years
 
     const overall_score =  (
-        gdp_per_capita_ppp_score * 0.05
-        + unemployment_score * 0.2
-        + debt_to_gdp_score * 0.1
+        gdp_per_capita_ppp_score * 0.2
+        + unemployment_score * 0.1
+        + debt_to_gdp_score * 0.05
         + innovation_score * 0.2
         + taxes_score * 0.05
         + net_average_wage_score * 0.3
