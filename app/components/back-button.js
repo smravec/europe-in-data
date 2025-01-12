@@ -7,12 +7,12 @@ import { IoArrowBack } from "react-icons/io5";
 import { Button } from "@mantine/core";
 
 
-export default function BackButton(props){
+export default function BackButton(){
     const router = useRouter()
 
     return(
         <Button 
-            onClick={()=>{router.push(props.Url)}} 
+            onClick={()=>{router.back()}} 
             variant="filled" 
             color='main'
             w={"100px"}

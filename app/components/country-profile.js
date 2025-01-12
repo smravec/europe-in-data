@@ -4,7 +4,7 @@ import { Flex, Title, useMantineTheme, Table, Button } from "@mantine/core"
 
 import CountryData from "../../country-data/country-data.json" 
 
-import FormatBigNumber from "../lib/format-big-nummber"
+import FormatBigNumber from "../lib/format-big-number"
 
 import BackButton from "./back-button"
 

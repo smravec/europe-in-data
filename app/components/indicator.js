@@ -12,8 +12,6 @@ export default function Indicator(props){
     const DecimalPlaces = props.DecimalPlaces
     const Units =  props.Units
 
-    const PrevPage = props.PrevPage
-
     let data = {
         units: Units,
         order: Order,
@@ -36,7 +34,7 @@ export default function Indicator(props){
 
     return(
         <>
-            <BackButton Url={PrevPage}/>
+            <BackButton/>
             <Leaderboard height={510} data={data} />            
         </>
     )

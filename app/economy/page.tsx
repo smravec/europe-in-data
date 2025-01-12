@@ -3,10 +3,14 @@
 import Link from "next/link";
 import { Title, useMantineTheme, Flex,SimpleGrid, Anchor } from "@mantine/core";
 
+import OwnScore from "../components/own-score"
+
 export default function Economy(){
     const theme = useMantineTheme()
 
     return(
+        <>
+        <OwnScore Category={"Economy"} Order={"biggest"}/>
         <Flex 
         bg={theme.colors.gray[2]}
         direction={"column"}
@@ -17,6 +21,7 @@ export default function Economy(){
         pb={"20px"}
         style={{borderRadius: "8px"}}
         bd={"1px solid"  + theme.colors.gray[4]}
+        mt={"sm"}
         >
             <Title mb={"lg"}>Economy indicators</Title>
             <SimpleGrid
@@ -37,5 +42,6 @@ export default function Economy(){
                 <Anchor component={Link} href="/economy/rd-innovation-to-gdp">R&D (Innovation) to gdp</Anchor>
             </SimpleGrid> 
         </Flex>
+        </>
     )
 }

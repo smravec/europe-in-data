@@ -46,10 +46,7 @@ export default async function IndicatorPage({params}){
     indicator = "R&D (Innovation) to gdp"
   }
 
-  console.log("test")
-
   const IndicatorIndex = FindIndicatorIndex(indicator) 
-  console.log(IndicatorIndex)
     
   return(
     <>
@@ -60,7 +57,6 @@ export default async function IndicatorPage({params}){
       Order={ValidIndicators[IndicatorIndex][2]}
       Units={ValidIndicators[IndicatorIndex][3]}
       DecimalPlaces={ValidIndicators[IndicatorIndex][4]}
-      PrevPage={"/economy"}
       /> 
       : redirect("/economy") }
     </>

@@ -1,6 +1,6 @@
 'use client';
 
-import FormatBigNumber from "../lib/format-big-nummber"
+import FormatBigNumber from "../lib/format-big-number"
 import { ScrollArea,Table, useMantineTheme, Anchor } from "@mantine/core"
 
 import Link from "next/link";
