@@ -19,7 +19,7 @@ export default function BackButton(props){
             mb={"lg"}
             pl={"0px"}
             >
-                <IoArrowBack style={{marginRight: "14px", marginBottom: "2px", fontSize: "20px"} }/>
+                <IoArrowBack style={{marginRight: "8px", marginBottom: "2px", fontSize: "20px"} }/>
                     Back
             </Button>
     )

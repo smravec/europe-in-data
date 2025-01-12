@@ -156,7 +156,7 @@ export default function Home(){
                             <Space h={"xs"}/>
                             <Anchor component={Link} href={"/economy/gdp-per-capita"} >Gdp per capita</Anchor>
                             <Anchor component={Link} href={"/economy/gdp-per-capita-ppp"}>Gdp per capita PPP</Anchor>
-                            <Anchor component={Link} href={"/economy/net-average-wage"}>Net average wage</Anchor>
+                            <Anchor component={Link} href={"/economy/net-average-monthly-wage"}>Net average monthly wage</Anchor>
                             <Anchor component={Link} href={"/economy/unemployment"}>Unemployment</Anchor>
                             <Anchor component={Link} href={"/economy/house-price-to-wage"}>House price to wage</Anchor>
                             <Anchor component={Link} href={"/economy/gdp-growth-past-5-years"}>Gdp growth past 5 years</Anchor>
