@@ -57,6 +57,10 @@ export default function RootLayout({
       type="image/<generated>"
     />
 
+    <script data-goatcounter="https://europeindata.goatcounter.com/count"
+      async src="//gc.zgo.at/count.js">
+    </script>
+
       <body>
       <MantineProvider theme={theme} defaultColorScheme='light' >
         <AppLayout>
