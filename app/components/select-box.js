@@ -2,11 +2,10 @@
 
 import { useState } from 'react';
 import { Combobox, InputBase, useCombobox, ScrollArea} from '@mantine/core';
-import { countries } from '../lib/country-names';
+import CountryData from "../../country-data/country-data.json"
 
-
-function getFilteredOptions(data: string[], searchQuery: string) {
-  const result: string[] = [];
+function getFilteredOptions(data, searchQuery) {
+  const result = [];
 
   for (let i = 0; i < data.length; i += 1) {
 
@@ -18,19 +17,21 @@ function getFilteredOptions(data: string[], searchQuery: string) {
   return result;
 }
 
-export default function SelectBox() {
+export default function SelectBox( props ) {
+  const SetCountry = props.SetCountry
+
   const combobox = useCombobox({
     onDropdownClose: () => combobox.resetSelectedOption(),
   });
 
-  const [value, setValue] = useState<string | null>(null);
+  const [value, setValue] = useState(null);
   const [search, setSearch] = useState('');
 
-  const filteredOptions = getFilteredOptions(countries, search);
+  const filteredOptions = getFilteredOptions(Object.keys(CountryData), search);
 
   const options = filteredOptions.map((item) => (
     <Combobox.Option value={item} key={item}>
-      {item}
+      {CountryData[item]["Icon"] + " " + item}
     </Combobox.Option>
   ));
 
@@ -41,6 +42,7 @@ export default function SelectBox() {
       onOptionSubmit={(val) => {
         setValue(val);
         setSearch(val);
+        SetCountry(val)
         combobox.closeDropdown();
       }}
     >

@@ -8,12 +8,19 @@ import Link from 'next/link';
 import dynamic from "next/dynamic";
 const EuropeMap = dynamic(() => import("./components/europe-map"), { ssr: false });
 
-import { countries } from './lib/country-names';
+import { useRouter } from 'next/navigation';
+
+import { useState } from 'react';
+
 import SelectBox from './components/select-box';
 import OwnScore from './components/own-score';
 
 export default function Home(){
     const theme = useMantineTheme();
+    const router = useRouter()
+
+    const [country1, setCountry1] = useState("")
+    const [country2, setCountry2] = useState("")
 
     return (
         <Flex
@@ -69,14 +76,14 @@ export default function Home(){
                 <Space h={"md"}/>
 
                 <Flex>
-                    <SelectBox/>
+                    <SelectBox SetCountry={setCountry1}/>
                     <Space w={"sm"}/>
-                    <SelectBox/>
+                    <SelectBox SetCountry={setCountry2}/>
                 </Flex>
 
                 <Space h={"md"}/>
 
-                <Button variant="filled" color='main' >
+                <Button variant="filled" color='main' onClick={()=>{ if(country1 != "" && country2 != ""){ router.push(`/compare-countries?country1=${country1.toLowerCase()}&country2=${country2.toLowerCase()}`)}}} >
                     Compare
                 </Button>
             </Flex>
@@ -116,7 +123,7 @@ export default function Home(){
                             <Anchor component={Link} href={"/economy/unemployment"}>Unemployment</Anchor>
                             <Anchor component={Link} href={"/economy/house-price-to-wage"}>House price to wage</Anchor>
                             <Anchor component={Link} href={"/economy/gdp-growth-past-5-years"}>Gdp growth past 5 years</Anchor>
-                            <Anchor component={Link} href={"/economy/debt-to-gpd"}>Debt to gdp</Anchor>
+                            <Anchor component={Link} href={"/economy/debt-to-gdp"}>Debt to gdp</Anchor>
                             <Anchor component={Link} href={"/economy/corporate-tax"}>Corporate tax</Anchor>
                             <Anchor component={Link} href={"/economy/capital-gains-tax"}>Capital gains tax</Anchor>
                             <Anchor component={Link} href={"/economy/value-added-tax"}>Value added tax</Anchor>
