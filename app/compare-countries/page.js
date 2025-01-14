@@ -1,6 +1,7 @@
 'use client'
 
 import { useSearchParams } from "next/navigation"
+import { Suspense } from 'react'
 
 import { useEffect,useState } from "react"
 
@@ -132,11 +133,11 @@ export default function CompareCountries(){
                         </Table.Tr>)
                     })
                 }
-                
         </Table.Tbody>
     )
 
     return(
+        <Suspense>
             <Flex direction={"column"} >
             <BackButton/>
 
@@ -163,5 +164,6 @@ export default function CompareCountries(){
             </Table>
 
         </Flex>
+        </Suspense>
     )
 }
