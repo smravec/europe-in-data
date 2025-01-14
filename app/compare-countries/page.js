@@ -47,19 +47,33 @@ export default function CompareCountries(){
                     EconomyIndicators.map((indicator,index) =>{
                         return(
                         <Table.Tr key={index}>
-                            <Table.Th >{indicator[0]}</Table.Th>
-                            <Table.Td> {FormatBigNumber(CountryData[country1][indicator[1]][indicator[0]].toFixed(indicator[4]))} {indicator[3]}</Table.Td>
-                            <Table.Td> {FormatBigNumber(CountryData[country2][indicator[1]][indicator[0]].toFixed(indicator[4]))} {indicator[3]}</Table.Td>
+                            <Table.Th visibleFrom="sm">{indicator[0]}</Table.Th>
+                            <Table.Th hiddenFrom="sm" style={ {overflow:"scroll"}}>{indicator[0]}</Table.Th>
+                            <Table.Td visibleFrom="sm"> {FormatBigNumber(CountryData[country1][indicator[1]][indicator[0]].toFixed(indicator[4]))} {indicator[3]}</Table.Td>
+                            <Table.Td hiddenFrom="sm" style={{overflow:"scroll"}}> {FormatBigNumber(CountryData[country1][indicator[1]][indicator[0]].toFixed(indicator[4]))} {indicator[3]}</Table.Td>
+                            <Table.Td visibleFrom="sm"> {FormatBigNumber(CountryData[country2][indicator[1]][indicator[0]].toFixed(indicator[4]))} {indicator[3]}</Table.Td>
+                            <Table.Td hiddenFrom="sm"style={{overflow:"scroll"}}> {FormatBigNumber(CountryData[country2][indicator[1]][indicator[0]].toFixed(indicator[4]))} {indicator[3]}</Table.Td>
                             { CountryData[country1][indicator[1]][indicator[0]] <= CountryData[country2][indicator[1]][indicator[0]] ?
-                            <Table.Td style={{color:"green"}}>
+                            <Table.Td hiddenFrom="sm" style={{color:"green",overflow:"scroll"}}>
                                 +{(CountryData[country1][indicator[1]][indicator[0]] == CountryData[country2][indicator[1]][indicator[0]]) ? "0":
                                 Math.trunc(((CountryData[country2][indicator[1]][indicator[0]]) - CountryData[country1][indicator[1]][indicator[0]]) / CountryData[country1][indicator[1]][indicator[0]] * 100) 
                                 } %
                             </Table.Td>:
-                            <Table.Td style={{color:"red"}}> 
+                            <Table.Td hiddenFrom="sm" style={{color:"red",overflow:"scroll"}}> 
                             -{Math.trunc(((CountryData[country2][indicator[1]][indicator[0]] - CountryData[country1][indicator[1]][indicator[0]]) / CountryData[country1][indicator[1]][indicator[0]] * 100))} %
                             </Table.Td>
                             }
+                            { CountryData[country1][indicator[1]][indicator[0]] <= CountryData[country2][indicator[1]][indicator[0]] ?
+                            <Table.Td visibleFrom="sm" style={{color:"green"}}>
+                                +{(CountryData[country1][indicator[1]][indicator[0]] == CountryData[country2][indicator[1]][indicator[0]]) ? "0":
+                                Math.trunc(((CountryData[country2][indicator[1]][indicator[0]]) - CountryData[country1][indicator[1]][indicator[0]]) / CountryData[country1][indicator[1]][indicator[0]] * 100) 
+                                } %
+                            </Table.Td>:
+                            <Table.Td visibleFrom="sm" style={{color:"red"}}> 
+                            -{Math.trunc(((CountryData[country2][indicator[1]][indicator[0]] - CountryData[country1][indicator[1]][indicator[0]]) / CountryData[country1][indicator[1]][indicator[0]] * 100))} %
+                            </Table.Td>
+                            }
+
                         </Table.Tr>)
                     })
                 }
@@ -82,19 +96,36 @@ export default function CompareCountries(){
     const Society = (
         <Table.Tbody>
                 {
+                    
                     SocietyIndicators.map((indicator,index) =>{
                         return(
                         <Table.Tr key={index}>
-                            <Table.Th >{indicator[0]}</Table.Th>
-                            <Table.Td> {FormatBigNumber(CountryData[country1][indicator[1]][indicator[0]].toFixed(indicator[4]))} {indicator[3]}</Table.Td>
-                            <Table.Td> {FormatBigNumber(CountryData[country2][indicator[1]][indicator[0]].toFixed(indicator[4]))} {indicator[3]}</Table.Td>
+                            <Table.Th visibleFrom="sm">{indicator[0]}</Table.Th>
+                            <Table.Th hiddenFrom="sm" style={ {overflow:"scroll"}}>{indicator[0]}</Table.Th>
+                            <Table.Td visibleFrom="sm"> {FormatBigNumber(CountryData[country1][indicator[1]][indicator[0]].toFixed(indicator[4]))} {indicator[3]}</Table.Td>
+                            <Table.Td hiddenFrom="sm" style={ {overflow:"scroll"}}> {FormatBigNumber(CountryData[country1][indicator[1]][indicator[0]].toFixed(indicator[4]))} {indicator[3]}</Table.Td>
+                            
+                            <Table.Td visibleFrom="sm"> {FormatBigNumber(CountryData[country2][indicator[1]][indicator[0]].toFixed(indicator[4]))} {indicator[3]}</Table.Td>
+                            <Table.Td hiddenFrom="sm" style={ {overflow:"scroll"}}> {FormatBigNumber(CountryData[country2][indicator[1]][indicator[0]].toFixed(indicator[4]))} {indicator[3]}</Table.Td>
+                            
                             { CountryData[country1][indicator[1]][indicator[0]] <= CountryData[country2][indicator[1]][indicator[0]] ?
-                            <Table.Td style={{color:"green"}}>
+                            <Table.Td visibleFrom="sm" style={{color:"green"}}>
                                 +{(CountryData[country1][indicator[1]][indicator[0]] == CountryData[country2][indicator[1]][indicator[0]]) ? "0":
                                 Math.trunc(((CountryData[country2][indicator[1]][indicator[0]]) - CountryData[country1][indicator[1]][indicator[0]]) / CountryData[country1][indicator[1]][indicator[0]] * 100) 
                                 } %
                             </Table.Td>:
-                            <Table.Td style={{color:"red"}}> 
+                            <Table.Td visibleFrom="sm" style={{color:"red"}}> 
+                            -{Math.trunc(((CountryData[country2][indicator[1]][indicator[0]] - CountryData[country1][indicator[1]][indicator[0]]) / CountryData[country1][indicator[1]][indicator[0]] * 100))} %
+                            </Table.Td>
+                            }
+
+                            { CountryData[country1][indicator[1]][indicator[0]] <= CountryData[country2][indicator[1]][indicator[0]] ?
+                            <Table.Td hiddenFrom="sm"  style={{color:"green", overflow:"scroll"}}>
+                                +{(CountryData[country1][indicator[1]][indicator[0]] == CountryData[country2][indicator[1]][indicator[0]]) ? "0":
+                                Math.trunc(((CountryData[country2][indicator[1]][indicator[0]]) - CountryData[country1][indicator[1]][indicator[0]]) / CountryData[country1][indicator[1]][indicator[0]] * 100) 
+                                } %
+                            </Table.Td>:
+                            <Table.Td hiddenFrom="sm" style={{color:"red", overflow:"scroll"}}> 
                             -{Math.trunc(((CountryData[country2][indicator[1]][indicator[0]] - CountryData[country1][indicator[1]][indicator[0]]) / CountryData[country1][indicator[1]][indicator[0]] * 100))} %
                             </Table.Td>
                             }
@@ -109,8 +140,12 @@ export default function CompareCountries(){
             <Flex direction={"column"} >
             <BackButton/>
 
-            <Title order={1} mb={"lg"} mt={"sm"}>
-            ({CountryData[country1]["Icon"]} {country1}) vs ({CountryData[country2]["Icon"]} {country2})
+            <Title hiddenFrom="sm" order={1} mb={"lg"} mt={"sm"} ta={"center"}>
+            ({CountryData[country1]["Icon"]} {country1}) <br/> vs <br/> ({CountryData[country2]["Icon"]} {country2})
+            </Title>
+
+            <Title visibleFrom="sm" order={1} mb={"lg"} mt={"sm"} ta={"center"}>
+            ({CountryData[country1]["Icon"]} {country1}) vs  ({CountryData[country2]["Icon"]} {country2})
             </Title>
 
             <Title order={2} mb={"lg"}>
@@ -118,63 +153,11 @@ export default function CompareCountries(){
             </Title>
             <Table variant="vertical" layout="fixed" >
                    {Economy}
-
-{/* 
-                    <Table.Tr>
-                    <Table.Th>Gdp per capita PPP</Table.Th>
-                    <Table.Td> {FormatBigNumber(Math.trunc(CountryData[country1]["2023"]["Gdp per capita PPP"]))} €</Table.Td>
-                    </Table.Tr>
-
-                    <Table.Tr>
-                    <Table.Th>Net average monthly wage</Table.Th>
-                    <Table.Td>{FormatBigNumber(Math.trunc(CountryData[country1]["2023"]["Net average monthly wage"] ))} €</Table.Td>
-                    </Table.Tr>
-
-                    <Table.Tr>
-                    <Table.Th>Unemployment</Table.Th>
-                    <Table.Td>{CountryData[country1]["2023"]["Unemployment"]} %</Table.Td>
-                    </Table.Tr>
-
-                    <Table.Tr>
-                    <Table.Th>House price to wage</Table.Th>
-                    <Table.Td>{CountryData[country1]["2023"]["House price to wage"]}</Table.Td>
-                    </Table.Tr>
-
-                    <Table.Tr>
-                    <Table.Th>Gdp growth past 5 years</Table.Th>
-                    <Table.Td>{Math.trunc(CountryData[country1]["2023"]["Gdp growth past 5 years"])} %</Table.Td>
-                    </Table.Tr>
-
-                    <Table.Tr>
-                    <Table.Th>Debt to gdp</Table.Th>
-                    <Table.Td>{Math.trunc(CountryData[country1]["2023"]["Debt to gdp"])} %</Table.Td>
-                    </Table.Tr>
-
-                    <Table.Tr>
-                    <Table.Th>Corporate tax</Table.Th>
-                    <Table.Td>{Math.trunc(CountryData[country1]["2023"]["Corporate tax"])} %</Table.Td>
-                    </Table.Tr>
-
-                    <Table.Tr>
-                    <Table.Th>Capital gains tax</Table.Th>
-                    <Table.Td>{Math.trunc(CountryData[country1]["2023"]["Capital gains tax"])} %</Table.Td>
-                    </Table.Tr>
-                    
-                    <Table.Tr>
-                    <Table.Th>Value added tax</Table.Th>
-                    <Table.Td>{Math.trunc(CountryData[country1]["2023"]["Value added tax"])} %</Table.Td>
-                    </Table.Tr>
-
-                    <Table.Tr>
-                    <Table.Th>R&D (Innovation) to gdp</Table.Th>
-                    <Table.Td>{Math.trunc(CountryData[country1]["2021"]["R&D (Innovation) to gdp"] * 100) / 100} %</Table.Td>
-                    </Table.Tr> */}
             </Table>
 
             <Title order={2} mb={"lg"} mt={"lg"}>
                 Society
             </Title>
-
             <Table variant="vertical" layout="fixed" >
                    {Society}
             </Table>
