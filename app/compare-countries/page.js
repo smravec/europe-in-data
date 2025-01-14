@@ -143,7 +143,7 @@ function CompareCountries(){
             <BackButton/>
 
             <Title hiddenFrom="sm" order={1} mb={"lg"} mt={"sm"} ta={"center"}>
-            ({CountryData[country1]["Icon"]} {country1}) <br/> vs <br/> ({CountryData[country2]["Icon"]} {country2})
+            {CountryData[country1]["Icon"]} {country1} <br/> vs <br/> {CountryData[country2]["Icon"]} {country2}
             </Title>
 
             <Title visibleFrom="sm" order={1} mb={"lg"} mt={"sm"} ta={"center"}>
