@@ -12,7 +12,8 @@ import FormatBigNumber from "../lib/format-big-number"
 
 import { Table,Title,Flex } from "@mantine/core"
 
-export default function CompareCountries(){
+
+function CompareCountries(){
     const params = useSearchParams()
 
     const [country1, setCountry1] = useState('Austria');
@@ -162,8 +163,15 @@ export default function CompareCountries(){
             <Table variant="vertical" layout="fixed" >
                    {Society}
             </Table>
-
         </Flex>
+        </Suspense>
+    )
+}
+
+export default function CompareCountriesPage(){
+    return(
+        <Suspense>
+            <CompareCountries/>
         </Suspense>
     )
 }
