@@ -51,14 +51,13 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
 
           <Link href={"/"} style={{ textDecoration: 'none' }}>
             <Image 
-              src="/logo11.png"
+              src="/logo.png"
               fit='contain'
               h="24px"
               w="auto"
               ml={"14px"}    
             />
           </Link>
-          
           
           <Link href={"/"} style={{ textDecoration: 'none' }}>
             <Title 

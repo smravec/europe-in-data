@@ -1,7 +1,28 @@
 export const metadata = {
-  title: 'Europe in data',
-  description: 'Main page',
-}
+  title: 'Europe in Data - Country Stats and Insights',
+  description: 'Explore economic and societal indicators of European countries. Compare nations and discover trends.',
+  openGraph: {
+    type: 'website',
+    url: 'https://europeindata.eu',
+    title: 'Europe in Data - Country Rankings',
+    description: 'Explore data-driven insights into European countries based on economy and society.',
+    images: [
+      {
+        url: '/logo.png', // Add a proper image URL
+        alt: 'Europe Country Rankings Preview',
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Europe in Data - Country Rankings and Insights',
+    description: 'Explore economic and societal indicators of European countries.',
+    images: ['/logo.png'],
+  },
+};
+
 
 import { Roboto } from 'next/font/google';
 import '@mantine/core/styles.css';
@@ -54,7 +75,7 @@ export default function RootLayout({
     <link
       rel="icon"
       href="/favicon.png"
-      type="image/<generated>"
+      type="image/png"
     />
 
     <script data-goatcounter="https://europeindata.goatcounter.com/count"

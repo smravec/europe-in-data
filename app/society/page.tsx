@@ -1,11 +1,59 @@
 'use client'
 
 import Link from "next/link";
-import { Title, useMantineTheme, Flex,SimpleGrid, Anchor } from "@mantine/core";
+import { Title, useMantineTheme, Flex,SimpleGrid, Anchor, Text, List, ListItem } from "@mantine/core";
 import OwnScore from "../components/own-score";
 
 export default function Society(){
     const theme = useMantineTheme()
+
+    const methodology =[
+        [
+            "Trust in other people", 
+            "How much people would say people can generally be trusted (in %)",
+            "eurostat"
+        ],
+        [
+            "Voting participation",
+            "Voter turnout in the last parliamentary elections (in %)",
+            "politico"
+        ],
+        [
+            "Lack of corruption score",
+            "How much corruption is percieved by public (higher score = less corruption)", 
+            "transparency international"
+        ],
+        [
+            "Religiosity",
+            'Number of people responding yes to "I believe there is a God" (in %)',
+            "eurobarometer" 
+        ],
+        [
+            "Tertiary education",
+            "Percentage of population that completed tertiary(university) education (in %)",
+            "eurostat"
+        ],
+        [
+            "Pisa score",
+            "Score of 16 year olds in math science and literature1",
+            "oecd"
+        ],
+        [
+            "Obesity rate",
+            "Percentage of population that is considered obese (in %)",
+            "eurostat"
+        ],
+        [
+            "Fertility rate",
+            "How much children does the average woman have",
+            "eurostat"
+        ],
+        [
+            "Life expectancy",
+            "Expected life expentancy at birth",
+            "eurostat"
+        ]
+    ]
 
     return(
         <>
@@ -40,6 +88,40 @@ export default function Society(){
                 <Anchor component={Link}  style={{fontSize: "20px", whiteSpace: "nowrap"}} href="/society/fertility-rate">Fertility rate</Anchor>    
                 <Anchor component={Link}  style={{fontSize: "20px", whiteSpace: "nowrap"}} href="/society/life-expectancy">Life expectancy</Anchor>    
             </SimpleGrid> 
+        </Flex>
+
+        <Flex 
+        bg={theme.colors.gray[2]}
+        direction={"column"}
+        align={"center"}
+        justify={"center"}
+        w={"100%"}
+        pt={"15px"}
+        pb={"20px"}
+        style={{borderRadius: "8px"}}
+        bd={"1px solid"  + theme.colors.gray[4]}
+        mt={"sm"}
+        pl={"20px"}
+        >
+            <Title mb={"lg"}>Methodology</Title>
+
+            <SimpleGrid
+            cols={{base: 1, sm:2 , md: 2, lg: 4}}
+            verticalSpacing={"5px"}
+            spacing={"20px"}
+            >
+                {
+                    methodology.map((item,index)=>(
+                        <Flex key={index} direction={"column"} maw={"200px"} mr={"10px"} mb={"8px"}>
+                        <Title order={4} ml={"0"} >{item[0]}</Title>
+                        <Text size="sm">
+                            {item[1]}
+                        </Text>
+                        <Text  size= "sm" fs={"italic"}>Source: {item[2]}</Text>
+                    </Flex>
+                    ))
+                }
+            </SimpleGrid>
         </Flex>
         </>
 
