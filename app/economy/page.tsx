@@ -11,7 +11,7 @@ export default function Economy(){
     const methodology =[
         [
             "Gdp per capita", 
-            "How much money is yearly in the economy per average person",
+            "The amount of money the economy produces each year for every person, on average",
             "imf"
         ],
         [
@@ -26,7 +26,7 @@ export default function Economy(){
         ],
         [
             "Unemployment",
-            "Unemployment rate (in %)",
+            "How much of the eligible workforce is unemployed (in %)",
             "eurostat"
         ],
         [
@@ -56,8 +56,13 @@ export default function Economy(){
         ],
         [
             "Value added tax",
-            "Tax on goods and services",
+            "Tax on goods and services (in %)",
             "wikipedia, other ..."
+        ],
+        [
+            "R&D (Innovation) to gdp",
+            "How much money is the country speding on research and development to gdp",
+            "eurostat"
         ]
     ]
 
