@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import { useRouter } from "next/navigation";
 
@@ -6,21 +6,24 @@ import { IoArrowBack } from "react-icons/io5";
 
 import { Button } from "@mantine/core";
 
+export default function BackButton() {
+  const router = useRouter();
 
-export default function BackButton(){
-    const router = useRouter()
-
-    return(
-        <Button 
-            onClick={()=>{router.back()}} 
-            variant="filled" 
-            color='main'
-            w={"100px"}
-            mb={"lg"}
-            pl={"0px"}
-            >
-                <IoArrowBack style={{marginRight: "8px", marginBottom: "2px", fontSize: "20px"} }/>
-                    Back
-            </Button>
-    )
+  return (
+    <Button
+      onClick={() => {
+        router.back();
+      }}
+      variant="filled"
+      color="main"
+      w={"100px"}
+      mb={"lg"}
+      pl={"0px"}
+    >
+      <IoArrowBack
+        style={{ marginRight: "8px", marginBottom: "2px", fontSize: "20px" }}
+      />
+      Back
+    </Button>
+  );
 }
