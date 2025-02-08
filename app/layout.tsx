@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "Europe in Data - Country Stats and Insights",
+  title: "Europe in Data - Most Relevant EU Stats",
   description:
-    "Explore economic and societal indicators of European countries. Compare nations and discover trends.",
+    "Europe in Data is a database of statistics about European countries, cutting through the noise and showing only the most relevant ones.",
   icons: {
     icon: [
       { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
@@ -10,6 +10,28 @@ export const metadata = {
     apple: "/apple-touch-icon.png",
   },
   manifest: "/site.webmanifest",
+  openGraph: {
+    type: "website",
+    url: "https://europeindata.eu",
+    title: "Europe in Data - Most Relevant EU Stats",
+    description:
+      "Europe in Data is a database of statistics about European countries, cutting through the noise and showing only the most relevant ones.",
+    images: [
+      {
+        url: "/whole-logo.png",
+        alt: "Europe in Data Logo",
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Europe in Data - Most Relevant EU Stats",
+    description:
+      "Explore the most relevant economic and societal indicators of European countries.",
+    images: ["/whole-logo.png"],
+  },
 };
 
 import { Roboto } from "next/font/google";
