@@ -55,16 +55,16 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           <Flex align="center">
             <Link href="/" style={{ textDecoration: "none" }}>
               <Image
-                src="/logo.png"
+                src="/favicon.png"
                 fit="contain"
-                h="24px"
+                h="34px"
                 w="auto"
-                ml="14px"
+                ml="10px"
               />
             </Link>
 
             <Link href="/" style={{ textDecoration: "none" }}>
-              <Title size="25px" c="white" mt="2px" ml="15px">
+              <Title size="25px" c="white" mt="2px" ml="10px">
                 Europe in data
               </Title>
             </Link>
@@ -210,7 +210,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
             onClick={toggle}
             variant="filled"
             active
-            label="Articles"
+            label="Methodology"
             color={theme.colors.gray[1]}
             c="black"
             leftSection={<FaNewspaper />}

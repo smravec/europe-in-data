@@ -2,28 +2,14 @@ export const metadata = {
   title: "Europe in Data - Country Stats and Insights",
   description:
     "Explore economic and societal indicators of European countries. Compare nations and discover trends.",
-  openGraph: {
-    type: "website",
-    url: "https://europeindata.eu",
-    title: "Europe in Data - Country Rankings",
-    description:
-      "Explore data-driven insights into European countries based on economy and society.",
-    images: [
-      {
-        url: "/logo.png", // Add a proper image URL
-        alt: "Europe Country Rankings Preview",
-        width: 1200,
-        height: 630,
-      },
+  icons: {
+    icon: [
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
     ],
+    apple: "/apple-touch-icon.png",
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Europe in Data - Country Rankings and Insights",
-    description:
-      "Explore economic and societal indicators of European countries.",
-    images: ["/logo.png"],
-  },
+  manifest: "/site.webmanifest",
 };
 
 import { Roboto } from "next/font/google";
@@ -72,8 +58,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={roboto.className}>
-      <link rel="icon" href="/favicon.png" type="image/png" />
-
       <script
         data-goatcounter="https://europeindata.goatcounter.com/count"
         async
