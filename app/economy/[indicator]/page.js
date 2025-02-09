@@ -1,7 +1,5 @@
 import { redirect } from "next/navigation";
-
 import Indicator from "../../components/indicator";
-import Head from "next/head";
 
 const ValidIndicators = [
   ["Gdp per capita", 2023, "biggest", "€", 0],
@@ -17,67 +15,64 @@ const ValidIndicators = [
   ["R&D (Innovation) to gdp", 2021, "biggest", "%", 2],
 ];
 
-function IsValidIndicator(indicator) {
-  let valid = false;
+function FindIndicatorIndex(indicator) {
+  if (indicator === "rd-innovation-to-gdp") {
+    indicator = "r&d-(innovation)-to-gdp";
+  }
 
-  ValidIndicators.forEach((validIndicator) => {
-    if (
-      validIndicator[0].toLowerCase().replace(/ /g, "-") ==
-      indicator.toLowerCase().replace(/ /g, "-")
-    ) {
-      valid = true;
-    }
-  });
-
-  return valid;
+  return ValidIndicators.findIndex(
+    (validIndicator) =>
+      validIndicator[0].toLowerCase().replace(/ /g, "-") === indicator,
+  );
 }
 
-function FindIndicatorIndex(indicator) {
-  let IndicatorIndex = -1;
+export async function generateMetadata({ params }) {
+  const { indicator } = await params;
+  const IndicatorIndex = FindIndicatorIndex(indicator);
 
-  ValidIndicators.forEach((element, index) => {
-    if (
-      element[0].toLowerCase().replace(/ /g, "-") ==
-      indicator.toLowerCase().replace(/ /g, "-")
-    ) {
-      IndicatorIndex = index;
-    }
-  });
+  if (IndicatorIndex === -1) {
+    return {
+      title: "Invalid Indicator",
+      description: "This indicator does not exist.",
+    };
+  }
 
-  return IndicatorIndex;
+  const indicatorName = ValidIndicators[IndicatorIndex][0];
+
+  return {
+    title: `${indicatorName} by EU country`,
+    description: `All EU countries ranked by ${indicatorName}.`,
+    openGraph: {
+      title: `${indicatorName} by EU country`,
+      description: `Explore economic statistics on ${indicatorName} across EU nations.`,
+      url: `https://europeindata.eu/economy/${indicator}`,
+      images: [
+        {
+          url: "/whole-logo-og.png",
+          alt: "Europe in Data",
+          width: 1200,
+          height: 630,
+        },
+      ],
+    },
+  };
 }
 
 export default async function IndicatorPage({ params }) {
   let { indicator } = await params;
-  if (indicator == "rd-innovation-to-gdp") {
-    indicator = "R&D (Innovation) to gdp";
-  }
-
   const IndicatorIndex = FindIndicatorIndex(indicator);
 
+  if (IndicatorIndex === -1) {
+    redirect("/economy");
+  }
+
   return (
-    <>
-      {IsValidIndicator(indicator) ? (
-        <>
-          <Head>
-            <title>{ValidIndicators[IndicatorIndex][0]} by EU country</title>
-            <meta
-              name="description"
-              content={`All EU countries by ${ValidIndicators[IndicatorIndex][0]}`}
-              key="desc"
-            />
-          </Head>
-          <Indicator
-            Indicator={ValidIndicators[IndicatorIndex][0]}
-            Year={ValidIndicators[IndicatorIndex][1]}
-            Order={ValidIndicators[IndicatorIndex][2]}
-            Units={ValidIndicators[IndicatorIndex][3]}
-            DecimalPlaces={ValidIndicators[IndicatorIndex][4]}
-          />
-        </>
-      ) : (
-        redirect("/economy")
-      )}
-    </>
+    <Indicator
+      Indicator={ValidIndicators[IndicatorIndex][0]}
+      Year={ValidIndicators[IndicatorIndex][1]}
+      Order={ValidIndicators[IndicatorIndex][2]}
+      Units={ValidIndicators[IndicatorIndex][3]}
+      DecimalPlaces={ValidIndicators[IndicatorIndex][4]}
+    />
   );
 }

@@ -1,6 +1,4 @@
 import { redirect } from "next/navigation";
-import Head from "next/head";
-
 import Indicator from "../../components/indicator";
 
 const ValidIndicators = [
@@ -16,61 +14,60 @@ const ValidIndicators = [
   ["Life expectancy", 2022, "biggest", "", 1],
 ];
 
-function IsValidIndicator(indicator) {
-  let valid = false;
-
-  ValidIndicators.forEach((validIndicator) => {
-    if (
-      validIndicator[0].toLowerCase().replace(/ /g, "-") ==
-      indicator.toLowerCase().replace(/ /g, "-")
-    ) {
-      valid = true;
-    }
-  });
-
-  return valid;
+function FindIndicatorIndex(indicator) {
+  return ValidIndicators.findIndex(
+    (validIndicator) =>
+      validIndicator[0].toLowerCase().replace(/ /g, "-") === indicator,
+  );
 }
 
-function FindIndicatorIndex(indicator) {
-  let IndicatorIndex = -1;
+export async function generateMetadata({ params }) {
+  const { indicator } = await params;
+  const IndicatorIndex = FindIndicatorIndex(indicator);
 
-  ValidIndicators.forEach((element, index) => {
-    if (element[0].toLowerCase().replace(/ /g, "-") == indicator) {
-      IndicatorIndex = index;
-    }
-  });
+  if (IndicatorIndex === -1) {
+    return {
+      title: "Invalid Indicator",
+      description: "This indicator does not exist.",
+    };
+  }
 
-  return IndicatorIndex;
+  const indicatorName = ValidIndicators[IndicatorIndex][0];
+
+  return {
+    title: `${indicatorName} by EU country`,
+    description: `All EU countries ranked by ${indicatorName}.`,
+    openGraph: {
+      title: `${indicatorName} by EU country`,
+      description: `Explore statistics on ${indicatorName} across EU nations.`,
+      url: `https://europeindata.eu/society/${indicator}`,
+      images: [
+        {
+          url: "/whole-logo-og.png",
+          alt: "Europe in Data",
+          width: 1200,
+          height: 630,
+        },
+      ],
+    },
+  };
 }
 
 export default async function IndicatorPage({ params }) {
   let { indicator } = await params;
-
   const IndicatorIndex = FindIndicatorIndex(indicator);
 
+  if (IndicatorIndex === -1) {
+    redirect("/society");
+  }
+
   return (
-    <>
-      {IsValidIndicator(indicator) ? (
-        <>
-          <Head>
-            <title>{ValidIndicators[IndicatorIndex][0]} by EU country</title>
-            <meta
-              name="description"
-              content={`All EU countries by ${ValidIndicators[IndicatorIndex][0]} `}
-              key="desc"
-            />
-          </Head>
-          <Indicator
-            Indicator={ValidIndicators[IndicatorIndex][0]}
-            Year={ValidIndicators[IndicatorIndex][1]}
-            Order={ValidIndicators[IndicatorIndex][2]}
-            Units={ValidIndicators[IndicatorIndex][3]}
-            DecimalPlaces={ValidIndicators[IndicatorIndex][4]}
-          />
-        </>
-      ) : (
-        redirect("/society")
-      )}
-    </>
+    <Indicator
+      Indicator={ValidIndicators[IndicatorIndex][0]}
+      Year={ValidIndicators[IndicatorIndex][1]}
+      Order={ValidIndicators[IndicatorIndex][2]}
+      Units={ValidIndicators[IndicatorIndex][3]}
+      DecimalPlaces={ValidIndicators[IndicatorIndex][4]}
+    />
   );
 }
