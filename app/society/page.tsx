@@ -205,11 +205,7 @@ export default function Society() {
           page
         </Text>
         <Space h="xs" />
-        <OwnScore
-          Category="Society"
-          Order="biggest"
-          Captions="Based on society indicators"
-        />
+        <OwnScore Category="Society" Order="biggest" Captions="" />
       </Flex>
 
       <Flex
