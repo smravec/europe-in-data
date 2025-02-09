@@ -125,9 +125,16 @@ export default function Society() {
           <Anchor
             component={Link}
             style={{ fontSize: "20px", whiteSpace: "nowrap" }}
-            href="/society/obesity-rate"
+            href="/society/life-expectancy"
           >
-            Obesity rate
+            Life expectancy
+          </Anchor>
+          <Anchor
+            component={Link}
+            style={{ fontSize: "20px", whiteSpace: "nowrap" }}
+            href="/society/risk-of-poverty"
+          >
+            Risk of poverty
           </Anchor>
           <Anchor
             component={Link}
@@ -161,6 +168,43 @@ export default function Society() {
         pl="10px"
         pr="10px"
       >
+        <Title ta="center">Overall society ranking</Title>
+        <Text ml="20px" mr="20px" ta="center" c={theme.colors.gray[7]}>
+          Ranking calculated from the following indicators: <br />
+          <Anchor component={Link} href="/society/fertility-rate">
+            Fertility rate
+          </Anchor>
+          ,
+          <Anchor component={Link} href="/society/obesity-rate">
+            {" Obesity rate"}
+          </Anchor>
+          ,
+          <Anchor component={Link} href="/society/life-expectancy">
+            {" Life expectancy"}
+          </Anchor>
+          ,
+          <Anchor component={Link} href="/society/lack-of-corruption-score">
+            {" Lack of corruption score"}
+          </Anchor>
+          ,
+          <Anchor component={Link} href="/society/trust-in-other-people">
+            {" Trust in other people"}
+          </Anchor>
+          ,
+          <Anchor component={Link} href="/society/pisa-score">
+            {" Pisa score"}
+          </Anchor>
+          ,
+          <Anchor component={Link} href="/society/risk-of-poverty">
+            {" Risk of poverty"}
+          </Anchor>
+          <br /> Learn more at the
+          <Anchor component={Link} href="/methodology">
+            {" methodology "}
+          </Anchor>
+          page
+        </Text>
+        <Space h="xs" />
         <OwnScore
           Category="Society"
           Order="biggest"

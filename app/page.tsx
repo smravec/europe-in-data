@@ -61,7 +61,7 @@ export default function Home() {
           Overall country ranking
         </Title>
         <Text ml="20px" mr="20px" ta="center" c={theme.colors.gray[7]}>
-          Ranked based on indicators from
+          Ranking based on indicators from
           <Anchor component={Link} href="/economy">
             {" economy "}
           </Anchor>
@@ -69,7 +69,7 @@ export default function Home() {
           <Anchor component={Link} href="/society">
             {" society "}
           </Anchor>
-          pages. <br /> Learn more at
+          pages. <br /> Learn more at the
           <Anchor component={Link} href="/methodology">
             {" methodology "}
           </Anchor>
