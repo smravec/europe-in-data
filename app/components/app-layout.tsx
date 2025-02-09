@@ -8,7 +8,6 @@ import {
   useMantineTheme,
   NavLink,
   Flex,
-  Image,
 } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 
@@ -22,6 +21,7 @@ import {
   FaMoneyBill,
   FaFlag,
   FaNewspaper,
+  FaFileExport,
 } from "react-icons/fa6";
 
 //Next
@@ -204,6 +204,27 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
             color={theme.colors.gray[1]}
             c="black"
             leftSection={<FaNewspaper />}
+            rightSection={<IoIosArrowForward />}
+            fz="22px"
+            styles={() => ({
+              label: {
+                // Style for the main label
+                fontSize: "20px",
+                fontWeight: 500,
+              },
+            })}
+          />
+
+          <NavLink
+            component={Link}
+            href="/export-stats"
+            onClick={toggle}
+            variant="filled"
+            active
+            label="Export stats"
+            color={theme.colors.gray[1]}
+            c="black"
+            leftSection={<FaFileExport />}
             rightSection={<IoIosArrowForward />}
             fz="22px"
             styles={() => ({

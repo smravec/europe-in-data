@@ -147,11 +147,26 @@ export default function Society() {
       </Flex>
 
       <Space h="lg" />
-      <OwnScore
-        Category="Society"
-        Order="biggest"
-        Captions="Based on society indicators"
-      />
+      <Flex
+        bg={theme.colors.gray[2]}
+        direction="column"
+        align="center"
+        justify="center"
+        w="100%"
+        pt="15px"
+        pb="20px"
+        style={{ borderRadius: "8px" }}
+        bd={`1px solid ${theme.colors.gray[4]}`}
+        mt="sm"
+        pl="10px"
+        pr="10px"
+      >
+        <OwnScore
+          Category="Society"
+          Order="biggest"
+          Captions="Based on society indicators"
+        />
+      </Flex>
 
       <Flex
         bg={theme.colors.gray[2]}

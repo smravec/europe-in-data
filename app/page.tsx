@@ -44,17 +44,18 @@ export default function Home() {
       {/* <EuropeMap/> */}
 
       <Flex
+        bg={theme.colors.gray[2]}
         direction="column"
         align="center"
-        bg={theme.colors.gray[2]}
-        maw="1000px"
+        justify="center"
         w="100%"
         pt="15px"
-        pb="15px"
-        pl="3px"
-        pr="3px"
+        pb="20px"
         style={{ borderRadius: "8px" }}
         bd={`1px solid ${theme.colors.gray[4]}`}
+        mt="sm"
+        pl="10px"
+        pr="10px"
       >
         <Title fz={{ base: "28px", xs: "34px" }} ta="center">
           Overall country ranking
@@ -83,17 +84,18 @@ export default function Home() {
       </Flex>
 
       <Flex
+        bg={theme.colors.gray[2]}
         direction="column"
         align="center"
-        bg={theme.colors.gray[2]}
-        maw="1000px"
+        justify="center"
         w="100%"
         pt="15px"
-        pb="15px"
-        pl="3px"
-        pr="3px"
+        pb="20px"
         style={{ borderRadius: "8px" }}
         bd={`1px solid ${theme.colors.gray[4]}`}
+        mt="sm"
+        pl="10px"
+        pr="10px"
       >
         <Title fz={{ base: "28px", xs: "34px" }}>Compare countries</Title>
 
@@ -123,15 +125,18 @@ export default function Home() {
       </Flex>
 
       <Flex
+        bg={theme.colors.gray[2]}
         direction="column"
         align="center"
-        bg={theme.colors.gray[2]}
-        maw="1000px"
+        justify="center"
         w="100%"
         pt="15px"
-        pb="15px"
+        pb="20px"
         style={{ borderRadius: "8px" }}
         bd={`1px solid ${theme.colors.gray[4]}`}
+        mt="sm"
+        pl="10px"
+        pr="10px"
       >
         <Title fz={{ base: "28px", xs: "34px" }}>All categories</Title>
 
