@@ -4,6 +4,7 @@ export const metadata = {
     "Europe in Data is a database of statistics about European countries, cutting through the noise and showing only the most relevant ones.",
   icons: {
     icon: [
+      { url: "/favicon.ico", type: "image/x-icon" },
       { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
     ],
@@ -80,13 +81,30 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={roboto.className}>
-      <script
-        data-goatcounter="https://europeindata.goatcounter.com/count"
-        async
-        src="//gc.zgo.at/count.js"
-      />
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+      </head>
 
       <body>
+        <script
+          data-goatcounter="https://europeindata.goatcounter.com/count"
+          async
+          src="//gc.zgo.at/count.js"
+        />
         <MantineProvider theme={theme} defaultColorScheme="light">
           <AppLayout>{children}</AppLayout>
         </MantineProvider>
