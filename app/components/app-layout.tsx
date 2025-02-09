@@ -54,18 +54,8 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
         >
           <Flex align="center">
             <Link href="/" style={{ textDecoration: "none" }}>
-              <Image
-                src="/favicon.png"
-                fit="contain"
-                h="34px"
-                w="auto"
-                ml="10px"
-              />
-            </Link>
-
-            <Link href="/" style={{ textDecoration: "none" }}>
-              <Title size="25px" c="white" mt="2px" ml="10px">
-                Europe in data
+              <Title size="25px" c="white" mt="2px" ml="20px">
+                Europeindata.eu
               </Title>
             </Link>
           </Flex>
@@ -206,7 +196,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
 
           <NavLink
             component={Link}
-            href="/articles"
+            href="/methodology"
             onClick={toggle}
             variant="filled"
             active

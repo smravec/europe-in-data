@@ -19,7 +19,6 @@ import Link from "next/link";
 //const EuropeMap = dynamic(() => import("./components/europe-map"), { ssr: false });
 
 import { useRouter } from "next/navigation";
-
 import { useState } from "react";
 
 import SelectBox from "./components/select-box";
@@ -45,24 +44,37 @@ export default function Home() {
       {/* <EuropeMap/> */}
 
       <Flex
-        bg={theme.colors.gray[2]}
         direction="column"
         align="center"
+        bg={theme.colors.gray[2]}
         maw="1000px"
         w="100%"
         pt="15px"
-        pb="20px"
+        pb="15px"
+        pl="3px"
+        pr="3px"
         style={{ borderRadius: "8px" }}
-        bd={`1px solid" ${theme.colors.gray[4]}`}
-        pr="5%"
-        pl="5%"
+        bd={`1px solid ${theme.colors.gray[4]}`}
       >
         <Title fz={{ base: "28px", xs: "34px" }} ta="center">
           Overall country ranking
         </Title>
-
-        <Space h="lg" />
-
+        <Text ml="20px" mr="20px" ta="center" c={theme.colors.gray[7]}>
+          Ranked based on indicators from
+          <Anchor component={Link} href="/economy">
+            {" economy "}
+          </Anchor>
+          and
+          <Anchor component={Link} href="/society">
+            {" society "}
+          </Anchor>
+          pages. <br /> Learn more at
+          <Anchor component={Link} href="/methodology">
+            {" methodology "}
+          </Anchor>
+          page
+        </Text>
+        <Space h="xs" />
         <OwnScore
           Category="Overall"
           Order="biggest"
