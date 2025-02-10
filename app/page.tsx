@@ -42,6 +42,38 @@ export default function Home() {
       pt="10px"
     >
       {/* <EuropeMap/> */}
+      <Flex
+        bg={theme.colors.gray[2]}
+        direction="column"
+        align="center"
+        justify="center"
+        w="100%"
+        pt="15px"
+        pb="20px"
+        style={{ borderRadius: "8px" }}
+        bd={`1px solid ${theme.colors.gray[4]}`}
+        mt="sm"
+        pl="50px"
+        pr="50px"
+      >
+        <Title>Welcome!</Title>
+        <Space h="xs" />
+        <Text size="lg">
+          Europe in Data is a one-stop site for all the relevant stats on EU
+          countries. Instead of searching the internet and multiple sources for
+          data, you'll find all the essential statistics—economic measures,
+          social indicators, and other key numbers organized in one place for
+          easy exploration. You can start at the{" "}
+          <Anchor component={Link} href="/economy">
+            economy
+          </Anchor>{" "}
+          and{" "}
+          <Anchor component={Link} href="/society">
+            society
+          </Anchor>{" "}
+          pages.
+        </Text>
+      </Flex>
 
       <Flex
         bg={theme.colors.gray[2]}

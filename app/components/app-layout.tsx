@@ -54,7 +54,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
         >
           <Flex align="center">
             <Link href="/" style={{ textDecoration: "none" }}>
-              <Title size="25px" c="white" mt="2px" ml="20px">
+              <Title size="25px" c="white" mt="2px" ml="15px">
                 Europeindata.eu
               </Title>
             </Link>
@@ -222,7 +222,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
             variant="filled"
             active
             label="Export stats"
-            color={theme.colors.gray[1]}
+            color={theme.colors.gray[2]}
             c="black"
             leftSection={<FaFileExport />}
             rightSection={<IoIosArrowForward />}

@@ -16,7 +16,7 @@ export const metadata = {
     url: "https://europeindata.eu",
     title: "Europe in Data - Most Relevant EU Stats",
     description:
-      "Europe in Data is a database of statistics about European countries, cutting through the noise and showing only the most relevant ones.",
+      "Europe in Data is a one-stop site for all the relevant stats on EU countries. Instead of searching the internet and multiple sources for data, you'll find all the essential statistics—economic measures, social indicators, and other key numbers organized in one place for easy exploration. You can start at the economy and society pages.",
     images: [
       {
         url: "/whole-logo.png",
