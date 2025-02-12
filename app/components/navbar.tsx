@@ -4,13 +4,7 @@ import Link from "next/link";
 export default function Navbar() {
   const theme = useMantineTheme();
 
-  const Paths = [
-    "/economy",
-    "/society",
-    "/country-profiles",
-    "/methodology",
-    "/society",
-  ];
+  const Paths = ["/economy", "/society", "/country-profiles", "/methodology"];
 
   function getPaths() {
     let FilteredPaths = Paths;
