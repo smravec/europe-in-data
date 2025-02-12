@@ -27,7 +27,7 @@ import {
 //Next
 import Link from "next/link";
 
-import Navbar from "./navbar";
+// import Navbar from "./navbar";
 
 export default function AppLayout({ children }: { children: React.ReactNode }) {
   const [opened, { toggle }] = useDisclosure();
