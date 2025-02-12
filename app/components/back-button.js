@@ -6,13 +6,14 @@ import { IoArrowBack } from "react-icons/io5";
 
 import { Button } from "@mantine/core";
 
-export default function BackButton() {
+export default function BackButton(props) {
   const router = useRouter();
+  const ReturnPage = props.ReturnPage;
 
   return (
     <Button
       onClick={() => {
-        router.back();
+        router.push(ReturnPage);
       }}
       variant="filled"
       color="main"

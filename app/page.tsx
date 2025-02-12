@@ -65,11 +65,11 @@ export default function Home() {
           social indicators, and other key numbers organized in one place for
           easy exploration. You can start at the{" "}
           <Anchor component={Link} href="/economy">
-            economy
+            /economy
           </Anchor>{" "}
           and{" "}
           <Anchor component={Link} href="/society">
-            society
+            /society
           </Anchor>{" "}
           pages.
         </Text>

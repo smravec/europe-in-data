@@ -1,41 +1,45 @@
-'use client'
+"use client";
 
-import Leaderboard from "./leaderboard"
-import CountryData from "../../country-data/country-data.json"
-import BackButton from "./back-button"
+import Leaderboard from "./leaderboard";
+import CountryData from "../../country-data/country-data.json";
+import BackButton from "./back-button";
 
+export default function Indicator(props) {
+  const Year = props.Year;
+  const Indicator = props.Indicator;
+  const Order = props.Order;
+  const DecimalPlaces = props.DecimalPlaces;
+  const Units = props.Units;
+  const ReturnPage = props.ReturnPage;
 
-export default function Indicator(props){
-    const Year =  props.Year
-    const Indicator = props.Indicator
-    const Order =  props.Order
-    const DecimalPlaces = props.DecimalPlaces
-    const Units =  props.Units
+  let data = {
+    units: Units,
+    order: Order,
+    headers: ["Rank", "Country", Indicator],
+    body: [],
+  };
 
-    let data = {
-        units: Units,
-        order: Order,
-        headers: ["Rank","Country",Indicator],
-        body: []
-    }
-    
-    function getData(indicator, year){
-        let data_to_return = []
-        const countries = Object.keys(CountryData)
+  function getData(indicator, year) {
+    let data_to_return = [];
+    const countries = Object.keys(CountryData);
 
-        countries.forEach(country => {
-            data_to_return.push([1,CountryData[country]["Icon"] + " " + country, CountryData[country][year][indicator].toFixed(DecimalPlaces)])
-        });
+    countries.forEach((country) => {
+      data_to_return.push([
+        1,
+        CountryData[country]["Icon"] + " " + country,
+        CountryData[country][year][indicator].toFixed(DecimalPlaces),
+      ]);
+    });
 
-        return data_to_return
-    }
+    return data_to_return;
+  }
 
-    data.body = getData(Indicator,Year.toString())
+  data.body = getData(Indicator, Year.toString());
 
-    return(
-        <>
-            <BackButton/>
-            <Leaderboard height={510} data={data} />            
-        </>
-    )
+  return (
+    <>
+      <BackButton ReturnPage={ReturnPage} />
+      <Leaderboard height={510} data={data} />
+    </>
+  );
 }

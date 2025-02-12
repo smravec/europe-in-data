@@ -73,6 +73,7 @@ export default async function IndicatorPage({ params }) {
       Order={ValidIndicators[IndicatorIndex][2]}
       Units={ValidIndicators[IndicatorIndex][3]}
       DecimalPlaces={ValidIndicators[IndicatorIndex][4]}
+      ReturnPage={"/economy"}
     />
   );
 }
