@@ -71,7 +71,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
             mr="10px"
           />
         </Flex>
-        <Navbar />
+        {/* <Navbar /> */}
       </AppShell.Header>
 
       <AppShell.Navbar>
