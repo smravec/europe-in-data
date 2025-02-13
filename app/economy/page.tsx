@@ -12,6 +12,7 @@ import {
 } from "@mantine/core";
 
 import OwnScore from "../components/own-score";
+import BackButton from "../components/back-button";
 
 export default function Economy() {
   const theme = useMantineTheme();
@@ -71,7 +72,10 @@ export default function Economy() {
   ];
 
   return (
-    <>
+    <Flex direction="column">
+      <Space h="30px" hiddenFrom="sm" />
+
+      <BackButton ReturnPage="/" />
       <Flex
         bg={theme.colors.gray[2]}
         direction="column"
@@ -267,6 +271,6 @@ export default function Economy() {
           ))}
         </SimpleGrid>
       </Flex>
-    </>
+    </Flex>
   );
 }

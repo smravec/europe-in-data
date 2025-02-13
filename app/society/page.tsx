@@ -11,6 +11,7 @@ import {
   Space,
 } from "@mantine/core";
 import OwnScore from "../components/own-score";
+import BackButton from "../components/back-button";
 
 export default function Society() {
   const theme = useMantineTheme();
@@ -60,7 +61,10 @@ export default function Society() {
   ];
 
   return (
-    <>
+    <Flex direction="column">
+      <Space h="30px" hiddenFrom="sm" />
+
+      <BackButton ReturnPage="/" />
       <Flex
         bg={theme.colors.gray[2]}
         direction="column"
@@ -241,6 +245,6 @@ export default function Society() {
           ))}
         </SimpleGrid>
       </Flex>
-    </>
+    </Flex>
   );
 }

@@ -1,10 +1,14 @@
 "use client";
 
+import { Flex, Title, Text, useMantineTheme } from "@mantine/core";
+
 import Leaderboard from "./leaderboard";
 import CountryData from "../../country-data/country-data.json";
 import BackButton from "./back-button";
 
 export default function Indicator(props) {
+  const theme = useMantineTheme();
+
   const Year = props.Year;
   const Indicator = props.Indicator;
   const Order = props.Order;
@@ -37,9 +41,34 @@ export default function Indicator(props) {
   data.body = getData(Indicator, Year.toString());
 
   return (
-    <>
+    <Flex direction="column">
       <BackButton ReturnPage={ReturnPage} />
-      <Leaderboard height={510} data={data} />
-    </>
+      <Flex
+        bg={theme.colors.gray[2]}
+        direction="column"
+        align="center"
+        justify="center"
+        w="100%"
+        pt="15px"
+        pb="20px"
+        style={{ borderRadius: "8px" }}
+        bd={`1px solid ${theme.colors.gray[4]}`}
+        mt="sm"
+        pl="10px"
+        pr="10px"
+      >
+        <Title>
+          {data.headers[2]} {data.units === "" ? "" : `in ${data.units}`}
+        </Title>
+        <Text>
+          {data.headers[2] !== "Religiosity"
+            ? data.order === "biggest"
+              ? "(Bigger is better)"
+              : "(Smaller is better)"
+            : ""}
+        </Text>
+        <Leaderboard height={510} data={data} />
+      </Flex>
+    </Flex>
   );
 }
