@@ -12,14 +12,42 @@ import { redirect, usePathname } from "next/navigation";
 import { useHover } from "@mantine/hooks";
 import { useEffect, useState } from "react";
 
+interface NavigationItemProps {
+  item: any;
+  theme: any;
+  redirect: (path: string) => void;
+  Icon: React.ComponentType;
+}
+
+function NavigationItem({ item, theme, redirect, Icon }: NavigationItemProps) {
+  const { hovered, ref } = useHover();
+
+  return (
+    <Flex
+      ref={ref}
+      align="center"
+      bd={`1px solid ${theme.colors.gray[5]}`}
+      pl="4px"
+      pr="4px"
+      style={{ borderRadius: "5px", whiteSpace: "nowrap" }}
+      bg={hovered ? "#efefef" : "#ffffff"}
+      c="#0946ff"
+      onClick={() => redirect(item)}
+    >
+      <Icon />
+      <Text ml="3px">{item.slice(1)}</Text>
+    </Flex>
+  );
+}
+
 export default function Navbar() {
   const theme = useMantineTheme();
   const pathname = usePathname();
   const [hidden, toggle] = useState(false);
 
-  //Add paths later
+  // Define your paths and icon mapping
   const Paths = ["/economy", "/society", "/country-profiles", "/methodology"];
-  const Icons: Record<string, any> = {
+  const Icons = {
     "/economy": FaMoneyBill,
     "/society": IoPerson,
     "/country-profiles": FaFlag,
@@ -30,7 +58,6 @@ export default function Navbar() {
   };
 
   useEffect(() => {
-    console.log("URL changed to:", pathname);
     if (Paths.includes(pathname) || pathname === "/") {
       toggle(false);
     } else {
@@ -55,27 +82,16 @@ export default function Navbar() {
         pt="5px"
         justify="space-around"
       >
-        {Paths.map((item, index) => {
+        {Paths.filter((item) => item !== pathname).map((item) => {
           const Icon = Icons[item];
-          const { hovered, ref } = useHover();
           return (
-            <Flex
-              ref={ref}
-              key={index}
-              align="center"
-              bd={`1px solid ${theme.colors.gray[5]}`}
-              pl="4px"
-              pr="4px"
-              style={{ borderRadius: "5px", whiteSpace: "nowrap" }}
-              bg={hovered ? "#efefef" : "#ffffff"}
-              c="#0946ff"
-              onClick={() => {
-                redirect(item);
-              }}
-            >
-              <Icon />
-              <Text ml="3px">{item.slice(1)}</Text>
-            </Flex>
+            <NavigationItem
+              key={item}
+              item={item}
+              theme={theme}
+              redirect={redirect}
+              Icon={Icon}
+            />
           );
         })}
       </Flex>
