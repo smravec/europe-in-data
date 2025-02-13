@@ -39,7 +39,7 @@ export default function Navbar() {
   }, [pathname]);
 
   return (
-    <ScrollArea hidden={hidden} w="100%" type="scroll">
+    <ScrollArea hidden={hidden} w="100%" type="never">
       <Flex
         bg="#ffffff"
         direction="row"
