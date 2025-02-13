@@ -43,7 +43,7 @@ export default function Home() {
       align="center"
       direction="column"
       wrap="nowrap"
-      mt="sm"
+      mt={{ base: "xl", sm: "sm" }}
     >
       {/* <EuropeMap/> */}
       <Flex
