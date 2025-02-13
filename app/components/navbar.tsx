@@ -11,6 +11,7 @@ import { IoPerson } from "react-icons/io5";
 import { redirect, usePathname } from "next/navigation";
 import { useHover } from "@mantine/hooks";
 import { useEffect, useState } from "react";
+import { IconType } from "react-icons";
 
 interface NavigationItemProps {
   item: any;
@@ -47,7 +48,11 @@ export default function Navbar() {
 
   // Define your paths and icon mapping
   const Paths = ["/economy", "/society", "/country-profiles", "/methodology"];
-  const Icons = {
+
+  type IconsType = {
+    [key: string]: IconType;
+  };
+  const Icons: IconsType = {
     "/economy": FaMoneyBill,
     "/society": IoPerson,
     "/country-profiles": FaFlag,
