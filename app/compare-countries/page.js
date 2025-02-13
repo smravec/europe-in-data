@@ -281,7 +281,7 @@ function CompareCountries() {
   return (
     <Suspense>
       <Flex direction={"column"}>
-        <BackButton />
+        <BackButton ReturnPage="/" />
 
         <Title hiddenFrom="sm" order={1} mb={"lg"} mt={"sm"} ta={"center"}>
           {CountryData[country1]["Icon"]} {country1} <br /> vs <br />{" "}

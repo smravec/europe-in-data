@@ -73,13 +73,16 @@ export default function Home() {
         >
           <List.Item>A single hub for EU country statistics</List.Item>
           <List.Item>
-            Economy, society, demographics—all key numbers in one place
+            Economy, society, demographics,
+            <br />
+            all key numbers in one place
           </List.Item>
           <List.Item>
             Start exploring at:{" "}
             <Anchor component={Link} fz="21px" href="/economy">
               /economy
-            </Anchor>{" "}
+            </Anchor>
+            {", "}
             <Anchor component={Link} fz="21px" href="/society">
               /society
             </Anchor>
@@ -120,11 +123,7 @@ export default function Home() {
           page
         </Text>
         <Space h="xs" />
-        <OwnScore
-          Category="Overall"
-          Order="biggest"
-          Captions="Based on society and economy indicators"
-        />
+        <OwnScore Category="Overall" Order="biggest" />
       </Flex>
 
       <Flex

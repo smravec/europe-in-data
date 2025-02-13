@@ -30,6 +30,7 @@ export default function CountryProfiles() {
         w="100%"
         pt="15px"
         pb="20px"
+        mt="sm"
         style={{ borderRadius: "8px" }}
         bd={`1px solid ${theme.colors.gray[4]}`}
       >

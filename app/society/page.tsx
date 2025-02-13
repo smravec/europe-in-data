@@ -44,7 +44,7 @@ export default function Society() {
     ],
     [
       "Pisa score",
-      "Score of 16 year olds in math science and literature1",
+      "Score of 16 year olds in math, science and literature",
       "oecd",
     ],
     [
