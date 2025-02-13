@@ -10,9 +10,13 @@ import {
   Space,
   Grid,
   GridCol,
+  List,
+  ThemeIcon,
 } from "@mantine/core";
 
 import Link from "next/link";
+
+import { FaArrowRight } from "react-icons/fa";
 
 //import leaflet component this way cause of old libs
 //import dynamic from "next/dynamic";
@@ -57,21 +61,30 @@ export default function Home() {
       >
         <Title>Welcome!</Title>
         <Space h="xs" />
-        <Text size="lg">
-          Europe in Data is a one-stop site for all the relevant stats on EU
-          countries. Instead of searching the internet and multiple sources for
-          data, you'll find all the essential statistics—economic measures,
-          social indicators, and other key numbers organized in one place for
-          easy exploration. You can start at the{" "}
-          <Anchor component={Link} href="/economy">
-            /economy
-          </Anchor>{" "}
-          and{" "}
-          <Anchor component={Link} href="/society">
-            /society
-          </Anchor>{" "}
-          pages.
-        </Text>
+        <List
+          spacing="lg"
+          fz="21px"
+          c={theme.colors.gray[8]}
+          icon={
+            <ThemeIcon color="#0946ff" size={30} radius="xl">
+              <FaArrowRight size={16} />
+            </ThemeIcon>
+          }
+        >
+          <List.Item>A single hub for EU country statistics</List.Item>
+          <List.Item>
+            Economy, society, demographics—all key numbers in one place
+          </List.Item>
+          <List.Item>
+            Start exploring at:{" "}
+            <Anchor component={Link} fz="21px" href="/economy">
+              /economy
+            </Anchor>{" "}
+            <Anchor component={Link} fz="21px" href="/society">
+              /society
+            </Anchor>
+          </List.Item>
+        </List>
       </Flex>
 
       <Flex
