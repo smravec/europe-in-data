@@ -55,7 +55,15 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
           wrap="nowrap"
         >
           <Flex align="center">
-            <Link href="/" style={{ textDecoration: "none" }}>
+            <Link
+              href="/"
+              onClick={() => {
+                if (opened === true) {
+                  toggle();
+                }
+              }}
+              style={{ textDecoration: "none" }}
+            >
               <Title size="25px" c="white" mt="2px" ml="15px">
                 Europeindata.eu
               </Title>
