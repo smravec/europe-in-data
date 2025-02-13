@@ -39,7 +39,7 @@ export default function Home() {
       align="center"
       direction="column"
       wrap="nowrap"
-      pt="10px"
+      mt="sm"
     >
       {/* <EuropeMap/> */}
       <Flex
@@ -52,7 +52,6 @@ export default function Home() {
         pb="20px"
         style={{ borderRadius: "8px" }}
         bd={`1px solid ${theme.colors.gray[4]}`}
-        mt="sm"
         pl="50px"
         pr="50px"
       >
