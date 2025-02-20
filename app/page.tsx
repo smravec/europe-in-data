@@ -14,6 +14,8 @@ import {
   ThemeIcon,
 } from "@mantine/core";
 
+import { useMediaQuery } from '@mantine/hooks';
+
 import Link from "next/link";
 
 import { FaArrowRight } from "react-icons/fa";
@@ -34,6 +36,8 @@ export default function Home() {
 
   const [country1, setCountry1] = useState("");
   const [country2, setCountry2] = useState("");
+
+  const isMdOrLarger = useMediaQuery('(min-width: 48em)');
 
   return (
     <Flex
@@ -72,12 +76,12 @@ export default function Home() {
           }
         >
           <List.Item>
-            A single hub for EU country statistics,
+            A single hub for EU country statistics{isMdOrLarger ? <span>,</span> : null}
             <br />
-            (+ some other european nations)
+            {isMdOrLarger ? <span>(+ some other european nations)</span> : null}
           </List.Item>
           <List.Item>
-            Economy, society, demographics,
+            Economy, society, {isMdOrLarger ? <span>demographics,</span> : null}
             <br />
             all key numbers in one place
           </List.Item>
