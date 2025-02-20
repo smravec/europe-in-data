@@ -58,7 +58,7 @@ export default function Indicator(props) {
         pl="10px"
         pr="10px"
       >
-        <Title>
+        <Title ta={"center"}>
           {data.headers[2]} {data.units === "" ? "" : `in ${data.units}`}
         </Title>
         <Text size="lg">
