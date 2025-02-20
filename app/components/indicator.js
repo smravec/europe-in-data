@@ -1,9 +1,10 @@
 "use client";
 
-import { Flex, Title, Text, useMantineTheme } from "@mantine/core";
+import { Flex, Title, Text, useMantineTheme, Space } from "@mantine/core";
 
 import Leaderboard from "./leaderboard";
 import CountryData from "../../country-data/country-data.json";
+import MethodologyData from "../../country-data/methodology.json"
 import BackButton from "./back-button";
 
 export default function Indicator(props) {
@@ -60,13 +61,17 @@ export default function Indicator(props) {
         <Title>
           {data.headers[2]} {data.units === "" ? "" : `in ${data.units}`}
         </Title>
-        <Text>
+        <Text size="lg">
           {data.headers[2] !== "Religiosity"
             ? data.order === "biggest"
               ? "(Bigger is better)"
               : "(Smaller is better)"
             : ""}
         </Text>
+
+        <Text ta={"center"} >{MethodologyData[Indicator]["methodology"]}</Text>
+        <Space h={"sm"}/>
+
         <Leaderboard height={510} data={data} />
       </Flex>
     </Flex>

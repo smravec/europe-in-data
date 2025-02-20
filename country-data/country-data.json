@@ -366,7 +366,7 @@
             "Religiosity": 27
         },
         "2022": {
-            "Pisa Score": 478,
+            "Pisa score": 478,
             "Obesity rate": 15.2,
             "Life expectancy": 82.3,
             "Fertility rate": 1.79
@@ -382,11 +382,13 @@
             "Risk of poverty": 15.4,
             "Tertiary education": 51.5,
             "Net average wage": 31481.01,
+            "Net average monthly wage": 2623.41,
             "Gdp per capita": 46305.162,
             "Gdp per capita PPP": 63880.888,
             "Gdp growth": 1.1,
             "Unemployment": 7.4,
             "National debt": 110.6417894474,
+            "Debt to gdp": 110.6417894474,
             "Gdp growth past 5 years": 4.512318532899201
         },
         "2021": {

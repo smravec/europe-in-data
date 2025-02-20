@@ -19,7 +19,7 @@
         "last-year": "2010",
         "category": "society"
     },
-    "Pisa Score": {
+    "Pisa score": {
         "methodology": "Score of 15 year olds in math, science and literature",
         "source": "oecd",
         "units": "",
@@ -117,6 +117,13 @@
         "last-year": "2023",
         "category": "economy"
     },
+    "Net average monthly wage": {
+        "methodology": "Average monthly salary after tax",
+        "source": "eurostat",
+        "units": "\u20ac",
+        "last-year": "2023",
+        "category": "economy"
+    },
     "Gdp per capita": {
         "methodology": "The amount of money the economy produces each year for every person, on average",
         "source": "imf",
@@ -152,11 +159,32 @@
         "last-year": "2023",
         "category": "economy"
     },
+    "Debt to gdp": {
+        "methodology": "National debt compared to gdp",
+        "source": "imf",
+        "units": "%",
+        "last-year": "2023",
+        "category": "economy"
+    },
     "Gdp growth past 5 years": {
         "methodology": "How much the gdp has grown past 5 years",
         "source": "imf",
         "units": "%",
         "last-year": "2023",
+        "category": "economy"
+    },
+    "R&D (Innovation) to gdp": {
+        "methodology": "How much money is the country speding on research and development to gdp",
+        "source": "eurostat",
+        "units": "%",
+        "last-year": "2021",
+        "category": "economy"
+    },
+    "R&D (Innovation) in eur": {
+        "methodology": "How much money is the country speding on research and development in millions",
+        "source": "eurostat",
+        "units": "\u20ac",
+        "last-year": "2021",
         "category": "economy"
     }
 }

@@ -85,10 +85,10 @@ indicator = "R&D (Innovation) to"
 year = 2021
 
 #Set methodology
-methodology = "How much money is the country speding on research and development to gdp"
+methodology = "How much money is the country speding on research and development in millions"
 
 #Set units
-units = "%"
+units = "€"
 
 #Set category
 category = "economy"
@@ -170,29 +170,29 @@ if not search:
     # write_data(str(year),"Net average wage",data_to_save,methodology,source,units,category)
 
     # #R&D(Inovation) spending
-    # bes_pt = 0
-    # hes_pt = 0
-    # for x in dataset:
+    bes_pt = 0
+    hes_pt = 0
+    for x in dataset:
 
-    #     # if x[1] == "BES" and x[2] == "EUR_HAB":
-    #     #     bes_pt = x[4]
-    #     # if x[1] == "HES" and x[2] == "EUR_HAB":
-    #     #     hes_pt = x[4]    
+        if x[1] == "BES" and x[2] == "EUR_HAB":
+            bes_pt = x[4]
+        if x[1] == "HES" and x[2] == "EUR_HAB":
+            hes_pt = x[4]    
 
-    #     if x[1] == "BES" and x[2] == "PC_GDP":
-    #         bes_pt = x[4]
-    #     if x[1] == "HES" and x[2] == "PC_GDP":
-    #         hes_pt = x[4]   
+        # if x[1] == "BES" and x[2] == "PC_GDP":
+        #     bes_pt = x[4]
+        # if x[1] == "HES" and x[2] == "PC_GDP":
+        #     hes_pt = x[4]   
         
-    #     country_name = ""
+        country_name = ""
 
-    #     for code in country_codes:
-    #         if code[0] == x[3]:
-    #             country_name = code[1]
+        for code in country_codes:
+            if code[0] == x[3]:
+                country_name = code[1]
 
-    #     if x[1] == "TOTAL" and x[2] == "PC_GDP":
-    #         data_to_save.update({country_name : (bes_pt+hes_pt)})
-    #         print(f"{country_name}: {bes_pt+hes_pt} %")
+        if x[1] == "TOTAL" and x[2] == "PC_GDP":
+            data_to_save.update({country_name : (bes_pt+hes_pt)})
+            print(f"{country_name}: {bes_pt+hes_pt} %")
     
 
-    # write_data(str(year),"R&D (Innovation) to gdp", data_to_save )
+    write_data(str(year),"R&D (Innovation) in eur", data_to_save,methodology,source,units,category )
