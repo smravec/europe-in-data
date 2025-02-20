@@ -1,0 +1,162 @@
+{
+    "Example": {
+        "source": "test",
+        "methodology": "test methodology",
+        "category": "economy",
+        "last-year": 2010
+    },
+    "Believe in god": {
+        "methodology": "Number of people responding yes to \"I believe there is a God\"",
+        "source": "eurobarometer",
+        "units": "%",
+        "last-year": "2010",
+        "category": "society"
+    },
+    "Religiosity": {
+        "methodology": "Number of people responding yes to \"I believe there is a God\"",
+        "source": "eurobarometer",
+        "units": "%",
+        "last-year": "2010",
+        "category": "society"
+    },
+    "Pisa Score": {
+        "methodology": "Score of 15 year olds in math, science and literature",
+        "source": "oecd",
+        "units": "",
+        "last-year": "2022",
+        "category": "society"
+    },
+    "Voting participation": {
+        "methodology": "Voter turnout in the last parliamentary elections",
+        "source": "politico",
+        "units": "%",
+        "last-year": "2023",
+        "category": "society"
+    },
+    "Obesity rate": {
+        "methodology": "Percentage of population that is considered obese",
+        "source": "eurostat",
+        "units": "%",
+        "last-year": "2022",
+        "category": "society"
+    },
+    "Trust in other people": {
+        "methodology": "How much people would say people can generally be trusted",
+        "source": "eurostat",
+        "units": "%",
+        "last-year": "2023",
+        "category": "society"
+    },
+    "Lack of corruption score": {
+        "methodology": "How much corruption is percieved by public (higher score = less corruption)",
+        "source": "transparency international",
+        "units": "",
+        "last-year": "2023",
+        "category": "society"
+    },
+    "Value added tax": {
+        "methodology": "Tax on goods and services",
+        "source": "wikipedia, other ...",
+        "units": "%",
+        "last-year": "2023",
+        "category": "economy"
+    },
+    "House price to wage": {
+        "methodology": "Average house price to average salary",
+        "source": "eurostat, other ...",
+        "units": "",
+        "last-year": "2023",
+        "category": "economy"
+    },
+    "Capital gains tax": {
+        "methodology": "Tax on gains of stocks and other securities",
+        "source": "wikipedia, other ...",
+        "units": "%",
+        "last-year": "2023",
+        "category": "economy"
+    },
+    "Corporate tax": {
+        "methodology": "Tax on corporate profits",
+        "source": "wikipedia, other ...",
+        "units": "%",
+        "last-year": "2023",
+        "category": "economy"
+    },
+    "Risk of poverty": {
+        "methodology": "Percentage of population that is at the risk of poverty",
+        "source": "eurostat",
+        "units": "%",
+        "last-year": "2023",
+        "category": "society"
+    },
+    "Life expectancy": {
+        "methodology": "Expected life expentancy at birth",
+        "source": "eurostat",
+        "units": "",
+        "last-year": "2022",
+        "category": "society"
+    },
+    "Fertility rate": {
+        "methodology": "How much children does the average woman have",
+        "source": "eurostat",
+        "units": "",
+        "last-year": "2022",
+        "category": "society"
+    },
+    "Tertiary education": {
+        "methodology": "Percentage of population that completed tertiary(university) education",
+        "source": "eurostat",
+        "units": "%",
+        "last-year": "2023",
+        "category": "society"
+    },
+    "Net average wage": {
+        "methodology": "Average yearly salary after tax",
+        "source": "eurostat",
+        "units": "\u20ac",
+        "last-year": "2023",
+        "category": "economy"
+    },
+    "Gdp per capita": {
+        "methodology": "The amount of money the economy produces each year for every person, on average",
+        "source": "imf",
+        "units": "\u20ac",
+        "last-year": "2023",
+        "category": "economy"
+    },
+    "Gdp per capita PPP": {
+        "methodology": "Gdp per capita adjusted to local prices (how much can the average person buy)",
+        "source": "imf",
+        "units": "\u20ac",
+        "last-year": "2023",
+        "category": "economy"
+    },
+    "Gdp growth": {
+        "methodology": "How much the gdp has grown in the past year",
+        "source": "imf",
+        "units": "%",
+        "last-year": "2023",
+        "category": "economy"
+    },
+    "Unemployment": {
+        "methodology": "How much of the eligible workforce is unemployed",
+        "source": "imf",
+        "units": "%",
+        "last-year": "2023",
+        "category": "economy"
+    },
+    "National debt": {
+        "methodology": "National debt compared to gdp",
+        "source": "imf",
+        "units": "%",
+        "last-year": "2023",
+        "category": "economy"
+    },
+    "Gdp growth past 5 years": {
+        "methodology": "How much the gdp has grown past 5 years",
+        "source": "imf",
+        "units": "%",
+        "last-year": "2023",
+        "category": "economy"
+    }
+}

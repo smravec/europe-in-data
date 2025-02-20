@@ -71,7 +71,11 @@ export default function Home() {
             </ThemeIcon>
           }
         >
-          <List.Item>A single hub for EU country statistics</List.Item>
+          <List.Item>
+            A single hub for EU country statistics,
+            <br />
+            (+ some other european nations)
+          </List.Item>
           <List.Item>
             Economy, society, demographics,
             <br />

@@ -18,20 +18,25 @@
             "Trust in other people": 50,
             "Voting participation": 77.7,
             "Tertiary education": 44.0,
-            "Risk of poverty": 14.9
+            "Risk of poverty": 14.9,
+            "National debt": 77.544997945118
         },
         "2021": {
             "R&D (Innovation) to gdp": 2.99,
-            "R&D (Innovation) to gdp in eur": 1361.534
+            "R&D (Innovation) to gdp in eur": 1361.534,
+            "R&D (Innovation) spending in eur": 1361.534,
+            "R&D (Innovation) in eur": 1361.534
         },
         "2022": {
             "Obesity rate": 17.7,
             "Pisa score": 486,
             "Fertility rate": 1.41,
-            "Life expectancy": 81.4
+            "Life expectancy": 81.4,
+            "Pisa Score": 486
         },
         "2010": {
-            "Religiosity": 44
+            "Religiosity": 44,
+            "Believe in god": 44
         }
     },
     "Belgium": {
@@ -46,27 +51,32 @@
             "Corporate tax": 25,
             "Capital gains tax": 0,
             "Net average wage": 35604.37,
-            "Net average monthly wage":2967,
+            "Net average monthly wage": 2967,
             "House price to wage": 6.8,
             "Value added tax": 21,
             "Lack of corruption score": 73,
             "Trust in other people": 36,
             "Voting participation": 88.45,
             "Tertiary education": 50.2,
-            "Risk of poverty": 12.3
+            "Risk of poverty": 12.3,
+            "National debt": 105.17086569329
         },
         "2021": {
             "R&D (Innovation) to gdp": 3.09,
-            "R&D (Innovation) to gdp in eur": 1356.347
+            "R&D (Innovation) to gdp in eur": 1356.347,
+            "R&D (Innovation) spending in eur": 1356.347,
+            "R&D (Innovation) in eur": 1356.347
         },
         "2022": {
             "Obesity rate": 15.8,
             "Pisa score": 486,
             "Fertility rate": 1.53,
-            "Life expectancy": 81.8
+            "Life expectancy": 81.8,
+            "Pisa Score": 486
         },
         "2010": {
-            "Religiosity": 37
+            "Religiosity": 37,
+            "Believe in god": 37
         }
     },
     "Bulgaria": {
@@ -81,27 +91,32 @@
             "Corporate tax": 10,
             "Capital gains tax": 10,
             "Net average wage": 9355.23,
-            "Net average monthly wage":	779, 
+            "Net average monthly wage": 779,
             "House price to wage": 9.5,
             "Value added tax": 20,
             "Lack of corruption score": 45,
             "Trust in other people": 17,
             "Voting participation": 39.11,
             "Tertiary education": 35.0,
-            "Risk of poverty": 20.6
+            "Risk of poverty": 20.6,
+            "National debt": 32.917952654039
         },
         "2021": {
             "R&D (Innovation) to gdp": 0.56,
-            "R&D (Innovation) to gdp in eur": 60.778
+            "R&D (Innovation) to gdp in eur": 60.778,
+            "R&D (Innovation) spending in eur": 60.778,
+            "R&D (Innovation) in eur": 60.778
         },
         "2022": {
             "Obesity rate": 11.7,
             "Pisa score": 414,
             "Fertility rate": 1.65,
-            "Life expectancy": 74.2
+            "Life expectancy": 74.2,
+            "Pisa Score": 414
         },
         "2010": {
-            "Religiosity": 36
+            "Religiosity": 36,
+            "Believe in god": 36
         }
     },
     "Croatia": {
@@ -116,27 +131,32 @@
             "Corporate tax": 18,
             "Capital gains tax": 12,
             "Net average wage": 12330.12,
-            "Net average monthly wage":	1027,
+            "Net average monthly wage": 1027,
             "House price to wage": 12.9,
             "Value added tax": 25,
             "Lack of corruption score": 50,
             "Trust in other people": 14,
             "Voting participation": 62.31,
             "Tertiary education": 39.1,
-            "Risk of poverty": 19.3
+            "Risk of poverty": 19.3,
+            "National debt": 63.018359661052
         },
         "2021": {
             "R&D (Innovation) to gdp": 0.98,
-            "R&D (Innovation) to gdp in eur": 146.891
+            "R&D (Innovation) to gdp in eur": 146.891,
+            "R&D (Innovation) spending in eur": 146.891,
+            "R&D (Innovation) in eur": 146.891
         },
         "2022": {
             "Obesity rate": 16.7,
             "Pisa score": 474,
             "Fertility rate": 1.53,
-            "Life expectancy": 77.7
+            "Life expectancy": 77.7,
+            "Pisa Score": 474
         },
         "2010": {
-            "Religiosity": 69
+            "Religiosity": 69,
+            "Believe in god": 69
         }
     },
     "Cyprus": {
@@ -151,27 +171,32 @@
             "Corporate tax": 12.5,
             "Capital gains tax": 20,
             "Net average wage": 22913.46,
-            "Net average monthly wage":	1909,
+            "Net average monthly wage": 1909,
             "House price to wage": 8.2,
             "Value added tax": 19,
             "Lack of corruption score": 53,
             "Trust in other people": 7,
             "Voting participation": 72.45,
             "Tertiary education": 65.3,
-            "Risk of poverty": 13.9
+            "Risk of poverty": 13.9,
+            "National debt": 77.414465791357
         },
         "2021": {
             "R&D (Innovation) to gdp": 0.63,
-            "R&D (Innovation) to gdp in eur": 179.41
+            "R&D (Innovation) to gdp in eur": 179.41,
+            "R&D (Innovation) spending in eur": 179.41,
+            "R&D (Innovation) in eur": 179.41
         },
         "2022": {
             "Obesity rate": 13.5,
             "Pisa score": 403,
             "Fertility rate": 1.37,
-            "Life expectancy": 81.6
+            "Life expectancy": 81.6,
+            "Pisa Score": 403
         },
         "2010": {
-            "Religiosity": 88
+            "Religiosity": 88,
+            "Believe in god": 88
         }
     },
     "Czechia": {
@@ -186,27 +211,32 @@
             "Corporate tax": 21,
             "Capital gains tax": 0,
             "Net average wage": 17168.06,
-            "Net average monthly wage":	1430,
+            "Net average monthly wage": 1430,
             "House price to wage": 12.8,
             "Value added tax": 21,
             "Lack of corruption score": 57,
             "Trust in other people": 27,
             "Voting participation": 70.25,
             "Tertiary education": 34.9,
-            "Risk of poverty": 9.8
+            "Risk of poverty": 9.8,
+            "National debt": 42.375071814781
         },
         "2021": {
             "R&D (Innovation) to gdp": 1.6,
-            "R&D (Innovation) to gdp in eur": 376.46799999999996
+            "R&D (Innovation) to gdp in eur": 376.46799999999996,
+            "R&D (Innovation) spending in eur": 376.46799999999996,
+            "R&D (Innovation) in eur": 376.46799999999996
         },
         "2022": {
             "Obesity rate": 17.8,
             "Pisa score": 491,
             "Fertility rate": 1.64,
-            "Life expectancy": 79.0
+            "Life expectancy": 79.0,
+            "Pisa Score": 491
         },
         "2010": {
-            "Religiosity": 16
+            "Religiosity": 16,
+            "Believe in god": 16
         }
     },
     "Denmark": {
@@ -221,27 +251,32 @@
             "Corporate tax": 22,
             "Capital gains tax": 42,
             "Net average wage": 41930.66,
-            "Net average monthly wage":	3494,
+            "Net average monthly wage": 3494,
             "House price to wage": 6.2,
             "Value added tax": 25,
             "Lack of corruption score": 90,
             "Trust in other people": 74,
             "Voting participation": 84.16,
             "Tertiary education": 52.7,
-            "Risk of poverty": 11.8
+            "Risk of poverty": 11.8,
+            "National debt": 29.662575145031
         },
         "2021": {
             "R&D (Innovation) to gdp": 2.6399999999999997,
-            "R&D (Innovation) to gdp in eur": 1560.77
+            "R&D (Innovation) to gdp in eur": 1560.77,
+            "R&D (Innovation) spending in eur": 1560.77,
+            "R&D (Innovation) in eur": 1560.77
         },
         "2022": {
             "Obesity rate": 19.4,
             "Pisa score": 491,
             "Fertility rate": 1.55,
-            "Life expectancy": 81.3
+            "Life expectancy": 81.3,
+            "Pisa Score": 491
         },
         "2010": {
-            "Religiosity": 28
+            "Religiosity": 28,
+            "Believe in god": 28
         }
     },
     "Estonia": {
@@ -263,20 +298,25 @@
             "Trust in other people": 34,
             "Voting participation": 63.53,
             "Tertiary education": 47.3,
-            "Risk of poverty": 22.5
+            "Risk of poverty": 22.5,
+            "National debt": 19.314210136909
         },
         "2021": {
             "R&D (Innovation) to gdp": 1.5699999999999998,
-            "R&D (Innovation) to gdp in eur": 370.558
+            "R&D (Innovation) to gdp in eur": 370.558,
+            "R&D (Innovation) spending in eur": 370.558,
+            "R&D (Innovation) in eur": 370.558
         },
         "2022": {
             "Obesity rate": 22.1,
             "Pisa score": 516,
             "Fertility rate": 1.41,
-            "Life expectancy": 78.1
+            "Life expectancy": 78.1,
+            "Pisa Score": 516
         },
         "2010": {
-            "Religiosity": 18
+            "Religiosity": 18,
+            "Believe in god": 18
         }
     },
     "Finland": {
@@ -291,27 +331,68 @@
             "Corporate tax": 20,
             "Capital gains tax": 34,
             "Net average wage": 36475.01,
-            "Net average monthly wage":	3039,
+            "Net average monthly wage": 3039,
             "House price to wage": 8.5,
             "Value added tax": 24,
             "Lack of corruption score": 87,
             "Trust in other people": 68,
             "Voting participation": 72.6,
             "Tertiary education": 43.1,
-            "Risk of poverty": 12.2
+            "Risk of poverty": 12.2,
+            "National debt": 77.024985733508
         },
         "2021": {
             "R&D (Innovation) to gdp": 2.7699999999999996,
-            "R&D (Innovation) to gdp in eur": 1244.008
+            "R&D (Innovation) to gdp in eur": 1244.008,
+            "R&D (Innovation) spending in eur": 1244.008,
+            "R&D (Innovation) in eur": 1244.008
         },
         "2022": {
             "Obesity rate": 22,
             "Pisa score": 495,
             "Fertility rate": 1.32,
-            "Life expectancy": 81.2
+            "Life expectancy": 81.2,
+            "Pisa Score": 495
         },
         "2010": {
-            "Religiosity": 33
+            "Religiosity": 33,
+            "Believe in god": 33
+        }
+    },
+    "France": {
+        "Icon": "\ud83c\uddeb\ud83c\uddf7",
+        "2010": {
+            "Believe in god": 27,
+            "Religiosity": 27
+        },
+        "2022": {
+            "Pisa Score": 478,
+            "Obesity rate": 15.2,
+            "Life expectancy": 82.3,
+            "Fertility rate": 1.79
+        },
+        "2023": {
+            "Voting participation": 66.63,
+            "Trust in other people": 26,
+            "Lack of corruption score": 71,
+            "Value added tax": 20,
+            "House price to wage": 11.3,
+            "Capital gains tax": 34,
+            "Corporate tax": 25,
+            "Risk of poverty": 15.4,
+            "Tertiary education": 51.5,
+            "Net average wage": 31481.01,
+            "Gdp per capita": 46305.162,
+            "Gdp per capita PPP": 63880.888,
+            "Gdp growth": 1.1,
+            "Unemployment": 7.4,
+            "National debt": 110.6417894474,
+            "Gdp growth past 5 years": 4.512318532899201
+        },
+        "2021": {
+            "R&D (Innovation) spending in eur": 706.438,
+            "R&D (Innovation) in eur": 706.438,
+            "R&D (Innovation) to gdp": 1.9
         }
     },
     "Germany": {
@@ -326,27 +407,32 @@
             "Corporate tax": 30,
             "Capital gains tax": 26.4,
             "Net average wage": 38086.35,
-            "Net average monthly wage":	3173,
+            "Net average monthly wage": 3173,
             "House price to wage": 9.3,
             "Value added tax": 19,
             "Lack of corruption score": 78,
             "Trust in other people": 42,
             "Voting participation": 76.57,
             "Tertiary education": 41.0,
-            "Risk of poverty": 14.4
+            "Risk of poverty": 14.4,
+            "National debt": 62.660080515106
         },
         "2021": {
             "R&D (Innovation) to gdp": 2.62,
-            "R&D (Innovation) to gdp in eur": 1159.551
+            "R&D (Innovation) to gdp in eur": 1159.551,
+            "R&D (Innovation) spending in eur": 1159.551,
+            "R&D (Innovation) in eur": 1159.551
         },
         "2022": {
             "Obesity rate": 19,
             "Pisa score": 482,
             "Fertility rate": 1.46,
-            "Life expectancy": 80.7
+            "Life expectancy": 80.7,
+            "Pisa Score": 482
         },
         "2010": {
-            "Religiosity": 44
+            "Religiosity": 44,
+            "Believe in god": 44
         }
     },
     "Greece": {
@@ -368,20 +454,25 @@
             "Trust in other people": 8,
             "Voting participation": 53.74,
             "Tertiary education": 45.1,
-            "Risk of poverty": 18.9
+            "Risk of poverty": 18.9,
+            "National debt": 168.86903697697
         },
         "2021": {
             "R&D (Innovation) to gdp": 1.1,
-            "R&D (Innovation) to gdp in eur": 191.071
+            "R&D (Innovation) to gdp in eur": 191.071,
+            "R&D (Innovation) spending in eur": 191.071,
+            "R&D (Innovation) in eur": 191.071
         },
         "2022": {
             "Obesity rate": 12,
             "Pisa score": 436,
             "Fertility rate": 1.32,
-            "Life expectancy": 80.8
+            "Life expectancy": 80.8,
+            "Pisa Score": 436
         },
         "2010": {
-            "Religiosity": 79
+            "Religiosity": 79,
+            "Believe in god": 79
         }
     },
     "Hungary": {
@@ -403,20 +494,25 @@
             "Trust in other people": 27,
             "Voting participation": 69.59,
             "Tertiary education": 32.8,
-            "Risk of poverty": 13.1
+            "Risk of poverty": 13.1,
+            "National debt": 69.441622867879
         },
         "2021": {
             "R&D (Innovation) to gdp": 1.46,
-            "R&D (Innovation) to gdp in eur": 234.01000000000002
+            "R&D (Innovation) to gdp in eur": 234.01000000000002,
+            "R&D (Innovation) spending in eur": 234.01000000000002,
+            "R&D (Innovation) in eur": 234.01000000000002
         },
         "2022": {
             "Obesity rate": 22.2,
             "Pisa score": 477,
             "Fertility rate": 1.56,
-            "Life expectancy": 76.0
+            "Life expectancy": 76.0,
+            "Pisa Score": 477
         },
         "2010": {
-            "Religiosity": 45
+            "Religiosity": 45,
+            "Believe in god": 45
         }
     },
     "Iceland": {
@@ -431,27 +527,32 @@
             "Corporate tax": 21,
             "Capital gains tax": 22,
             "Net average wage": 53885.04,
-            "Net average monthly wage":	4490,
+            "Net average monthly wage": 4490,
             "House price to wage": 6,
             "Value added tax": 24,
             "Lack of corruption score": 72,
             "Trust in other people": 62,
             "Voting participation": 80.18,
             "Tertiary education": 50.4,
-            "Risk of poverty": 9
+            "Risk of poverty": 9,
+            "National debt": 62.242740759889
         },
         "2021": {
             "R&D (Innovation) to gdp": 2.7,
-            "R&D (Innovation) to gdp in eur": 1597.5010000000002
+            "R&D (Innovation) to gdp in eur": 1597.5010000000002,
+            "R&D (Innovation) spending in eur": 1597.5010000000002,
+            "R&D (Innovation) in eur": 1597.5010000000002
         },
         "2022": {
             "Obesity rate": 22.3,
             "Pisa score": 447,
             "Fertility rate": 1.59,
-            "Life expectancy": 82.1
+            "Life expectancy": 82.1,
+            "Pisa Score": 447
         },
         "2010": {
-            "Religiosity": 31
+            "Religiosity": 31,
+            "Believe in god": 31
         }
     },
     "Ireland": {
@@ -473,20 +574,25 @@
             "Trust in other people": 37,
             "Voting participation": 59.7,
             "Tertiary education": 63.7,
-            "Risk of poverty": 12.0
+            "Risk of poverty": 12.0,
+            "National debt": 43.273190417922
         },
         "2021": {
             "R&D (Innovation) to gdp": 1.03,
-            "R&D (Innovation) to gdp in eur": 918.1479999999999
+            "R&D (Innovation) to gdp in eur": 918.1479999999999,
+            "R&D (Innovation) spending in eur": 918.1479999999999,
+            "R&D (Innovation) in eur": 918.1479999999999
         },
         "2022": {
             "Obesity rate": 19.8,
             "Pisa score": 504,
             "Fertility rate": 1.54,
-            "Life expectancy": 82.6
+            "Life expectancy": 82.6,
+            "Pisa Score": 504
         },
         "2010": {
-            "Religiosity": 70
+            "Religiosity": 70,
+            "Believe in god": 70
         }
     },
     "Italy": {
@@ -501,27 +607,32 @@
             "Corporate tax": 24,
             "Capital gains tax": 26,
             "Net average wage": 24206.84,
-            "Net average monthly wage":	2017,
+            "Net average monthly wage": 2017,
             "House price to wage": 10.3,
             "Value added tax": 22,
             "Lack of corruption score": 56,
             "Trust in other people": 27,
             "Voting participation": 63.81,
             "Tertiary education": 29.2,
-            "Risk of poverty": 18.9
+            "Risk of poverty": 18.9,
+            "National debt": 134.79373316076
         },
         "2021": {
             "R&D (Innovation) to gdp": 1.19,
-            "R&D (Innovation) to gdp in eur": 369.312
+            "R&D (Innovation) to gdp in eur": 369.312,
+            "R&D (Innovation) spending in eur": 369.312,
+            "R&D (Innovation) in eur": 369.312
         },
         "2022": {
             "Obesity rate": 7.1,
             "Pisa score": 477,
             "Fertility rate": 1.24,
-            "Life expectancy": 82.8
+            "Life expectancy": 82.8,
+            "Pisa Score": 477
         },
         "2010": {
-            "Religiosity": 74
+            "Religiosity": 74,
+            "Believe in god": 74
         }
     },
     "Latvia": {
@@ -536,27 +647,32 @@
             "Corporate tax": 20,
             "Capital gains tax": 20,
             "Net average wage": 13521.9,
-            "Net average monthly wage":	1126,
+            "Net average monthly wage": 1126,
             "House price to wage": 9,
             "Value added tax": 21,
             "Lack of corruption score": 60,
             "Trust in other people": 22,
             "Voting participation": 59.41,
             "Tertiary education": 47.4,
-            "Risk of poverty": 22.5
+            "Risk of poverty": 22.5,
+            "National debt": 43.574350810604
         },
         "2021": {
             "R&D (Innovation) to gdp": 0.63,
-            "R&D (Innovation) to gdp in eur": 107.30699999999999
+            "R&D (Innovation) to gdp in eur": 107.30699999999999,
+            "R&D (Innovation) spending in eur": 107.30699999999999,
+            "R&D (Innovation) in eur": 107.30699999999999
         },
         "2022": {
             "Obesity rate": 23.3,
             "Pisa score": 484,
             "Fertility rate": 1.47,
-            "Life expectancy": 74.5
+            "Life expectancy": 74.5,
+            "Pisa Score": 484
         },
         "2010": {
-            "Religiosity": 38
+            "Religiosity": 38,
+            "Believe in god": 38
         }
     },
     "Lithuania": {
@@ -571,27 +687,32 @@
             "Corporate tax": 15,
             "Capital gains tax": 20,
             "Net average wage": 14557.22,
-            "Net average monthly wage":	1213,
+            "Net average monthly wage": 1213,
             "House price to wage": 12,
             "Value added tax": 21,
             "Lack of corruption score": 61,
             "Trust in other people": 32,
             "Voting participation": 52.2,
             "Tertiary education": 59.5,
-            "Risk of poverty": 20.6
+            "Risk of poverty": 20.6,
+            "National debt": 38.289577071899
         },
         "2021": {
             "R&D (Innovation) to gdp": 0.93,
-            "R&D (Innovation) to gdp in eur": 186.96
+            "R&D (Innovation) to gdp in eur": 186.96,
+            "R&D (Innovation) spending in eur": 186.96,
+            "R&D (Innovation) in eur": 186.96
         },
         "2022": {
             "Obesity rate": 20.6,
             "Pisa score": 477,
             "Fertility rate": 1.27,
-            "Life expectancy": 75.8
+            "Life expectancy": 75.8,
+            "Pisa Score": 477
         },
         "2010": {
-            "Religiosity": 47
+            "Religiosity": 47,
+            "Believe in god": 47
         }
     },
     "Luxembourg": {
@@ -613,20 +734,25 @@
             "Trust in other people": 31,
             "Voting participation": 87.2,
             "Tertiary education": 61.9,
-            "Risk of poverty": 18.8
+            "Risk of poverty": 18.8,
+            "National debt": 25.669621748664
         },
         "2021": {
             "R&D (Innovation) to gdp": 0.79,
-            "R&D (Innovation) to gdp in eur": 897.512
+            "R&D (Innovation) to gdp in eur": 897.512,
+            "R&D (Innovation) spending in eur": 897.512,
+            "R&D (Innovation) in eur": 897.512
         },
         "2022": {
             "Obesity rate": 17.0,
             "Pisa score": 474,
             "Fertility rate": 1.31,
-            "Life expectancy": 83.0
+            "Life expectancy": 83.0,
+            "Pisa Score": 474
         },
         "2010": {
-            "Religiosity": 46
+            "Religiosity": 46,
+            "Believe in god": 46
         }
     },
     "Malta": {
@@ -641,27 +767,32 @@
             "Corporate tax": 35,
             "Capital gains tax": 0,
             "Net average wage": 20465.58,
-            "Net average monthly wage":	1705,
+            "Net average monthly wage": 1705,
             "House price to wage": 12.1,
             "Value added tax": 18,
             "Lack of corruption score": 51,
             "Trust in other people": 21,
             "Voting participation": 85.63,
             "Tertiary education": 43.3,
-            "Risk of poverty": 16.6
+            "Risk of poverty": 16.6,
+            "National debt": 50.396603340902
         },
         "2021": {
             "R&D (Innovation) to gdp": 0.6,
-            "R&D (Innovation) to gdp in eur": 190.66500000000002
+            "R&D (Innovation) to gdp in eur": 190.66500000000002,
+            "R&D (Innovation) spending in eur": 190.66500000000002,
+            "R&D (Innovation) in eur": 190.66500000000002
         },
         "2022": {
             "Obesity rate": 26.1,
             "Pisa score": 459,
             "Fertility rate": 1.08,
-            "Life expectancy": 82.4
+            "Life expectancy": 82.4,
+            "Pisa Score": 459
         },
         "2010": {
-            "Religiosity": 94
+            "Religiosity": 94,
+            "Believe in god": 94
         }
     },
     "Netherlands": {
@@ -683,20 +814,25 @@
             "Trust in other people": 57,
             "Voting participation": 77.75,
             "Tertiary education": 54.3,
-            "Risk of poverty": 13.0
+            "Risk of poverty": 13.0,
+            "National debt": 45.023552850836
         },
         "2021": {
             "R&D (Innovation) to gdp": 2.09,
-            "R&D (Innovation) to gdp in eur": 1068.425
+            "R&D (Innovation) to gdp in eur": 1068.425,
+            "R&D (Innovation) spending in eur": 1068.425,
+            "R&D (Innovation) in eur": 1068.425
         },
         "2022": {
             "Obesity rate": 13.8,
             "Pisa score": 480,
             "Fertility rate": 1.49,
-            "Life expectancy": 81.7
+            "Life expectancy": 81.7,
+            "Pisa Score": 480
         },
         "2010": {
-            "Religiosity": 28
+            "Religiosity": 28,
+            "Believe in god": 28
         }
     },
     "Norway": {
@@ -718,20 +854,25 @@
             "Trust in other people": 72,
             "Voting participation": 77.17,
             "Tertiary education": 57.1,
-            "Risk of poverty": 11.5
+            "Risk of poverty": 11.5,
+            "National debt": 44.003717155229
         },
         "2021": {
             "R&D (Innovation) to gdp": 1.6400000000000001,
-            "R&D (Innovation) to gdp in eur": 1293.335
+            "R&D (Innovation) to gdp in eur": 1293.335,
+            "R&D (Innovation) spending in eur": 1293.335,
+            "R&D (Innovation) in eur": 1293.335
         },
         "2022": {
             "Obesity rate": 16.8,
             "Pisa score": 474,
             "Fertility rate": 1.41,
-            "Life expectancy": 82.5
+            "Life expectancy": 82.5,
+            "Pisa Score": 474
         },
         "2010": {
-            "Religiosity": 22
+            "Religiosity": 22,
+            "Believe in god": 22
         }
     },
     "Poland": {
@@ -753,20 +894,25 @@
             "Trust in other people": 24,
             "Voting participation": 74.4,
             "Tertiary education": 49.2,
-            "Risk of poverty": 14.0
+            "Risk of poverty": 14.0,
+            "National debt": 49.594290433829
         },
         "2021": {
             "R&D (Innovation) to gdp": 1.38,
-            "R&D (Innovation) to gdp in eur": 217.599
+            "R&D (Innovation) to gdp in eur": 217.599,
+            "R&D (Innovation) spending in eur": 217.599,
+            "R&D (Innovation) in eur": 217.599
         },
         "2022": {
             "Obesity rate": 18.6,
             "Pisa score": 492,
             "Fertility rate": 1.29,
-            "Life expectancy": 77.2
+            "Life expectancy": 77.2,
+            "Pisa Score": 492
         },
         "2010": {
-            "Religiosity": 79
+            "Religiosity": 79,
+            "Believe in god": 79
         }
     },
     "Portugal": {
@@ -788,20 +934,25 @@
             "Trust in other people": 17,
             "Voting participation": 59.9,
             "Tertiary education": 39.7,
-            "Risk of poverty": 17.0
+            "Risk of poverty": 17.0,
+            "National debt": 99.080990490538
         },
         "2021": {
             "R&D (Innovation) to gdp": 1.55,
-            "R&D (Innovation) to gdp in eur": 322.862
+            "R&D (Innovation) to gdp in eur": 322.862,
+            "R&D (Innovation) spending in eur": 322.862,
+            "R&D (Innovation) in eur": 322.862
         },
         "2022": {
             "Obesity rate": 15.8,
             "Pisa score": 478,
             "Fertility rate": 1.43,
-            "Life expectancy": 81.8
+            "Life expectancy": 81.8,
+            "Pisa Score": 478
         },
         "2010": {
-            "Religiosity": 70
+            "Religiosity": 70,
+            "Believe in god": 70
         }
     },
     "Romania": {
@@ -823,20 +974,25 @@
             "Trust in other people": 12,
             "Voting participation": 48.28,
             "Tertiary education": 22.8,
-            "Risk of poverty": 21.1
+            "Risk of poverty": 21.1,
+            "National debt": 48.854045092801
         },
         "2021": {
             "R&D (Innovation) to gdp": 0.32,
-            "R&D (Innovation) to gdp in eur": 41.374
+            "R&D (Innovation) to gdp in eur": 41.374,
+            "R&D (Innovation) spending in eur": 41.374,
+            "R&D (Innovation) in eur": 41.374
         },
         "2022": {
             "Obesity rate": 10.3,
             "Pisa score": 428,
             "Fertility rate": 1.71,
-            "Life expectancy": 75.1
+            "Life expectancy": 75.1,
+            "Pisa Score": 428
         },
         "2010": {
-            "Religiosity": 93
+            "Religiosity": 93,
+            "Believe in god": 93
         }
     },
     "Slovakia": {
@@ -858,20 +1014,25 @@
             "Trust in other people": 22,
             "Voting participation": 68.5,
             "Tertiary education": 41.1,
-            "Risk of poverty": 14.3
+            "Risk of poverty": 14.3,
+            "National debt": 56.045018145518
         },
         "2021": {
             "R&D (Innovation) to gdp": 0.73,
-            "R&D (Innovation) to gdp in eur": 137.01600000000002
+            "R&D (Innovation) to gdp in eur": 137.01600000000002,
+            "R&D (Innovation) spending in eur": 137.01600000000002,
+            "R&D (Innovation) in eur": 137.01600000000002
         },
         "2022": {
             "Obesity rate": 17.1,
             "Pisa score": 458,
             "Fertility rate": 1.57,
-            "Life expectancy": 77.0
+            "Life expectancy": 77.0,
+            "Pisa Score": 458
         },
         "2010": {
-            "Religiosity": 63
+            "Religiosity": 63,
+            "Believe in god": 63
         }
     },
     "Slovenia": {
@@ -893,20 +1054,25 @@
             "Trust in other people": 25,
             "Voting participation": 70.96,
             "Tertiary education": 40.0,
-            "Risk of poverty": 12.7
+            "Risk of poverty": 12.7,
+            "National debt": 69.219491009612
         },
         "2021": {
             "R&D (Innovation) to gdp": 1.83,
-            "R&D (Innovation) to gdp in eur": 451.886
+            "R&D (Innovation) to gdp in eur": 451.886,
+            "R&D (Innovation) spending in eur": 451.886,
+            "R&D (Innovation) in eur": 451.886
         },
         "2022": {
             "Obesity rate": 17.9,
             "Pisa score": 485,
             "Fertility rate": 1.55,
-            "Life expectancy": 81.3
+            "Life expectancy": 81.3,
+            "Pisa Score": 485
         },
         "2010": {
-            "Religiosity": 32
+            "Religiosity": 32,
+            "Believe in god": 32
         }
     },
     "Spain": {
@@ -928,20 +1094,25 @@
             "Trust in other people": 41,
             "Voting participation": 66.59,
             "Tertiary education": 50.6,
-            "Risk of poverty": 20.2
+            "Risk of poverty": 20.2,
+            "National debt": 105.03425867836
         },
         "2021": {
             "R&D (Innovation) to gdp": 1.15,
-            "R&D (Innovation) to gdp in eur": 301.327
+            "R&D (Innovation) to gdp in eur": 301.327,
+            "R&D (Innovation) spending in eur": 301.327,
+            "R&D (Innovation) in eur": 301.327
         },
         "2022": {
             "Obesity rate": 14.9,
             "Pisa score": 477,
             "Fertility rate": 1.16,
-            "Life expectancy": 83.2
+            "Life expectancy": 83.2,
+            "Pisa Score": 477
         },
         "2010": {
-            "Religiosity": 59
+            "Religiosity": 59,
+            "Believe in god": 59
         }
     },
     "Sweden": {
@@ -963,20 +1134,25 @@
             "Trust in other people": 63,
             "Voting participation": 84.2,
             "Tertiary education": 58.0,
-            "Risk of poverty": 16.1
+            "Risk of poverty": 16.1,
+            "National debt": 36.37122985845
         },
         "2021": {
             "R&D (Innovation) to gdp": 3.2600000000000002,
-            "R&D (Innovation) to gdp in eur": 1692.191
+            "R&D (Innovation) to gdp in eur": 1692.191,
+            "R&D (Innovation) spending in eur": 1692.191,
+            "R&D (Innovation) in eur": 1692.191
         },
         "2022": {
             "Obesity rate": 17.2,
             "Pisa score": 488,
             "Fertility rate": 1.53,
-            "Life expectancy": 83.1
+            "Life expectancy": 83.1,
+            "Pisa Score": 488
         },
         "2010": {
-            "Religiosity": 18
+            "Religiosity": 18,
+            "Believe in god": 18
         }
     },
     "Switzerland": {
@@ -998,20 +1174,25 @@
             "Trust in other people": 59,
             "Voting participation": 46.64,
             "Tertiary education": 55.1,
-            "Risk of poverty": 16.4
+            "Risk of poverty": 16.4,
+            "National debt": 33.316519546232
         },
         "2021": {
             "R&D (Innovation) to gdp": 3.18,
-            "R&D (Innovation) to gdp in eur": 2528.983
+            "R&D (Innovation) to gdp in eur": 2528.983,
+            "R&D (Innovation) spending in eur": 2528.983,
+            "R&D (Innovation) in eur": 2528.983
         },
         "2022": {
             "Obesity rate": 13.5,
             "Pisa score": 498,
             "Fertility rate": 1.39,
-            "Life expectancy": 83.7
+            "Life expectancy": 83.7,
+            "Pisa Score": 498
         },
         "2010": {
-            "Religiosity": 44
+            "Religiosity": 44,
+            "Believe in god": 44
         }
     }
 }

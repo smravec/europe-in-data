@@ -34,7 +34,7 @@ countries_default = [
     [0,"Sweden"]  
 ]
 
-countries_corporate_tax_2023 = [
+corporate_tax = [
     [23,"Austria"],
     [25,"Belgium"],
     [10,"Bulgaria"],
@@ -67,7 +67,7 @@ countries_corporate_tax_2023 = [
     [20.6,"Sweden"]  
 ]
 
-countries_capital_gains_tax_2023 = [
+capital_gains_tax = [
     [27.5,"Austria"],
     [0,"Belgium"],
     [10,"Bulgaria"],
@@ -100,7 +100,7 @@ countries_capital_gains_tax_2023 = [
     [30,"Sweden"]  
 ]
 
-countries_home_affordability = [
+house_price_to_wage = [
     [11.2,"Austria"],
     [6.8,"Belgium"],
     [9.5,"Bulgaria"],
@@ -133,7 +133,7 @@ countries_home_affordability = [
     [7.8,"Sweden"]  
 ]
 
-countries_value_added_tax = [
+value_added_tax = [
     [20,"Austria"],
     [21,"Belgium"],
     [20,"Bulgaria"],
@@ -166,7 +166,7 @@ countries_value_added_tax = [
     [25,"Sweden"]  
 ]
 
-countries_corruption_index = [
+lack_of_corruption_score = [
     [71,"Austria"],
     [73,"Belgium"],
     [45,"Bulgaria"],
@@ -199,7 +199,7 @@ countries_corruption_index = [
     [82,"Sweden"] 
 ]
 
-countries_trust_in_others = [
+trust_in_other_people = [
     [50,"Austria"],
     [36,"Belgium"],
     [17,"Bulgaria"],
@@ -232,7 +232,7 @@ countries_trust_in_others = [
     [63,"Sweden"]  
 ]
 
-countries_obesity_rate = [
+obesity_rate = [
     [17.7,"Austria"],
     [15.8,"Belgium"],
     [11.7,"Bulgaria"],
@@ -265,7 +265,7 @@ countries_obesity_rate = [
     [17.2,"Sweden"]  
 ]
 
-countries_voting_participation = [
+voting_participation = [
     [77.7,"Austria"],
     [88.45,"Belgium"],
     [39.11,"Bulgaria"],
@@ -298,7 +298,7 @@ countries_voting_participation = [
     [84.2,"Sweden"]  
 ]
 
-countries_pisa_results =[
+pisa_score =[
     [486,"Austria"],
     [486,"Belgium"],
     [414,"Bulgaria"],
@@ -331,7 +331,7 @@ countries_pisa_results =[
     [488,"Sweden"]  
 ]
 
-countries_religion = [
+religiosity = [
     [44,"Austria"],
     [37,"Belgium"],
     [36,"Bulgaria"],
@@ -364,15 +364,18 @@ countries_religion = [
     [18,"Sweden"]  
 ]
 
-
 #Write data
 from update_country_data import write_data
 
-data_to_write = countries_religion
-indicator = "Believe in god"
-year = "2010"
+data_to_write = corporate_tax
+indicator = "Corporate tax"
+year = "2023"
+methodology= 'Tax on corporate profits'
+source= "wikipedia, other ..."
+units= "%"
+category= "economy"
 
 for country in data_to_write:
-    write_data(year, indicator, {country[1]: country[0]})
+    write_data(year, indicator, {country[1]: country[0]}, methodology,source,units,category)
 
 

@@ -13,6 +13,10 @@ years = [
 # "...?periods=2023,2022"
 Imf_years = f"?periods={years[0]}"
 
+source = "imf"
+
+
+
 
 # ".../AUT/BEL/"
 Imf_countries = [ 
@@ -50,11 +54,16 @@ Imf_countries = [
 
 # ".../NGDPD/"
 Imf_indicators = [
-    ["NGDPDPC","Gdp per capita"],
-    ["PPPPC","Gdp per capita PPP"],
-    ["NGDP_RPCH", "Gdp growth"],
-    ["LUR", "Unemployment"],
-    ["GG_DEBT_GDP", "Government debt"]
+    ["NGDPDPC","Gdp per capita","€",
+    "The amount of money the economy produces each year for every person, on average"],
+    ["PPPPC","Gdp per capita PPP","€",
+    "Gdp per capita adjusted to local prices (how much can the average person buy)"],
+    ["NGDP_RPCH", "Gdp growth","%",
+    "How much the gdp has grown in the past year"],
+    ["LUR", "Unemployment","%",
+    "How much of the eligible workforce is unemployed"],
+    ["GG_DEBT_GDP", "National debt","%",
+    "National debt compared to gdp"]
 ]
 
 #Other indicators
@@ -64,41 +73,41 @@ Imf_indicators_not_scraped = [
 ]
 
 #Scrape
-for indicator in Imf_indicators:
-    data_to_save = {}
-    for country in Imf_countries:
-        final_url = f"{Imf_url}{indicator[0]}/{country[0]}/{Imf_years}"
-        response = requests.get(final_url)
-        data = response.json()
+# for indicator in Imf_indicators:
+#     data_to_save = {}
+#     for country in Imf_countries:
+#         final_url = f"{Imf_url}{indicator[0]}/{country[0]}/{Imf_years}"
+#         response = requests.get(final_url)
+#         data = response.json()
 
-        print(data)
-        print(data["values"][indicator[0]][country[0]][years[0]])
+#         print(data)
+#         print(data["values"][indicator[0]][country[0]][years[0]])
 
-        data_to_save.update({country[1]: data["values"][indicator[0]][country[0]][years[0]]})
-    print(data_to_save)
-    write_data(years[0],indicator[1],data_to_save)
+#         data_to_save.update({country[1]: data["values"][indicator[0]][country[0]][years[0]]})
+#     print(data_to_save)
+#     write_data(years[0],indicator[1],data_to_save,indicator[3],source,indicator[2],"economy")
 
 #Scrape gdp growth past 5 years
-# Imf_years = f"?periods=2023,2022,2021,2020,2019"
-# data_to_save = {}
-# years = ["2023","2022","2021","2020","2019"]
-# indicator = Imf_indicators[2]
-# for country in Imf_countries:
-#     sum_growth = 100
+Imf_years = f"?periods=2023,2022,2021,2020,2019"
+data_to_save = {}
+years = ["2023","2022","2021","2020","2019"]
+indicator = Imf_indicators[2]
+for country in Imf_countries:
+    sum_growth = 100
 
-#     final_url = f"{Imf_url}{indicator[0]}/{country[0]}/{Imf_years}"
-#     response = requests.get(final_url)
-#     data = response.json()
+    final_url = f"{Imf_url}{indicator[0]}/{country[0]}/{Imf_years}"
+    response = requests.get(final_url)
+    data = response.json()
 
-#     #print(data)
-#     #print(data["values"][indicator[0]][country[0]]["2023"])
+    #print(data)
+    #print(data["values"][indicator[0]][country[0]]["2023"])
 
-#     for year in years:
-#         sum_growth += (data["values"][indicator[0]][country[0]][year] / 100)*sum_growth
-#     #average = average / len(years)
-#     sum_growth -= 100    
-#     print(sum_growth)
+    for year in years:
+        sum_growth += (data["values"][indicator[0]][country[0]][year] / 100)*sum_growth
+    #average = average / len(years)
+    sum_growth -= 100    
+    print(sum_growth)
 
-#     data_to_save.update({country[1]: sum_growth})
-# print(data_to_save)
-# write_data(years[0],"Gdp growth past 5 years",data_to_save)
+    data_to_save.update({country[1]: sum_growth})
+print(data_to_save)
+write_data(years[0],"Gdp growth past 5 years",data_to_save,"How much the gdp has grown past 5 years",source,"%","economy")

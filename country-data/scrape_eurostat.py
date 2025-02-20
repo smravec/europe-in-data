@@ -9,7 +9,7 @@ search = False
 if search:
 
     #Set the keyword
-    keyword = "Housing"
+    keyword = "Fertility"
 
     toc_df = eurostat.get_toc_df()
     f = eurostat.subset_toc_df(toc_df, keyword)
@@ -76,13 +76,25 @@ country_codes_1 = [item[0] for item in country_codes]
 #Download dataset
 
 #Set dataset code
-code = "ilc_li41"
+code = "rd_e_gerdreg"
 
 #Set indicator
-indicator = "Risk of poverty"
+indicator = "R&D (Innovation) to"
 
 #Set year
-year = 2023
+year = 2021
+
+#Set methodology
+methodology = "How much money is the country speding on research and development to gdp"
+
+#Set units
+units = "%"
+
+#Set category
+category = "economy"
+
+#Set source
+source = "eurostat"
 
 if not search:
     filter_pars = {'startPeriod': year, 'endPeriod': year, 'geo': country_codes_1}
@@ -102,9 +114,9 @@ if not search:
     #     if x[1] == "PC":
     #         data_to_save.update({country_name:x[3]})
 
-    # write_data(str(year),indicator,data_to_save)
+    # write_data(str(year),indicator,data_to_save,methodology,source,units,category)
 
-    # #Life expectancy
+    ##Life expectancy
     # for x in dataset:
 
     #     country_name = ""
@@ -115,7 +127,7 @@ if not search:
     #     if x[2] == "T" and x[1] == "YR" and x[3] == "Y_LT1":
     #         data_to_save.update({country_name:x[5]}) 
 
-    # write_data(str(year),indicator,data_to_save)
+    # write_data(str(year),indicator,data_to_save,methodology,source,units,category)
 
     # #Fertility rate
     # for x in dataset:
@@ -128,7 +140,7 @@ if not search:
     #     if x[1] == "TOTFERRT":
     #         data_to_save.update({country_name:x[3]}) 
 
-    # write_data(str(year),indicator,data_to_save)
+    # write_data(str(year),indicator,data_to_save,methodology,source,units,category)
 
 
     # #Tertiary education
@@ -142,8 +154,7 @@ if not search:
     #     if x[1] == "T" and x[2] == "ED5-8" and x[3] == "Y30-34":
     #         data_to_save.update({country_name : x[6]})
 
-    # print(data_to_save)
-    # write_data(str(year),"Tertiary education",data_to_save)
+    # write_data(str(year),"Tertiary education",data_to_save,methodology,source,units,category)
 
     # #Net average wage
     # for x in dataset:
@@ -156,22 +167,22 @@ if not search:
     #     if x[1] == "EUR" and x[2] == "NET" and x[3] == "P1_NCH_AW100":
     #         data_to_save.update({country_name : x[5]})
 
-    # write_data(str(year),"Net average wage",data_to_save)
+    # write_data(str(year),"Net average wage",data_to_save,methodology,source,units,category)
 
     # #R&D(Inovation) spending
     # bes_pt = 0
     # hes_pt = 0
     # for x in dataset:
 
-    #     if x[1] == "BES" and x[2] == "EUR_HAB":
-    #         bes_pt = x[4]
-    #     if x[1] == "HES" and x[2] == "EUR_HAB":
-    #         hes_pt = x[4]    
-
-    #     # if x[1] == "BES" and x[2] == "PC_GDP":
+    #     # if x[1] == "BES" and x[2] == "EUR_HAB":
     #     #     bes_pt = x[4]
-    #     # if x[1] == "HES" and x[2] == "PC_GDP":
-    #     #     hes_pt = x[4]   
+    #     # if x[1] == "HES" and x[2] == "EUR_HAB":
+    #     #     hes_pt = x[4]    
+
+    #     if x[1] == "BES" and x[2] == "PC_GDP":
+    #         bes_pt = x[4]
+    #     if x[1] == "HES" and x[2] == "PC_GDP":
+    #         hes_pt = x[4]   
         
     #     country_name = ""
 
@@ -184,4 +195,4 @@ if not search:
     #         print(f"{country_name}: {bes_pt+hes_pt} %")
     
 
-    # write_data(str(year),"R&D (Innovation) spending in eur", data_to_save )
+    # write_data(str(year),"R&D (Innovation) to gdp", data_to_save )
