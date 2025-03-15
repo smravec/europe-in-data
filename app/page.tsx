@@ -230,8 +230,8 @@ export default function Home() {
               <Anchor component={Link} href="/economy/value-added-tax">
                 Value added tax
               </Anchor>
-              <Anchor component={Link} href="/economy/rd-innovation-of-gdp">
-                R&D (Innovation) of gdp
+              <Anchor component={Link} href="/economy/rd-innovation-to-gdp">
+                R&D (Innovation) to gdp
               </Anchor>
             </Flex>
           </GridCol>

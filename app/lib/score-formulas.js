@@ -94,7 +94,7 @@ export function EconomyScoreFormula(country){
     // 5 gdp growth past 5 years
 
     const overall_score =  (
-        gdp_per_capita_ppp_score * 0.2
+        gdp_per_capita_ppp_score * 0.2  
         + unemployment_score * 0.1
         + debt_to_gdp_score * 0.075
         + innovation_score * 0.175

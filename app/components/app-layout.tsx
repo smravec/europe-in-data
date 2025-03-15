@@ -124,7 +124,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
             })}
           />
 
-          <NavLink
+          {/* <NavLink
             component={Link}
             href="/government"
             onClick={toggle}
@@ -142,9 +142,9 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
                 fontWeight: 500,
               },
             })}
-          />
+          /> */}
 
-          <NavLink
+          {/* <NavLink
             component={Link}
             href="/ease-of-integration"
             onClick={toggle}
@@ -162,9 +162,9 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
                 fontWeight: 500,
               },
             })}
-          />
+          /> */}
 
-          <NavLink
+          {/* <NavLink
             component={Link}
             href="/environment"
             onClick={toggle}
@@ -182,7 +182,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
                 fontWeight: 500,
               },
             })}
-          />
+          /> */}
 
           <NavLink
             component={Link}
@@ -226,7 +226,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
             })}
           />
 
-          <NavLink
+          {/* <NavLink
             component={Link}
             href="/export-stats"
             onClick={toggle}
@@ -245,7 +245,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
                 fontWeight: 500,
               },
             })}
-          />
+          /> */}
         </Flex>
       </AppShell.Navbar>
 

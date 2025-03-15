@@ -154,6 +154,13 @@ export default function Society() {
           >
             Life expectancy
           </Anchor>
+          <Anchor
+            component={Link}
+            style={{ fontSize: "20px", whiteSpace: "nowrap" }}
+            href="/society/obesity-rate"
+          >
+            Obesity rate
+          </Anchor>
         </SimpleGrid>
       </Flex>
 
