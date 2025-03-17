@@ -1,7 +1,8 @@
 # Europe in data
-Website to view the most meaningfull statistics/indicators about EU countries (+ Switzerland, Norway, Iceland).
+<img src="/public/whole-logo.png" height="120"/>
+Website to view the most meaningful statistics/indicators about EU countries (+ Switzerland, Norway, Iceland).
 
-Live at: [https://europeindata.eu]
+Live at: https://europeindata.eu
 
 ## Scraped sources 
 - imf
@@ -11,11 +12,17 @@ Live at: [https://europeindata.eu]
 
 ## How to run
 ### Frontend
-```npm i && npm run dev```
+```
+npm i && npm run dev
+```
 
 ### Python scraping environment
-```cd /country-data```
-```pipenv shell```
-scrape_eurostat.py - indicators from eurostat
-scrape_imf.py - indicators from imf
-manual.py - all other indicators
+```
+cd /country-data
+```
+```
+pipenv shell
+```
+scrape_eurostat.py - indicators from eurostat <br/>
+scrape_imf.py - indicators from imf <br/>
+manual.py - all other indicators <br/>
