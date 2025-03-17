@@ -3,6 +3,7 @@
 import { Flex, Title, useMantineTheme, List, SegmentedControl, Text, SimpleGrid, ListItem } from "@mantine/core";
 import { useState } from "react";
 import Economy from "../economy/page";
+import BackButton from "../components/back-button";
 
 export default function Methodology() {
   const theme = useMantineTheme();
@@ -109,6 +110,7 @@ export default function Methodology() {
 
 
   return <>
+  <BackButton ReturnPage="/" />
   <Flex
   bg={theme.colors.gray[2]}
   align="center"
