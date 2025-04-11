@@ -191,7 +191,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
             variant="filled"
             active
             label="Country profiles"
-            color={theme.colors.gray[2]}
+            color={theme.colors.gray[1]}
             c="black"
             leftSection={<FaFlag />}
             rightSection={<IoIosArrowForward />}
@@ -212,7 +212,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
             variant="filled"
             active
             label="Methodology"
-            color={theme.colors.gray[1]}
+            color={theme.colors.gray[2]}
             c="black"
             leftSection={<FaNewspaper />}
             rightSection={<IoIosArrowForward />}
